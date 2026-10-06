@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Q1",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Death of birds, bats, and other animals caused by wind turbines"
+  },
+  {
+    "id": "Q2",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Visual disruption from wind turbines (i.e., that I or other people will have to see wind turbines)"
+  },
+  {
+    "id": "Q3",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Visual disruption from solar panels (i.e., that I or other people will have to see solar panels)"
+  },
+  {
+    "id": "Q4",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Visual disruption from power lines (i.e., that I or other people will have to see power lines)"
+  },
+  {
+    "id": "Q5",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Local employment created by renewable energy development"
+  },
+  {
+    "id": "Q6",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Economic benefits of newly employed people spending more money in areas where renewable energies are developed"
+  },
+  {
+    "id": "Q7",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Increases or decreases to consumer monthly electricity costs (less than 10% of your current monthly bill)"
+  },
+  {
+    "id": "Q8",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Increases or decreases to consumer monthly electricity costs (10-50% of your current monthly bill)"
+  },
+  {
+    "id": "Q9",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Heavy metal contamination globally from mining and disposing of materials for solar panels"
+  },
+  {
+    "id": "Q10",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Heavy metal contamination locally from constructing and installing solar panels"
+  },
+  {
+    "id": "Q11",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Health impacts (e.g., asthma, respiratory disease) from exposure to air pollutants (e.g., particulate matter) emitted by fossil fuel generators that may be replaced by renewable alternatives (e.g., wind, solar, and hydropower)"
+  },
+  {
+    "id": "Q12",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Domestic (New England/US) climate impacts from greenhouse gas emissions (e.g., frequency of extreme heat, storms, rising sea levels) emitted by fossil fuel generators"
+  },
+  {
+    "id": "Q13",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Global (other countries) climate impacts from greenhouse gas emissions (e.g., increasing global air temperature, rising sea levels) emitted by fossil fuel generators"
+  },
+  {
+    "id": "Q14",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Disruption to Indigenous food systems, access to traditional lands, and impacts on traditional way of life associated with development of hydroelectric reservoirs in Canada"
+  },
+  {
+    "id": "Q15",
+    "kind": "rating",
+    "text": "How important or unimportant do you think it is for decision-makers to consider the following impacts and benefits from renewable energy choices? Disruption to Indigenous food systems, access to traditional lands, and impacts on traditional way of life associated with the development of transmission/generation infrastructure in New England"
+  },
+  {
+    "id": "Q16",
+    "kind": "text",
+    "text": "Are there other attributes of renewable energy or fossil fuel generators that you think are important that were not included in the previous question? If so, please list them below."
+  }
+]
