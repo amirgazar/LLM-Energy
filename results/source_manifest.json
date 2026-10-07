@@ -1,0 +1,72 @@
+[
+  {
+    "path": "1 Survey Results/1 Survey Results Analysis/all_responses_2024_06_25.csv",
+    "bytes": 1843835,
+    "sha256": "31872cc9152e750a153d617de6a8de237cbbf4f1676615e5d797062725628f71"
+  },
+  {
+    "path": "5 Final Results/1 Survey Demo/Simulation 1/final_results.xlsx",
+    "bytes": 135874,
+    "sha256": "07ad4491e063e3d131f73617ddcb88df9127893f51a68c4cbf2a369cee82bcac"
+  },
+  {
+    "path": "5 Final Results/1 Survey Demo/Simulation 2/final_results.xlsx",
+    "bytes": 138522,
+    "sha256": "957ad4aca082518a9cfd8ea3aaee569dd22f8ffbe7c5eda96f131c9be02d3870"
+  },
+  {
+    "path": "5 Final Results/1 Survey Demo/Simulation 3/final_results.xlsx",
+    "bytes": 134952,
+    "sha256": "6e6bb1b7a467c8c5516c5befc71a9bb0cc3e79635a7b6831f182d39c02fdcc42"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (human)/Simulation 1/final_results.xlsx",
+    "bytes": 130277,
+    "sha256": "13b62d2cd478791cf8f773ed83f699fdcb87e191de4cf696094b5ba526a80476"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (human)/Simulation 2/final_results.xlsx",
+    "bytes": 131118,
+    "sha256": "28d3eaf9e030286d66d0b270f1f7de1b043efa7de1abbd15a4fc92ab4c34521b"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (human)/Simulation 3/final_results.xlsx",
+    "bytes": 132573,
+    "sha256": "abbd842bf343415a222a63660320678d4d9fa8ca2e8f66bc0601906e097b6805"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (simulated)/Simulation 1/final_results.xlsx",
+    "bytes": 131781,
+    "sha256": "2cace23162c4f156210a3ef87999c46df705777ccbacde01ff1439107f0126bd"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (simulated)/Simulation 2/final_results.xlsx",
+    "bytes": 131884,
+    "sha256": "c56ab7aea0c253bba644712834b8d13a23ca4081cebcb9951aa58fb686131365"
+  },
+  {
+    "path": "5 Final Results/2 Survey Demo and Cov (simulated)/Simulation 3/final_results.xlsx",
+    "bytes": 130506,
+    "sha256": "67fae840fcd558530fa5ea6b6498b98671a164353cc160638cdd32ed3e65d915"
+  },
+  {
+    "path": "5 Final Results/3 USA Demo/Simulation 1/final_results.xlsx",
+    "bytes": 4183339,
+    "sha256": "86870d3443764cd4332ae8221c648346c29b093125eaaa5d48cf2818629cc3bf"
+  },
+  {
+    "path": "5 Final Results/4 USA Demo and Cov (simulated)/Simulation 1/final_results.xlsx",
+    "bytes": 4294800,
+    "sha256": "184685fb6dcf05e4e36df6e937c6d726bc6612f3dd58d8c3c2cc32b235d76a4c"
+  },
+  {
+    "path": "5 Final Results/5 Local LLM (fast)/Simulation 1/final_results.xlsx",
+    "bytes": 41887,
+    "sha256": "fc6343a3dbcc1eafa69842e65109d40ed8a11690071758d6baf392fad74f13c1"
+  },
+  {
+    "path": "5 Final Results/6 Local LLM (thinking)/Simulation 1/final_results.xlsx",
+    "bytes": 41648,
+    "sha256": "08a39eb36ec70d1e4e0541870f7714a67962ab316f11cd84abcb0039220bf644"
+  }
+]

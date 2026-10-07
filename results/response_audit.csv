@@ -1,0 +1,9 @@
+config,name,rows,profiles,runs,q16_available,open_responses,valid,refusal,missing,invalid
+0,Human benchmark,161,161,1,True,37,2309,91,15,0
+1,Survey profiles,513,171,3,True,513,7695,0,0,0
+2,Survey profiles and reported attitudes,513,171,3,True,513,7695,0,0,0
+3,Survey profiles and generated attitudes,513,171,3,True,513,7695,0,0,0
+4,National profiles,5626,5626,1,True,5626,84145,245,0,0
+5,National profiles and generated attitudes,5626,5626,1,True,5626,84095,295,0,0
+6,"Local fast model, archived",171,171,1,False,0,2565,0,0,0
+7,"Local thinking model, archived",171,171,1,False,0,2549,16,0,0
