@@ -2,8 +2,8 @@
 import unittest
 import pandas as pd
 import numpy as np
-from analysis_REVISED import parse_rating, profile_values, code_themes, ORIGINAL, SENSITIVITY, interval
-from collect_REVISED import final_answer
+from analysis import parse_rating, profile_values, code_themes, ORIGINAL, SENSITIVITY, interval
+from collect import final_answer
 
 class AnalysisChecks(unittest.TestCase):
     def test_exact_rating_match(self):

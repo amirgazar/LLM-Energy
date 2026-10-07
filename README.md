@@ -1,32 +1,34 @@
-# Survey response study for ACIS 2026
+# Representation theory and LLMs | ACIS 2026
 
-This repository contains the revised analysis for paper 256, **When LLM-Simulated Survey Responses Get the Order Right but the Story Wrong: A Study of Public Opinion on Decarbonization**.
+This repository contains code and aggregate results for the ACIS 2026 study, paper 256, **When LLM-Simulated Survey Responses Get the Order Right but the Story Wrong: A Study of Public Opinion on Decarbonization**.
 
 The study compares a screened human sample with saved computer-generated survey responses. The results describe these files. They do not estimate the views of the New England population.
 
-## Main corrections
+## Analysis approach
 
 - Report differences and 95% intervals instead of treating a non-significant result as proof of equality.
 - Average repeated runs within each source profile before calculating standard errors.
 - Distinguish the 161 screened human respondents from the 171 profiles used in the archived survey-based runs. These sets have different identifiers. A verified link is not available.
 - Treat the two local-model runs as exploratory. The available script reads ratings from reasoning text, can misclassify ratings, and does not ask the open-ended question.
 - Separate refusals, missing values, and invalid outputs.
-- Show the denominator for each theme percentage and include the original and revised keyword dictionaries.
+- Show the denominator for each theme percentage and include the original and sensitivity keyword dictionaries.
+
+Study website: https://amirgazar.github.io/representation-theory-llms-study/
 
 ## Read the results
 
-The `results_REVISED` folder contains aggregate tables. `results_REVISED.json` contains the same results for reuse. `source_manifest_REVISED.json` records the exact source files and their checksums.
+The `results` folder contains aggregate tables. `results.json` contains the same results for reuse. `source_manifest.json` records the exact source files and their checksums.
 
-No participant contact details, raw survey rows, open-ended text, access keys, or old notebook output are included. The original files remain in the authors' local archive. Access to restricted research data requires the authors' review of the study's consent and data-use terms. Third-party data remain subject to their own terms.
+Human survey records are protected by the study's IRB approvals and are not published here. This includes participant profiles, identifiers, contact details, individual answers and verbatim written responses. Only aggregate study results are shared. Access keys and old notebook outputs are excluded. The original files remain in the authors' local archive. Access to restricted research data requires the authors' review of the study's consent and data-use terms. Third-party data remain subject to their own terms.
 
 ## Reproduce the analysis locally
 
 Use Python 3.12 and install the packages:
 
 ```sh
-python -m pip install -r requirements_REVISED.txt
-python analysis_REVISED.py --source /path/to/LLM-Energy
-python -m unittest tests_REVISED.py
+python -m pip install -r requirements.txt
+python analysis.py --source /path/to/LLM-Energy
+python -m unittest tests.py
 ```
 
 The analysis reads the original `1 Survey Results` and `5 Final Results` folders. It does not edit them, access the internet, or request new model responses. It writes aggregate outputs only.
@@ -41,10 +43,10 @@ Item distance is half the sum of the absolute differences between human and gene
 
 Theme coding counts each keyword theme once per response. A response can match several themes. Shares of responses use all non-empty responses as the denominator. Shares of assignments use the sum of all theme matches. The dictionary cannot establish a person's reasons, distinguish every context, or prove that an absent keyword means an absent concern.
 
-## New response collection
+## Response collection code
 
-`collect_REVISED.py` provides a corrected collection route for a future controlled rerun. It reads a separate profile file and the supplied questionnaire. It accepts only a complete final answer, records completion status, and never reads an answer from reasoning text. The default is a dry run. New collection has not been carried out for this revision and must not be described as completed.
+`collect.py` provides a collection route for future controlled work. It reads a separate profile file and the supplied questionnaire. It accepts only a complete final answer, records completion status, and never reads an answer from reasoning text. The default is a dry run. This code does not describe an additional completed study run.
 
 ## Citation and reuse
 
-Use the author list and title in the revised paper. Final proceedings details are pending. No new licence is asserted for the inherited data or code. Contact the authors about reuse beyond rights already granted by the relevant source.
+Use the author list and title in the ACIS 2026 paper. Final proceedings details are pending. No new licence is asserted for the inherited data or code. Contact the authors about reuse beyond rights already granted by the relevant source.

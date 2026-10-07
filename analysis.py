@@ -1,4 +1,4 @@
-"""Reproduce the ACIS revision from the supplied files, without network calls.
+"""Reproduce the ACIS 2026 study analysis from the supplied files, without network calls.
 
 Only aggregate outputs are written. Source files are read without modification.
 The 171 archived profiles are not assumed to be the 161 screened respondents.
@@ -158,11 +158,11 @@ def analyse(root,out):
             s=items[(items.config==cid)&(items.item==item)].sort_values('rating').share.to_numpy()
             tv.append(dict(config=cid,item=item,total_variation=float(np.abs(h-s).sum()/2)))
     outputs={'domain_summary':means,'paired_contrasts':contrasts,'response_audit':diagnostics,'theme_summary':theme_rows,'theme_by_configuration':sensitivity,'run_summary':run_rows,'item_distribution':item_rows,'item_distance':tv,'complete_item_sensitivity':complete}
-    for name,rows in outputs.items():pd.DataFrame(rows).to_csv(out/(name+'_REVISED.csv'),index=False)
+    for name,rows in outputs.items():pd.DataFrame(rows).to_csv(out/(name+'.csv'),index=False)
     manifest=[dict(path=str(f.relative_to(root)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sources]
-    (out/'source_manifest_REVISED.json').write_text(json.dumps(manifest,indent=2))
-    (out/'results_REVISED.json').write_text(json.dumps(outputs,indent=2,allow_nan=False))
-    (out/'keyword_dictionary_REVISED.json').write_text(json.dumps({'original':ORIGINAL,'sensitivity':SENSITIVITY},indent=2))
+    (out/'source_manifest.json').write_text(json.dumps(manifest,indent=2))
+    (out/'results.json').write_text(json.dumps(outputs,indent=2,allow_nan=False))
+    (out/'keyword_dictionary.json').write_text(json.dumps({'original':ORIGINAL,'sensitivity':SENSITIVITY},indent=2))
     print(pd.DataFrame(diagnostics).to_string(index=False))
     print(pd.DataFrame(contrasts).query("contrast == 'health_economic'").to_string(index=False))
     return outputs
@@ -170,5 +170,5 @@ def analyse(root,out):
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--source',type=Path,required=True,help='Original LLM-Energy folder, kept locally')
-    p.add_argument('--output',type=Path,default=Path(__file__).parent/'results_REVISED')
+    p.add_argument('--output',type=Path,default=Path(__file__).parent/'results')
     a=p.parse_args();analyse(a.source.resolve(),a.output.resolve())

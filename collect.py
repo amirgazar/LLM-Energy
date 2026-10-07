@@ -5,7 +5,7 @@ are never overwritten. Use only profiles cleared for the chosen service.
 """
 from pathlib import Path
 import argparse, hashlib, json, os, time, urllib.request, urllib.error
-from analysis_REVISED import LABELS, REFUSALS, parse_rating
+from analysis import LABELS, REFUSALS, parse_rating
 
 PROFILE_FIELDS=['State','Region','Division','Age','Gender','Education','Politics','Race','Income','Familiarity','Knowledge','Importance','Belief']
 def final_answer(response,kind):
@@ -36,7 +36,7 @@ def run(args):
     key=os.environ.get('SURVEY_API_KEY')
     if not key:raise ValueError('Set SURVEY_API_KEY in the environment')
     args.output.mkdir(parents=True,exist_ok=True)
-    settings_file=args.output/'settings_REVISED.json'
+    settings_file=args.output/'settings.json'
     if settings_file.exists() and json.loads(settings_file.read_text())!=settings:raise ValueError('Output directory has different settings')
     settings_file.write_text(json.dumps(settings,indent=2))
     for profile in profiles:
@@ -49,19 +49,19 @@ def run(args):
                 content+='\nIf you have no other concern, you may answer "None".'
             payload={'model':args.model,'temperature':args.temperature,'max_tokens':args.rating_budget if q['kind']=='rating' else args.text_budget,'messages':[{'role':'user','content':content}]}
             digest=hashlib.sha256(json.dumps([settings,profile['profile_id'],payload],sort_keys=True).encode()).hexdigest()
-            target=args.output/(digest+'_REVISED.json')
+            target=args.output/(digest+'.json')
             if target.exists():continue
             req=urllib.request.Request(args.endpoint,data=json.dumps(payload).encode(),headers={'Authorization':'Bearer '+key,'Content-Type':'application/json'})
             with urllib.request.urlopen(req,timeout=120) as stream:response=json.load(stream)
             answer,status=final_answer(response,q['kind'])
             record={'profile_id':profile['profile_id'],'question_id':q['id'],'status':status,'answer':answer,'requested_model':args.model,'returned_model':response.get('model'),'response_id':response.get('id'),'finish_reason':(response.get('choices') or [{}])[0].get('finish_reason'),'usage':response.get('usage'),'prompt_sha256':hashlib.sha256(content.encode()).hexdigest(),'collected_at_utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime())}
-            tmp=target.with_suffix('.REVISED.tmp');tmp.write_text(json.dumps(record,indent=2));tmp.replace(target)
+            tmp=target.with_suffix('.tmp');tmp.write_text(json.dumps(record,indent=2));tmp.replace(target)
             if status not in ['valid','refusal']:raise RuntimeError('Collection stopped after an incomplete or invalid answer. Inspect the record and use a new directory if settings change.')
             time.sleep(args.interval)
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('--profiles',type=Path,required=True);p.add_argument('--questions',type=Path,default=Path(__file__).with_name('questions_REVISED.json'))
+    p.add_argument('--profiles',type=Path,required=True);p.add_argument('--questions',type=Path,default=Path(__file__).with_name('questions.json'))
     p.add_argument('--endpoint',required=True,help='Full HTTPS chat-completions endpoint')
     p.add_argument('--model',required=True);p.add_argument('--temperature',type=float,default=.2)
     p.add_argument('--rating-budget',type=int,default=2048);p.add_argument('--text-budget',type=int,default=4096)
