@@ -1,7 +1,8 @@
 """Reproduce the ACIS 2026 study analysis from the supplied files, without network calls.
 
 Only aggregate outputs are written. Source files are read without modification.
-The 171 archived profiles are not assumed to be the 161 screened respondents.
+The human benchmark is the response set used to build the survey-based LLM profiles.
+The same study identifiers must occur in the human benchmark and each survey-based run.
 """
 from pathlib import Path
 import argparse, hashlib, json, re
@@ -86,15 +87,16 @@ def code_themes(texts,book):
     return pd.DataFrame({k:[bool(re.search('|'.join(map(re.escape,v)),x.lower())) for x in texts] for k,v in book.items()})
 
 def load_data(root):
-    source=root/'1 Survey Results/1 Survey Results Analysis/all_responses_2024_06_25.csv'
-    raw=pd.read_csv(source,low_memory=False)
-    flags=[c for c in raw if c.strip()=='Believe valid']
-    if len(flags)!=1:raise ValueError('Expected one screening flag column')
-    selected=raw[raw[flags[0]].fillna('').str.startswith('Y')].copy()
-    h=pd.DataFrame({'profile_id':selected.ResponseId.astype(str),'run':'Observed','config':0})
-    for i in range(1,16):h[f'Q{i}']=selected[f'Q9_{i}']
-    h['Q16']=selected['Q10'];h=h.reset_index(drop=True)
-    if h.profile_id.duplicated().any():raise ValueError('Duplicate screened human IDs')
+    source=root/'1 Survey Results/survey_results.xlsx'
+    raw=pd.read_excel(source,sheet_name='Responses')
+    profiles=pd.read_excel(source,sheet_name='demo_cov')
+    h=raw[['Respondent ID']+[f'Q{i}' for i in range(1,17)]].copy()
+    h=h.rename(columns={'Respondent ID':'profile_id'})
+    h['profile_id']=h.profile_id.astype(str)
+    h['run']='Observed';h['config']=0
+    if h.profile_id.duplicated().any():raise ValueError('Duplicate human profile IDs')
+    if set(h.profile_id)!=set(profiles['Respondent ID'].astype(str)):
+        raise ValueError('Human responses do not match the survey input profiles')
     datasets={0:h}; sources=[source];meta={0:{'name':'Human benchmark','q16_available':True}}
     for folder,(cid,name) in CONFIGS.items():
         files=sorted((root/'5 Final Results'/folder).glob('*/final_results.xlsx'))
@@ -105,6 +107,8 @@ def load_data(root):
             d=d.rename(columns={'Respondent ID':'profile_id'})
             d['profile_id']=d.profile_id.astype(str);d['run']=file.parent.name;d['config']=cid
             if d.profile_id.duplicated().any():raise ValueError(f'Duplicate profile IDs within {file}')
+            if cid in [1,2,3,6,7] and set(d.profile_id)!=set(h.profile_id):
+                raise ValueError(f'Survey run does not match the human profile set: {file}')
             if 'Q16' not in d:d['Q16']=pd.NA
             frames.append(d);sources.append(file)
         datasets[cid]=pd.concat(frames,ignore_index=True)
