@@ -21,7 +21,7 @@ def draw():
     fig.savefig(out/'domain_means.png');plt.close(fig)
     names={'energy_independence':'Energy independence','climate':'Climate change','wildlife':'Wildlife and ecosystems','reliability':'System reliability','economic':'Economic impacts','policy_process':'Policy process','health':'Health impacts','visual_land':'Visual and landscape','nuclear':'Nuclear energy'}
     fig,ax=plt.subplots(figsize=(7.2,3.4),layout='constrained');yy=np.arange(len(names))
-    for j,(group,label,color,marker) in enumerate([('Human benchmark','Human (37 responses)','#222222','o'),('Generated responses','Generated (12,791 responses)','#15707b','s')]):
+    for j,(group,label,color,marker) in enumerate([('Human benchmark',f"Human ({r['response_audit'][0]['open_responses']} coded answers)",'#222222','o'),('Generated responses','Generated (12,791 responses)','#15707b','s')]):
         rows={x['theme']:x for x in r['theme_summary'] if x['sample']==group and x['dictionary']=='original'}
         vals=[100*rows[t]['share_responses'] for t in names]
         ax.scatter(vals,yy+(j-.5)*.2,label=label,color=color,marker=marker,s=24)

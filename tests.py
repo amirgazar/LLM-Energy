@@ -41,4 +41,29 @@ class AnalysisChecks(unittest.TestCase):
         r={'choices':[{'finish_reason':'stop','message':{'content':'Very important','reasoning':'Important'}}]}
         self.assertEqual(final_answer(r,'rating'),('Very important','valid'))
 
+
+class ProfileSampleChecks(unittest.TestCase):
+    def test_workbook_profiles_define_sample_and_mismatched_run_fails(self):
+        from pathlib import Path
+        from tempfile import TemporaryDirectory
+        from unittest.mock import patch
+        from analysis import load_data
+        with TemporaryDirectory() as td:
+            root=Path(td);(root/'1 Survey Results').mkdir()
+            human=pd.DataFrame({'Respondent ID':['example-a','example-b'], **{f'Q{i}':['Important','Very important'] for i in range(1,17)}})
+            profiles=pd.DataFrame({'Respondent ID':['example-b','example-a']})
+            with pd.ExcelWriter(root/'1 Survey Results/survey_results.xlsx') as writer:
+                human.to_excel(writer,sheet_name='Responses',index=False)
+                profiles.to_excel(writer,sheet_name='demo_cov',index=False)
+                pd.DataFrame({'arbitrary_old_flag':[False,False]}).to_excel(writer,sheet_name='All Data',index=False)
+            run=root/'5 Final Results/example/run';run.mkdir(parents=True)
+            human.to_excel(run/'final_results.xlsx',index=False)
+            with patch('analysis.CONFIGS',{'example':(1,'Example')}):
+                data,_,_=load_data(root)
+                self.assertEqual(len(data[0]),2)
+                human.loc[1,'Respondent ID']='example-c'
+                human.to_excel(run/'final_results.xlsx',index=False)
+                with self.assertRaisesRegex(ValueError,'does not match'):
+                    load_data(root)
+
 if __name__=='__main__':unittest.main()
