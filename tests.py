@@ -7,7 +7,9 @@ from collect import final_answer
 
 class AnalysisChecks(unittest.TestCase):
     def test_exact_rating_match(self):
-        self.assertEqual(parse_rating('"Very important"'),(5.0,'valid'))
+        self.assertEqual(parse_rating('"Very important"')[1],'invalid')
+        self.assertEqual(parse_rating('very important')[1],'invalid')
+        self.assertEqual(parse_rating('Very important'),(5.0,'valid'))
         self.assertEqual(parse_rating('Important'),(4.0,'valid'))
         self.assertEqual(parse_rating('I considered Important but choose Very important')[1],'invalid')
     def test_refusal_is_not_parse_failure(self):
@@ -42,28 +44,22 @@ class AnalysisChecks(unittest.TestCase):
         self.assertEqual(final_answer(r,'rating'),('Very important','valid'))
 
 
-class ProfileSampleChecks(unittest.TestCase):
-    def test_workbook_profiles_define_sample_and_mismatched_run_fails(self):
+class OriginalSourceChecks(unittest.TestCase):
+    def test_original_csv_source_and_selection_are_retained(self):
         from pathlib import Path
         from tempfile import TemporaryDirectory
         from unittest.mock import patch
-        from analysis import load_data
+        from analysis import load_data, score_rows
         with TemporaryDirectory() as td:
-            root=Path(td);(root/'1 Survey Results').mkdir()
-            human=pd.DataFrame({'Respondent ID':['example-a','example-b'], **{f'Q{i}':['Important','Very important'] for i in range(1,17)}})
-            profiles=pd.DataFrame({'Respondent ID':['example-b','example-a']})
-            with pd.ExcelWriter(root/'1 Survey Results/survey_results.xlsx') as writer:
-                human.to_excel(writer,sheet_name='Responses',index=False)
-                profiles.to_excel(writer,sheet_name='demo_cov',index=False)
-                pd.DataFrame({'arbitrary_old_flag':[False,False]}).to_excel(writer,sheet_name='All Data',index=False)
-            run=root/'5 Final Results/example/run';run.mkdir(parents=True)
-            human.to_excel(run/'final_results.xlsx',index=False)
-            with patch('analysis.CONFIGS',{'example':(1,'Example')}):
-                data,_,_=load_data(root)
+            root=Path(td);folder=root/'1 Survey Results/1 Survey Results Analysis';folder.mkdir(parents=True)
+            human=pd.DataFrame({'ResponseId':['example-a','example-b','example-c'],'Believe valid ':['Y','Yes','N'],**{f'Q9_{i}':['Moderately important','Important','Very important'] for i in range(1,16)},'Q10':['no','cost','nothing']})
+            human.to_csv(folder/'all_responses_2024_06_25.csv',index=False)
+            pd.DataFrame({'Respondent ID':['different-profile'],'Q1':['Very important']}).to_excel(root/'1 Survey Results/survey_results.xlsx',index=False)
+            with patch('analysis.CONFIGS',{}):
+                data,_,sources=load_data(root)
+                scored,_=score_rows(data[0])
                 self.assertEqual(len(data[0]),2)
-                human.loc[1,'Respondent ID']='example-c'
-                human.to_excel(run/'final_results.xlsx',index=False)
-                with self.assertRaisesRegex(ValueError,'does not match'):
-                    load_data(root)
+                self.assertAlmostEqual(scored.visual.mean(),3.5)
+                self.assertEqual(sources[0].suffix,'.csv')
 
 if __name__=='__main__':unittest.main()

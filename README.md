@@ -1,14 +1,14 @@
-# Representation theory and LLMs | ACIS 2026
+# LLM-Energy | ACIS 2026
 
 This repository contains code and aggregate results for the ACIS 2026 study, paper 256, **When LLM-Simulated Survey Responses Get the Order Right but the Story Wrong: A Study of Public Opinion on Decarbonization**.
 
-The study compares the 171 valid human responses used to build the survey profiles with saved computer-generated survey responses. The results describe these files. They do not estimate the views of the New England population.
+The study compares the 161 human responses in the original survey analysis with saved computer-generated survey responses. The results describe these files. They do not estimate the views of the New England population.
 
 ## Analysis approach
 
 - Report differences and 95% intervals instead of treating a non-significant result as proof of equality.
-- Average repeated runs within each source profile before calculating standard errors.
-- Use the same 171 valid respondent profiles for the human benchmark and every survey-based run. Study identifiers link the records; the analysis checks that each run contains this exact set.
+- Retain the original response-level domain means and standard errors, pooling saved runs within each configuration. Provide a separate profile-level sensitivity check for repeated runs.
+- Read the human benchmark from the original survey CSV, with the same selection and question mapping as Data Analysis.R. Survey-based model runs contain 171 input profiles. Compare aggregate results rather than claiming individual prediction accuracy.
 - Treat the two local-model runs as exploratory. The available script reads ordinal answers from reasoning text, can misclassify ordinal answers, and does not ask the open-ended question.
 - Separate refusals, missing values, and invalid outputs.
 - Show the denominator for each theme percentage and include the original and sensitivity keyword dictionaries.
@@ -33,15 +33,17 @@ python -m unittest tests.py
 
 The analysis reads the original `1 Survey Results` and `5 Final Results` folders. It does not edit them, access the internet, or request new model responses. It writes aggregate outputs only.
 
-The source profile is the unit used for intervals. For configurations 1 to 3, the three saved runs are averaged within each profile. The human intervals describe variation within the convenience sample. The generated intervals describe variation across source profiles and do not account for all uncertainty in the model or public opinion.
+The primary analysis follows the original script: select CSV rows whose `Believe valid` field starts with `Y`; map `Q9_1` through `Q9_15` to items 1 through 15; map the five importance labels to scores 1 through 5; and calculate each respondent's mean over available items. Configuration means and standard errors use all available response rows, including the pooled runs for configurations 1 to 3. The 161 human records include 160 usable domain scores. The human profile workbook is not used as the answer source.
+
+Repeated runs from one profile are not independent people. Primary intervals describe the stored responses and do not cover all model or population uncertainty. `profile_sensitivity.csv` first averages repeated runs within each profile, then calculates intervals across profiles. This separate check does not replace the original figure method.
 
 Domain indices are the mean of available numeric ordinal answers: visual and ecological items 1 to 4; economic items 5 to 8; environmental and health items 9 to 15. An index is missing when all its items are missing. Complete-item results are also provided. These domain labels are short names: the last group includes climate and Indigenous-community impacts as well as health.
 
-The paired contrasts subtract two domain scores within a response. They are then averaged within profiles for repeated runs. Their intervals are not tests of equivalence. No minimum meaningful difference was set before the study, so no later choice of a threshold is presented as confirmatory evidence.
+The paired contrasts subtract two domain scores within a response. Primary contrasts pool response rows, as in the original script. The profile-level version is provided separately. Their intervals are not tests of equivalence. No minimum meaningful difference was set before the study, so no later choice of a threshold is presented as confirmatory evidence.
 
 Item distance is half the sum of the absolute differences between human and generated response shares over the five answer options. It ranges from 0 for identical distributions to 1 for no overlap. It is descriptive and is calculated among valid ordinal answers.
 
-Theme coding counts each keyword theme once per response. A response can match several themes. Shares of responses use coded written answers as the denominator. Blank entries and entries such as “no”, “none” and “nothing” are excluded. There are 35 such human answers and 12,791 generated answers. Shares of assignments use the sum of all theme matches. The dictionary cannot establish a person's reasons, distinguish every context, or prove that an absent keyword means an absent concern.
+Theme coding counts each keyword theme once per response. A response can match several themes. Shares of responses use coded written answers as the denominator. Blank entries and entries such as “no”, “none” and “nothing” are excluded. There are 37 such human answers and 12,791 generated answers. Shares of assignments use the sum of all theme matches. The dictionary cannot establish a person's reasons, distinguish every context, or prove that an absent keyword means an absent concern.
 
 ## Response collection code
 
