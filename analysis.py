@@ -1,8 +1,8 @@
 """Reproduce the ACIS 2026 study analysis from the supplied files, without network calls.
 
 Only aggregate outputs are written. Source files are read without modification.
-The human benchmark is the response set used to build the survey-based LLM profiles.
-The same study identifiers must occur in the human benchmark and each survey-based run.
+The human benchmark and primary summaries follow the original Data Analysis.R.
+The profile workbook is not a substitute for the original human response source.
 """
 from pathlib import Path
 import argparse, hashlib, json, re
@@ -49,10 +49,11 @@ def clean_text(value):
     return re.sub(r'\s+', ' ', str(value)).strip().strip('"\'“”').strip()
 
 def parse_rating(value):
-    text=clean_text(value)
+    text='' if pd.isna(value) else str(value).strip()
+    # Match the original R named-vector lookup exactly; do not unwrap quotes.
     for i,label in enumerate(LABELS,1):
-        if text.casefold()==label.casefold(): return float(i),'valid'
-    if text.casefold() in [x.casefold() for x in REFUSALS]: return np.nan,'refusal'
+        if text==label: return float(i),'valid'
+    if clean_text(value).casefold() in [x.casefold() for x in REFUSALS]: return np.nan,'refusal'
     return np.nan,('missing' if not text else 'invalid')
 
 def score_rows(d):
@@ -87,16 +88,15 @@ def code_themes(texts,book):
     return pd.DataFrame({k:[bool(re.search('|'.join(map(re.escape,v)),x.lower())) for x in texts] for k,v in book.items()})
 
 def load_data(root):
-    source=root/'1 Survey Results/survey_results.xlsx'
-    raw=pd.read_excel(source,sheet_name='Responses')
-    profiles=pd.read_excel(source,sheet_name='demo_cov')
-    h=raw[['Respondent ID']+[f'Q{i}' for i in range(1,17)]].copy()
-    h=h.rename(columns={'Respondent ID':'profile_id'})
-    h['profile_id']=h.profile_id.astype(str)
-    h['run']='Observed';h['config']=0
-    if h.profile_id.duplicated().any():raise ValueError('Duplicate human profile IDs')
-    if set(h.profile_id)!=set(profiles['Respondent ID'].astype(str)):
-        raise ValueError('Human responses do not match the survey input profiles')
+    source=root/'1 Survey Results/1 Survey Results Analysis/all_responses_2024_06_25.csv'
+    raw=pd.read_csv(source,low_memory=False)
+    flags=[c for c in raw if c.strip()=='Believe valid']
+    if len(flags)!=1:raise ValueError('Expected one screening flag column')
+    selected=raw[raw[flags[0]].fillna('').str.startswith('Y')].copy()
+    h=pd.DataFrame({'profile_id':selected.ResponseId.astype(str),'run':'Observed','config':0})
+    for i in range(1,16):h[f'Q{i}']=selected[f'Q9_{i}']
+    h['Q16']=selected['Q10'];h=h.reset_index(drop=True)
+    if h.profile_id.duplicated().any():raise ValueError('Duplicate screened human IDs')
     datasets={0:h}; sources=[source];meta={0:{'name':'Human benchmark','q16_available':True}}
     for folder,(cid,name) in CONFIGS.items():
         files=sorted((root/'5 Final Results'/folder).glob('*/final_results.xlsx'))
@@ -107,8 +107,6 @@ def load_data(root):
             d=d.rename(columns={'Respondent ID':'profile_id'})
             d['profile_id']=d.profile_id.astype(str);d['run']=file.parent.name;d['config']=cid
             if d.profile_id.duplicated().any():raise ValueError(f'Duplicate profile IDs within {file}')
-            if cid in [1,2,3,6,7] and set(d.profile_id)!=set(h.profile_id):
-                raise ValueError(f'Survey run does not match the human profile set: {file}')
             if 'Q16' not in d:d['Q16']=pd.NA
             frames.append(d);sources.append(file)
         datasets[cid]=pd.concat(frames,ignore_index=True)
@@ -119,7 +117,7 @@ def analyse(root,out):
     out.mkdir(parents=True,exist_ok=True)
     datasets,meta,sources=load_data(root)
     means=[];contrasts=[];diagnostics=[];theme_rows=[];sensitivity=[];run_rows=[];item_rows=[]
-    alltexts={'Human benchmark':[],'Generated responses':[]};scored={}
+    alltexts={'Human benchmark':[],'Generated responses':[]};scored={};profile_checks=[]
     columns=list(DOMAINS)+['health_visual','economic_visual','health_economic']
     for cid,d in datasets.items():
         scores,counts=score_rows(d);scored[cid]=scores;clusters=profile_values(scores,columns)
@@ -128,10 +126,12 @@ def analyse(root,out):
         alltexts[group].extend(texts)
         diagnostics.append(dict(config=cid,name=meta[cid]['name'],rows=len(d),profiles=d.profile_id.nunique(),runs=d.run.nunique(),q16_available=meta[cid]['q16_available'],open_responses=len(texts),**counts))
         for domain in DOMAINS:
-            z=interval(clusters[domain]);legacy=interval(scores[domain])
+            z=interval(scores[domain]);legacy=z
+            profile_checks.append(dict(config=cid,measure=domain,**interval(clusters[domain])))
             means.append(dict(config=cid,name=meta[cid]['name'],domain=domain,**z,pooled_mean=legacy['mean'],pooled_se=legacy['se'],valid_rows=legacy['n']))
         for contrast in ['health_visual','economic_visual','health_economic']:
-            contrasts.append(dict(config=cid,name=meta[cid]['name'],contrast=contrast,**interval(clusters[contrast])))
+            contrasts.append(dict(config=cid,name=meta[cid]['name'],contrast=contrast,**interval(scores[contrast])))
+            profile_checks.append(dict(config=cid,measure=contrast,**interval(clusters[contrast])))
         for run,rd in scores.groupby('run'):
             for domain in DOMAINS:run_rows.append(dict(config=cid,run=run,domain=domain,**interval(rd[domain])))
         for i in range(1,16):
@@ -152,7 +152,7 @@ def analyse(root,out):
     complete=[]
     for cid,d in scored.items():
         good=d.dropna(subset=[f'score_{i}' for i in range(1,16)])
-        c=profile_values(good,columns)
+        c=good[columns]
         for col in columns:complete.append(dict(config=cid,measure=col,rows=len(good),**interval(c[col])))
     # Item distributions provide a check beyond the order of three means.
     items=pd.DataFrame(item_rows);tv=[]
@@ -161,7 +161,7 @@ def analyse(root,out):
             h=items[(items.config==0)&(items.item==item)].sort_values('rating').share.to_numpy()
             s=items[(items.config==cid)&(items.item==item)].sort_values('rating').share.to_numpy()
             tv.append(dict(config=cid,item=item,total_variation=float(np.abs(h-s).sum()/2)))
-    outputs={'domain_summary':means,'paired_contrasts':contrasts,'response_audit':diagnostics,'theme_summary':theme_rows,'theme_by_configuration':sensitivity,'run_summary':run_rows,'item_distribution':item_rows,'item_distance':tv,'complete_item_sensitivity':complete}
+    outputs={'domain_summary':means,'paired_contrasts':contrasts,'response_audit':diagnostics,'theme_summary':theme_rows,'theme_by_configuration':sensitivity,'run_summary':run_rows,'item_distribution':item_rows,'item_distance':tv,'complete_item_sensitivity':complete,'profile_sensitivity':profile_checks}
     for name,rows in outputs.items():pd.DataFrame(rows).to_csv(out/(name+'.csv'),index=False)
     manifest=[dict(path=str(f.relative_to(root)),bytes=f.stat().st_size,sha256=hashlib.sha256(f.read_bytes()).hexdigest()) for f in sources]
     (out/'source_manifest.json').write_text(json.dumps(manifest,indent=2))

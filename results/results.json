@@ -4,89 +4,89 @@
       "config": 0,
       "name": "Human benchmark",
       "domain": "visual",
-      "n": 171,
-      "mean": 3.991228070175439,
-      "se": 0.057503901542497876,
-      "lo": 3.87771440777688,
-      "hi": 4.104741732573998,
-      "pooled_mean": 3.991228070175439,
-      "pooled_se": 0.05750390154249787,
-      "valid_rows": 171
+      "n": 160,
+      "mean": 2.972395833333333,
+      "se": 0.09538943850828795,
+      "lo": 2.78400205354214,
+      "hi": 3.160789613124526,
+      "pooled_mean": 2.972395833333333,
+      "pooled_se": 0.09538943850828795,
+      "valid_rows": 160
     },
     {
       "config": 0,
       "name": "Human benchmark",
       "domain": "economic",
-      "n": 171,
-      "mean": 4.0589668615984404,
-      "se": 0.04988084480746438,
-      "lo": 3.960501240558017,
-      "hi": 4.157432482638864,
-      "pooled_mean": 4.0589668615984404,
-      "pooled_se": 0.04988084480746438,
-      "valid_rows": 171
+      "n": 160,
+      "mean": 4.021875,
+      "se": 0.06373897520144921,
+      "lo": 3.8959907653719195,
+      "hi": 4.147759234628079,
+      "pooled_mean": 4.021875,
+      "pooled_se": 0.06373897520144921,
+      "valid_rows": 160
     },
     {
       "config": 0,
       "name": "Human benchmark",
       "domain": "health",
-      "n": 171,
-      "mean": 4.064104706209968,
-      "se": 0.048157394797613794,
-      "lo": 3.9690412042837475,
-      "hi": 4.1591682081361885,
-      "pooled_mean": 4.06410470620997,
-      "pooled_se": 0.048157394797613794,
-      "valid_rows": 171
+      "n": 160,
+      "mean": 4.0226636904761905,
+      "se": 0.060115730043007146,
+      "lo": 3.9039353513139354,
+      "hi": 4.141392029638446,
+      "pooled_mean": 4.0226636904761905,
+      "pooled_se": 0.060115730043007146,
+      "valid_rows": 160
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "domain": "visual",
-      "n": 171,
-      "mean": 2.933235867446394,
-      "se": 0.07673268285848205,
-      "lo": 2.7817642694628,
-      "hi": 3.084707465429988,
-      "pooled_mean": 2.9332358674463936,
-      "pooled_se": 0.04462393917820068,
+      "n": 513,
+      "mean": 2.935022742040286,
+      "se": 0.04472348225475258,
+      "lo": 2.8471586259685826,
+      "hi": 3.0228868581119896,
+      "pooled_mean": 2.935022742040286,
+      "pooled_se": 0.04472348225475258,
       "valid_rows": 513
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "domain": "economic",
-      "n": 171,
-      "mean": 4.059941520467836,
-      "se": 0.045694615830529896,
-      "lo": 3.9697395853698287,
-      "hi": 4.150143455565844,
-      "pooled_mean": 4.059941520467836,
-      "pooled_se": 0.027227692351204896,
+      "n": 513,
+      "mean": 4.057504873294347,
+      "se": 0.027407779303358207,
+      "lo": 4.00365932772031,
+      "hi": 4.111350418868383,
+      "pooled_mean": 4.057504873294347,
+      "pooled_se": 0.027407779303358207,
       "valid_rows": 513
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "domain": "health",
-      "n": 171,
-      "mean": 3.62962962962963,
-      "se": 0.10052547944022078,
-      "lo": 3.4311906536725423,
-      "hi": 3.828068605586718,
-      "pooled_mean": 3.6296296296296298,
-      "pooled_se": 0.05805402096227734,
+      "n": 513,
+      "mean": 3.63009375290077,
+      "se": 0.05803711970770868,
+      "lo": 3.5160735566777097,
+      "hi": 3.7441139491238307,
+      "pooled_mean": 3.63009375290077,
+      "pooled_se": 0.05803711970770868,
       "valid_rows": 513
     },
     {
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "domain": "visual",
-      "n": 171,
+      "n": 513,
       "mean": 3.1798245614035086,
-      "se": 0.034659771296521494,
-      "lo": 3.1114055937816865,
-      "hi": 3.2482435290253306,
+      "se": 0.02103553955601424,
+      "lo": 3.138497969734003,
+      "hi": 3.221151153073014,
       "pooled_mean": 3.1798245614035086,
       "pooled_se": 0.02103553955601424,
       "valid_rows": 513
@@ -95,11 +95,11 @@
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "domain": "economic",
-      "n": 171,
-      "mean": 4.182261208576997,
-      "se": 0.0458915067329829,
-      "lo": 4.091670607547968,
-      "hi": 4.272851809606026,
+      "n": 513,
+      "mean": 4.182261208576998,
+      "se": 0.02671523476257925,
+      "lo": 4.1297762416262715,
+      "hi": 4.234746175527724,
       "pooled_mean": 4.182261208576998,
       "pooled_se": 0.02671523476257925,
       "valid_rows": 513
@@ -108,11 +108,11 @@
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "domain": "health",
-      "n": 171,
-      "mean": 3.895850737956001,
-      "se": 0.05097363231714852,
-      "lo": 3.795227936113576,
-      "hi": 3.996473539798426,
+      "n": 513,
+      "mean": 3.8958507379560015,
+      "se": 0.02968261319367039,
+      "lo": 3.8375360352657166,
+      "hi": 3.9541654406462863,
       "pooled_mean": 3.8958507379560015,
       "pooled_se": 0.02968261319367039,
       "valid_rows": 513
@@ -121,11 +121,11 @@
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "domain": "visual",
-      "n": 171,
-      "mean": 3.0107212475633522,
-      "se": 0.06644479475165753,
-      "lo": 2.8795581125888146,
-      "hi": 3.14188438253789,
+      "n": 513,
+      "mean": 3.0107212475633527,
+      "se": 0.03873386530654608,
+      "lo": 2.934624381540841,
+      "hi": 3.0868181135858643,
       "pooled_mean": 3.0107212475633527,
       "pooled_se": 0.03873386530654608,
       "valid_rows": 513
@@ -134,11 +134,11 @@
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "domain": "economic",
-      "n": 171,
-      "mean": 3.7977582846003903,
-      "se": 0.09258607452057807,
-      "lo": 3.6149918266032834,
-      "hi": 3.9805247425974972,
+      "n": 513,
+      "mean": 3.79775828460039,
+      "se": 0.05399294997359357,
+      "lo": 3.6916832970466342,
+      "hi": 3.9038332721541456,
       "pooled_mean": 3.79775828460039,
       "pooled_se": 0.05399294997359357,
       "valid_rows": 513
@@ -147,11 +147,11 @@
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "domain": "health",
-      "n": 171,
-      "mean": 3.630743525480368,
-      "se": 0.09188050202103472,
-      "lo": 3.449369879385801,
-      "hi": 3.812117171574935,
+      "n": 513,
+      "mean": 3.6307435254803675,
+      "se": 0.053206546375479336,
+      "lo": 3.526213512815426,
+      "hi": 3.735273538145309,
       "pooled_mean": 3.6307435254803675,
       "pooled_se": 0.053206546375479336,
       "valid_rows": 513
@@ -161,12 +161,12 @@
       "name": "National profiles",
       "domain": "visual",
       "n": 5626,
-      "mean": 2.932634198364735,
-      "se": 0.007713145993817394,
-      "lo": 2.9175134564013105,
-      "hi": 2.9477549403281595,
-      "pooled_mean": 2.932634198364735,
-      "pooled_se": 0.007713145993817394,
+      "mean": 2.932249081644745,
+      "se": 0.007719627666746424,
+      "lo": 2.9171156331016794,
+      "hi": 2.9473825301878103,
+      "pooled_mean": 2.932249081644745,
+      "pooled_se": 0.007719627666746424,
       "valid_rows": 5626
     },
     {
@@ -174,12 +174,12 @@
       "name": "National profiles",
       "domain": "economic",
       "n": 5626,
-      "mean": 4.2367579097049415,
-      "se": 0.0032059482983636525,
-      "lo": 4.230473014150457,
-      "hi": 4.243042805259426,
-      "pooled_mean": 4.2367579097049415,
-      "pooled_se": 0.003205948298363653,
+      "mean": 4.236669036615713,
+      "se": 0.003205061324393587,
+      "lo": 4.230385879872413,
+      "hi": 4.242952193359013,
+      "pooled_mean": 4.236669036615713,
+      "pooled_se": 0.003205061324393587,
       "valid_rows": 5626
     },
     {
@@ -187,12 +187,12 @@
       "name": "National profiles",
       "domain": "health",
       "n": 5626,
-      "mean": 3.6011181081035333,
-      "se": 0.013503079094326229,
-      "lo": 3.5746468634440025,
-      "hi": 3.627589352763064,
-      "pooled_mean": 3.6011181081035333,
-      "pooled_se": 0.013503079094326229,
+      "mean": 3.6014439760973715,
+      "se": 0.013499430924894947,
+      "lo": 3.5749798832574293,
+      "hi": 3.6279080689373138,
+      "pooled_mean": 3.6014439760973715,
+      "pooled_se": 0.013499430924894947,
       "valid_rows": 5626
     },
     {
@@ -226,12 +226,12 @@
       "name": "National profiles and generated attitudes",
       "domain": "health",
       "n": 5610,
-      "mean": 3.9204727951786773,
-      "se": 0.008120844834105046,
-      "lo": 3.9045527964198885,
-      "hi": 3.936392793937466,
-      "pooled_mean": 3.9204727951786777,
-      "pooled_se": 0.008120844834105046,
+      "mean": 3.9204643069348957,
+      "se": 0.008120701341320815,
+      "lo": 3.9045445894774975,
+      "hi": 3.936384024392294,
+      "pooled_mean": 3.9204643069348957,
+      "pooled_se": 0.008120701341320815,
       "valid_rows": 5610
     },
     {
@@ -279,7 +279,7 @@
       "domain": "visual",
       "n": 171,
       "mean": 4.14083820662768,
-      "se": 0.06133619675422079,
+      "se": 0.061336196754220786,
       "lo": 4.019759529452625,
       "hi": 4.261916883802734,
       "pooled_mean": 4.14083820662768,
@@ -305,7 +305,7 @@
       "domain": "health",
       "n": 171,
       "mean": 3.978000556947925,
-      "se": 0.060278523636373364,
+      "se": 0.06027852363637336,
       "lo": 3.8590097441787083,
       "hi": 4.096991369717141,
       "pooled_mean": 3.978000556947925,
@@ -318,161 +318,161 @@
       "config": 0,
       "name": "Human benchmark",
       "contrast": "health_visual",
-      "n": 171,
-      "mean": 0.07287663603453075,
-      "se": 0.0471059319519506,
-      "lo": -0.020111260666902914,
-      "hi": 0.1658645327359644
+      "n": 160,
+      "mean": 1.0502678571428572,
+      "se": 0.10245848808089311,
+      "lo": 0.8479127312179546,
+      "hi": 1.2526229830677598
     },
     {
       "config": 0,
       "name": "Human benchmark",
       "contrast": "economic_visual",
-      "n": 171,
-      "mean": 0.06773879142300196,
-      "se": 0.04459793460581793,
-      "lo": -0.02029827661448469,
-      "hi": 0.1557758594604886
+      "n": 160,
+      "mean": 1.0494791666666667,
+      "se": 0.0979549828991283,
+      "lo": 0.8560184464198958,
+      "hi": 1.2429398869134378
     },
     {
       "config": 0,
       "name": "Human benchmark",
       "contrast": "health_economic",
-      "n": 171,
-      "mean": 0.005137844611528812,
-      "se": 0.031196434104071916,
-      "lo": -0.056444437528255904,
-      "hi": 0.06672012675131353
+      "n": 160,
+      "mean": 0.00078869047619049,
+      "se": 0.06550058668360395,
+      "lo": -0.12857472015750016,
+      "hi": 0.13015210110988112
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "contrast": "health_visual",
-      "n": 171,
-      "mean": 0.6963937621832359,
-      "se": 0.04017549413024168,
-      "lo": 0.6170866655330173,
-      "hi": 0.7757008588334545
+      "n": 513,
+      "mean": 0.6950710108604845,
+      "se": 0.024274940312148833,
+      "lo": 0.6473802661847686,
+      "hi": 0.7427617555362004
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "contrast": "economic_visual",
-      "n": 171,
-      "mean": 1.1267056530214425,
-      "se": 0.046333577828972274,
-      "lo": 1.0352423962629718,
-      "hi": 1.2181689097799133
+      "n": 513,
+      "mean": 1.122482131254061,
+      "se": 0.028171786485396363,
+      "lo": 1.0671356109719317,
+      "hi": 1.1778286515361902
     },
     {
       "config": 1,
       "name": "Survey profiles",
       "contrast": "health_economic",
-      "n": 171,
-      "mean": -0.4303118908382066,
-      "se": 0.06873988272549936,
-      "lo": -0.5660055678185792,
-      "hi": -0.29461821385783393
+      "n": 513,
+      "mean": -0.42741112039357654,
+      "se": 0.04024772166422293,
+      "lo": -0.5064821208980398,
+      "hi": -0.3483401198891133
     },
     {
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "contrast": "health_visual",
-      "n": 171,
+      "n": 513,
       "mean": 0.7160261765524923,
-      "se": 0.025604119343258826,
-      "lo": 0.6654832171848549,
-      "hi": 0.7665691359201298
+      "se": 0.016816796167113218,
+      "lo": 0.6829877623707703,
+      "hi": 0.7490645907342144
     },
     {
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "contrast": "economic_visual",
-      "n": 171,
+      "n": 513,
       "mean": 1.0024366471734893,
-      "se": 0.03326752835902487,
-      "lo": 0.9367659903713598,
-      "hi": 1.068107303975619
+      "se": 0.020562887729773136,
+      "lo": 0.9620386311163609,
+      "hi": 1.0428346632306178
     },
     {
       "config": 2,
       "name": "Survey profiles and reported attitudes",
       "contrast": "health_economic",
-      "n": 171,
-      "mean": -0.28641047062099695,
-      "se": 0.032926938212829125,
-      "lo": -0.35140879678408343,
-      "hi": -0.22141214445791044
+      "n": 513,
+      "mean": -0.2864104706209969,
+      "se": 0.019772268967581972,
+      "lo": -0.32525523064376877,
+      "hi": -0.247565710598225
     },
     {
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "contrast": "health_visual",
-      "n": 171,
+      "n": 513,
       "mean": 0.6200222779170147,
-      "se": 0.03359948685033901,
-      "lo": 0.5536963295067927,
-      "hi": 0.6863482263272367
+      "se": 0.02066250486009547,
+      "lo": 0.5794285532374782,
+      "hi": 0.6606160025965512
     },
     {
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "contrast": "economic_visual",
-      "n": 171,
-      "mean": 0.787037037037037,
-      "se": 0.03074231562755864,
-      "lo": 0.7263511923571311,
-      "hi": 0.8477228817169429
+      "n": 513,
+      "mean": 0.7870370370370371,
+      "se": 0.020117101319630907,
+      "lo": 0.7475148165778636,
+      "hi": 0.8265592574962106
     },
     {
       "config": 3,
       "name": "Survey profiles and generated attitudes",
       "contrast": "health_economic",
-      "n": 171,
+      "n": 513,
       "mean": -0.16701475912002225,
-      "se": 0.016907372512110188,
-      "lo": -0.20039019494098065,
-      "hi": -0.13363932329906386
+      "se": 0.011987746572991051,
+      "lo": -0.19056598329187263,
+      "hi": -0.14346353494817188
     },
     {
       "config": 4,
       "name": "National profiles",
       "contrast": "health_visual",
       "n": 5626,
-      "mean": 0.6684839097387977,
-      "se": 0.0076274383391718254,
-      "lo": 0.6535311878454229,
-      "hi": 0.6834366316321725
+      "mean": 0.6691948944526265,
+      "se": 0.007620687626840063,
+      "lo": 0.6542554065599201,
+      "hi": 0.6841343823453329
     },
     {
       "config": 4,
       "name": "National profiles",
       "contrast": "economic_visual",
       "n": 5626,
-      "mean": 1.3041237113402062,
-      "se": 0.005756769780543485,
-      "lo": 1.2928382215460013,
-      "hi": 1.3154092011344112
+      "mean": 1.304419954970968,
+      "se": 0.005763016871324328,
+      "lo": 1.2931222184686373,
+      "hi": 1.3157176914732989
     },
     {
       "config": 4,
       "name": "National profiles",
       "contrast": "health_economic",
       "n": 5626,
-      "mean": -0.6356398016014084,
-      "se": 0.010994990780714517,
-      "lo": -0.6571942255185338,
-      "hi": -0.6140853776842831
+      "mean": -0.6352250605183416,
+      "se": 0.010992944887477861,
+      "lo": -0.6567754736953952,
+      "hi": -0.613674647341288
     },
     {
       "config": 5,
       "name": "National profiles and generated attitudes",
       "contrast": "health_visual",
       "n": 5610,
-      "mean": 0.680945165945166,
-      "se": 0.005889664462271963,
-      "lo": 0.6693991442141171,
-      "hi": 0.6924911876762149
+      "mean": 0.6809366777013836,
+      "se": 0.00588949071233088,
+      "lo": 0.6693909965874629,
+      "hi": 0.6924823588153042
     },
     {
       "config": 5,
@@ -489,10 +489,10 @@
       "name": "National profiles and generated attitudes",
       "contrast": "health_economic",
       "n": 5610,
-      "mean": -0.19889737713267125,
-      "se": 0.0032862502473212777,
-      "lo": -0.20533969944360975,
-      "hi": -0.19245505482173275
+      "mean": -0.1989058653764536,
+      "se": 0.0032858406612984166,
+      "lo": -0.20534738474027162,
+      "hi": -0.1924643460126356
     },
     {
       "config": 6,
@@ -510,7 +510,7 @@
       "contrast": "economic_visual",
       "n": 171,
       "mean": 0.6154970760233918,
-      "se": 0.056836215951681354,
+      "se": 0.05683621595168135,
       "lo": 0.5033014361365458,
       "hi": 0.7276927159102378
     },
@@ -519,7 +519,7 @@
       "name": "Local fast model, archived",
       "contrast": "health_economic",
       "n": 171,
-      "mean": 0.0403091060985798,
+      "mean": 0.04030910609857979,
       "se": 0.05524070120624711,
       "lo": -0.0687369610235157,
       "hi": 0.1493551732206753
@@ -529,10 +529,10 @@
       "name": "Local thinking model, archived",
       "contrast": "health_visual",
       "n": 171,
-      "mean": -0.16283764967975492,
-      "se": 0.022274649569139923,
-      "lo": -0.20680818008574656,
-      "hi": -0.11886711927376328
+      "mean": -0.16283764967975495,
+      "se": 0.02227464956913992,
+      "lo": -0.20680818008574658,
+      "hi": -0.11886711927376331
     },
     {
       "config": 7,
@@ -540,33 +540,33 @@
       "contrast": "economic_visual",
       "n": 171,
       "mean": -0.03654970760233918,
-      "se": 0.015579933101121393,
-      "lo": -0.06730475584764478,
-      "hi": -0.005794659357033584
+      "se": 0.015579933101121391,
+      "lo": -0.06730475584764477,
+      "hi": -0.005794659357033587
     },
     {
       "config": 7,
       "name": "Local thinking model, archived",
       "contrast": "health_economic",
       "n": 171,
-      "mean": -0.12628794207741573,
+      "mean": -0.12628794207741575,
       "se": 0.022500628522687145,
       "lo": -0.17070455871328138,
-      "hi": -0.08187132544155008
+      "hi": -0.08187132544155011
     }
   ],
   "response_audit": [
     {
       "config": 0,
       "name": "Human benchmark",
-      "rows": 171,
-      "profiles": 171,
+      "rows": 161,
+      "profiles": 161,
       "runs": 1,
       "q16_available": true,
-      "open_responses": 35,
-      "valid": 2540,
-      "refusal": 25,
-      "missing": 0,
+      "open_responses": 37,
+      "valid": 2309,
+      "refusal": 91,
+      "missing": 15,
       "invalid": 0
     },
     {
@@ -577,10 +577,10 @@
       "runs": 3,
       "q16_available": true,
       "open_responses": 513,
-      "valid": 7695,
+      "valid": 7689,
       "refusal": 0,
       "missing": 0,
-      "invalid": 0
+      "invalid": 6
     },
     {
       "config": 2,
@@ -616,10 +616,10 @@
       "runs": 1,
       "q16_available": true,
       "open_responses": 5626,
-      "valid": 84145,
+      "valid": 84115,
       "refusal": 245,
       "missing": 0,
-      "invalid": 0
+      "invalid": 30
     },
     {
       "config": 5,
@@ -629,10 +629,10 @@
       "runs": 1,
       "q16_available": true,
       "open_responses": 5626,
-      "valid": 84095,
+      "valid": 84094,
       "refusal": 295,
       "missing": 0,
-      "invalid": 0
+      "invalid": 1
     },
     {
       "config": 6,
@@ -667,42 +667,42 @@
       "dictionary": "original",
       "theme": "climate",
       "count": 6,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.17142857142857143,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.16216216216216217,
+      "share_assignments": 0.18181818181818182
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "health",
       "count": 2,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.05714285714285714,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.05405405405405406,
+      "share_assignments": 0.06060606060606061
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "economic",
-      "count": 11,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.3142857142857143,
-      "share_assignments": 0.34375
+      "count": 12,
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.32432432432432434,
+      "share_assignments": 0.36363636363636365
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "visual_land",
       "count": 0,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
       "share_responses": 0.0,
       "share_assignments": 0.0
     },
@@ -711,97 +711,97 @@
       "dictionary": "original",
       "theme": "wildlife",
       "count": 1,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.02857142857142857,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.02702702702702703,
+      "share_assignments": 0.030303030303030304
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "reliability",
       "count": 3,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.08571428571428572,
-      "share_assignments": 0.09375
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.08108108108108109,
+      "share_assignments": 0.09090909090909091
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "nuclear",
       "count": 6,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.17142857142857143,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.16216216216216217,
+      "share_assignments": 0.18181818181818182
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "energy_independence",
       "count": 1,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.02857142857142857,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.02702702702702703,
+      "share_assignments": 0.030303030303030304
     },
     {
       "sample": "Human benchmark",
       "dictionary": "original",
       "theme": "policy_process",
       "count": 2,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.05714285714285714,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.05405405405405406,
+      "share_assignments": 0.06060606060606061
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "climate",
       "count": 6,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.17142857142857143,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.16216216216216217,
+      "share_assignments": 0.18181818181818182
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "health",
       "count": 2,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.05714285714285714,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.05405405405405406,
+      "share_assignments": 0.06060606060606061
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "economic",
-      "count": 11,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.3142857142857143,
-      "share_assignments": 0.34375
+      "count": 12,
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.32432432432432434,
+      "share_assignments": 0.36363636363636365
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "visual_land",
       "count": 0,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
       "share_responses": 0.0,
       "share_assignments": 0.0
     },
@@ -810,55 +810,55 @@
       "dictionary": "sensitivity",
       "theme": "wildlife",
       "count": 1,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.02857142857142857,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.02702702702702703,
+      "share_assignments": 0.030303030303030304
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "reliability",
       "count": 3,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.08571428571428572,
-      "share_assignments": 0.09375
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.08108108108108109,
+      "share_assignments": 0.09090909090909091
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "nuclear",
       "count": 6,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.17142857142857143,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.16216216216216217,
+      "share_assignments": 0.18181818181818182
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "energy_independence",
       "count": 1,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.02857142857142857,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.02702702702702703,
+      "share_assignments": 0.030303030303030304
     },
     {
       "sample": "Human benchmark",
       "dictionary": "sensitivity",
       "theme": "policy_process",
       "count": 2,
-      "open_responses": 35,
-      "matched_responses": 22,
-      "theme_assignments": 32,
-      "share_responses": 0.05714285714285714,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "matched_responses": 23,
+      "theme_assignments": 33,
+      "share_responses": 0.05405405405405406,
+      "share_assignments": 0.06060606060606061
     },
     {
       "sample": "Generated responses",
@@ -1065,39 +1065,39 @@
       "dictionary": "original",
       "theme": "climate",
       "count": 6,
-      "open_responses": 35,
-      "share_responses": 0.17142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "share_responses": 0.16216216216216217,
+      "theme_assignments": 33,
+      "share_assignments": 0.18181818181818182
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "health",
       "count": 2,
-      "open_responses": 35,
-      "share_responses": 0.05714285714285714,
-      "theme_assignments": 32,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "share_responses": 0.05405405405405406,
+      "theme_assignments": 33,
+      "share_assignments": 0.06060606060606061
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "economic",
-      "count": 11,
-      "open_responses": 35,
-      "share_responses": 0.3142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.34375
+      "count": 12,
+      "open_responses": 37,
+      "share_responses": 0.32432432432432434,
+      "theme_assignments": 33,
+      "share_assignments": 0.36363636363636365
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "visual_land",
       "count": 0,
-      "open_responses": 35,
+      "open_responses": 37,
       "share_responses": 0.0,
-      "theme_assignments": 32,
+      "theme_assignments": 33,
       "share_assignments": 0.0
     },
     {
@@ -1105,89 +1105,89 @@
       "dictionary": "original",
       "theme": "wildlife",
       "count": 1,
-      "open_responses": 35,
-      "share_responses": 0.02857142857142857,
-      "theme_assignments": 32,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "share_responses": 0.02702702702702703,
+      "theme_assignments": 33,
+      "share_assignments": 0.030303030303030304
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "reliability",
       "count": 3,
-      "open_responses": 35,
-      "share_responses": 0.08571428571428572,
-      "theme_assignments": 32,
-      "share_assignments": 0.09375
+      "open_responses": 37,
+      "share_responses": 0.08108108108108109,
+      "theme_assignments": 33,
+      "share_assignments": 0.09090909090909091
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "nuclear",
       "count": 6,
-      "open_responses": 35,
-      "share_responses": 0.17142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "share_responses": 0.16216216216216217,
+      "theme_assignments": 33,
+      "share_assignments": 0.18181818181818182
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "energy_independence",
       "count": 1,
-      "open_responses": 35,
-      "share_responses": 0.02857142857142857,
-      "theme_assignments": 32,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "share_responses": 0.02702702702702703,
+      "theme_assignments": 33,
+      "share_assignments": 0.030303030303030304
     },
     {
       "config": 0,
       "dictionary": "original",
       "theme": "policy_process",
       "count": 2,
-      "open_responses": 35,
-      "share_responses": 0.05714285714285714,
-      "theme_assignments": 32,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "share_responses": 0.05405405405405406,
+      "theme_assignments": 33,
+      "share_assignments": 0.06060606060606061
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "climate",
       "count": 6,
-      "open_responses": 35,
-      "share_responses": 0.17142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "share_responses": 0.16216216216216217,
+      "theme_assignments": 33,
+      "share_assignments": 0.18181818181818182
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "health",
       "count": 2,
-      "open_responses": 35,
-      "share_responses": 0.05714285714285714,
-      "theme_assignments": 32,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "share_responses": 0.05405405405405406,
+      "theme_assignments": 33,
+      "share_assignments": 0.06060606060606061
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "economic",
-      "count": 11,
-      "open_responses": 35,
-      "share_responses": 0.3142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.34375
+      "count": 12,
+      "open_responses": 37,
+      "share_responses": 0.32432432432432434,
+      "theme_assignments": 33,
+      "share_assignments": 0.36363636363636365
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "visual_land",
       "count": 0,
-      "open_responses": 35,
+      "open_responses": 37,
       "share_responses": 0.0,
-      "theme_assignments": 32,
+      "theme_assignments": 33,
       "share_assignments": 0.0
     },
     {
@@ -1195,50 +1195,50 @@
       "dictionary": "sensitivity",
       "theme": "wildlife",
       "count": 1,
-      "open_responses": 35,
-      "share_responses": 0.02857142857142857,
-      "theme_assignments": 32,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "share_responses": 0.02702702702702703,
+      "theme_assignments": 33,
+      "share_assignments": 0.030303030303030304
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "reliability",
       "count": 3,
-      "open_responses": 35,
-      "share_responses": 0.08571428571428572,
-      "theme_assignments": 32,
-      "share_assignments": 0.09375
+      "open_responses": 37,
+      "share_responses": 0.08108108108108109,
+      "theme_assignments": 33,
+      "share_assignments": 0.09090909090909091
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "nuclear",
       "count": 6,
-      "open_responses": 35,
-      "share_responses": 0.17142857142857143,
-      "theme_assignments": 32,
-      "share_assignments": 0.1875
+      "open_responses": 37,
+      "share_responses": 0.16216216216216217,
+      "theme_assignments": 33,
+      "share_assignments": 0.18181818181818182
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "energy_independence",
       "count": 1,
-      "open_responses": 35,
-      "share_responses": 0.02857142857142857,
-      "theme_assignments": 32,
-      "share_assignments": 0.03125
+      "open_responses": 37,
+      "share_responses": 0.02702702702702703,
+      "theme_assignments": 33,
+      "share_assignments": 0.030303030303030304
     },
     {
       "config": 0,
       "dictionary": "sensitivity",
       "theme": "policy_process",
       "count": 2,
-      "open_responses": 35,
-      "share_responses": 0.05714285714285714,
-      "theme_assignments": 32,
-      "share_assignments": 0.0625
+      "open_responses": 37,
+      "share_responses": 0.05405405405405406,
+      "theme_assignments": 33,
+      "share_assignments": 0.06060606060606061
     },
     {
       "config": 1,
@@ -2506,31 +2506,31 @@
       "config": 0,
       "run": "Observed",
       "domain": "visual",
-      "n": 171,
-      "mean": 3.991228070175439,
-      "se": 0.05750390154249787,
-      "lo": 3.87771440777688,
-      "hi": 4.104741732573998
+      "n": 160,
+      "mean": 2.972395833333333,
+      "se": 0.09538943850828795,
+      "lo": 2.78400205354214,
+      "hi": 3.160789613124526
     },
     {
       "config": 0,
       "run": "Observed",
       "domain": "economic",
-      "n": 171,
-      "mean": 4.0589668615984404,
-      "se": 0.04988084480746438,
-      "lo": 3.960501240558017,
-      "hi": 4.157432482638864
+      "n": 160,
+      "mean": 4.021875,
+      "se": 0.06373897520144921,
+      "lo": 3.8959907653719195,
+      "hi": 4.147759234628079
     },
     {
       "config": 0,
       "run": "Observed",
       "domain": "health",
-      "n": 171,
-      "mean": 4.06410470620997,
-      "se": 0.048157394797613794,
-      "lo": 3.9690412042837493,
-      "hi": 4.15916820813619
+      "n": 160,
+      "mean": 4.0226636904761905,
+      "se": 0.060115730043007146,
+      "lo": 3.9039353513139354,
+      "hi": 4.141392029638446
     },
     {
       "config": 1,
@@ -2547,10 +2547,10 @@
       "run": "Simulation 1",
       "domain": "economic",
       "n": 171,
-      "mean": 4.055555555555555,
-      "se": 0.048042959728108015,
-      "lo": 3.9607179503684775,
-      "hi": 4.150393160742633
+      "mean": 4.052631578947368,
+      "se": 0.04832997596590836,
+      "lo": 3.9572273989115123,
+      "hi": 4.148035758983224
     },
     {
       "config": 1,
@@ -2567,20 +2567,20 @@
       "run": "Simulation 2",
       "domain": "visual",
       "n": 171,
-      "mean": 2.925438596491228,
-      "se": 0.07660940161897702,
-      "lo": 2.774210357734154,
-      "hi": 3.0766668352483024
+      "mean": 2.9307992202729047,
+      "se": 0.07713454885401416,
+      "lo": 2.7785343320999036,
+      "hi": 3.083064108445906
     },
     {
       "config": 1,
       "run": "Simulation 2",
       "domain": "economic",
       "n": 171,
-      "mean": 4.06140350877193,
-      "se": 0.04875655889226903,
-      "lo": 3.9651572469122502,
-      "hi": 4.157649770631609
+      "mean": 4.058479532163743,
+      "se": 0.049390925535238474,
+      "lo": 3.9609810199520807,
+      "hi": 4.155978044375404
     },
     {
       "config": 1,
@@ -2607,20 +2607,20 @@
       "run": "Simulation 3",
       "domain": "economic",
       "n": 171,
-      "mean": 4.062865497076023,
-      "se": 0.04486408627055043,
-      "lo": 3.974303041205592,
-      "hi": 4.151427952946454
+      "mean": 4.06140350877193,
+      "se": 0.04485203405634918,
+      "lo": 3.972864844173696,
+      "hi": 4.149942173370164
     },
     {
       "config": 1,
       "run": "Simulation 3",
       "domain": "health",
       "n": 171,
-      "mean": 3.623224728487887,
-      "se": 0.1005992186619221,
-      "lo": 3.424640190075153,
-      "hi": 3.8218092669006207
+      "mean": 3.624617098301309,
+      "se": 0.10051155200684188,
+      "lo": 3.4262056153304057,
+      "hi": 3.8230285812722125
     },
     {
       "config": 2,
@@ -2807,30 +2807,30 @@
       "run": "Simulation 1",
       "domain": "visual",
       "n": 5626,
-      "mean": 2.932634198364735,
-      "se": 0.007713145993817394,
-      "lo": 2.9175134564013105,
-      "hi": 2.9477549403281595
+      "mean": 2.932249081644745,
+      "se": 0.007719627666746424,
+      "lo": 2.9171156331016794,
+      "hi": 2.9473825301878103
     },
     {
       "config": 4,
       "run": "Simulation 1",
       "domain": "economic",
       "n": 5626,
-      "mean": 4.2367579097049415,
-      "se": 0.003205948298363653,
-      "lo": 4.230473014150457,
-      "hi": 4.243042805259426
+      "mean": 4.236669036615713,
+      "se": 0.003205061324393587,
+      "lo": 4.230385879872413,
+      "hi": 4.242952193359013
     },
     {
       "config": 4,
       "run": "Simulation 1",
       "domain": "health",
       "n": 5626,
-      "mean": 3.6011181081035333,
-      "se": 0.013503079094326229,
-      "lo": 3.5746468634440025,
-      "hi": 3.627589352763064
+      "mean": 3.6014439760973715,
+      "se": 0.013499430924894947,
+      "lo": 3.5749798832574293,
+      "hi": 3.6279080689373138
     },
     {
       "config": 5,
@@ -2857,10 +2857,10 @@
       "run": "Simulation 1",
       "domain": "health",
       "n": 5610,
-      "mean": 3.9204727951786777,
-      "se": 0.008120844834105046,
-      "lo": 3.904552796419889,
-      "hi": 3.9363927939374665
+      "mean": 3.9204643069348957,
+      "se": 0.008120701341320815,
+      "lo": 3.9045445894774975,
+      "hi": 3.936384024392294
     },
     {
       "config": 6,
@@ -2928,601 +2928,601 @@
       "config": 0,
       "item": 1,
       "rating": 1,
-      "count": 3,
-      "valid": 170,
-      "share": 0.01764705882352941
+      "count": 10,
+      "valid": 154,
+      "share": 0.06493506493506493
     },
     {
       "config": 0,
       "item": 1,
       "rating": 2,
-      "count": 13,
-      "valid": 170,
-      "share": 0.07647058823529412
+      "count": 15,
+      "valid": 154,
+      "share": 0.09740259740259741
     },
     {
       "config": 0,
       "item": 1,
-      "rating": 3,
-      "count": 33,
-      "valid": 170,
-      "share": 0.19411764705882353
-    },
-    {
-      "config": 0,
-      "item": 1,
-      "rating": 4,
-      "count": 48,
-      "valid": 170,
-      "share": 0.2823529411764706
-    },
-    {
-      "config": 0,
-      "item": 1,
-      "rating": 5,
-      "count": 73,
-      "valid": 170,
-      "share": 0.4294117647058823
-    },
-    {
-      "config": 0,
-      "item": 2,
-      "rating": 1,
-      "count": 2,
-      "valid": 169,
-      "share": 0.011834319526627219
-    },
-    {
-      "config": 0,
-      "item": 2,
-      "rating": 2,
-      "count": 13,
-      "valid": 169,
-      "share": 0.07692307692307693
-    },
-    {
-      "config": 0,
-      "item": 2,
-      "rating": 3,
-      "count": 32,
-      "valid": 169,
-      "share": 0.1893491124260355
-    },
-    {
-      "config": 0,
-      "item": 2,
-      "rating": 4,
-      "count": 67,
-      "valid": 169,
-      "share": 0.39644970414201186
-    },
-    {
-      "config": 0,
-      "item": 2,
-      "rating": 5,
-      "count": 55,
-      "valid": 169,
-      "share": 0.3254437869822485
-    },
-    {
-      "config": 0,
-      "item": 3,
-      "rating": 1,
-      "count": 3,
-      "valid": 168,
-      "share": 0.017857142857142856
-    },
-    {
-      "config": 0,
-      "item": 3,
-      "rating": 2,
-      "count": 9,
-      "valid": 168,
-      "share": 0.05357142857142857
-    },
-    {
-      "config": 0,
-      "item": 3,
-      "rating": 3,
-      "count": 35,
-      "valid": 168,
-      "share": 0.20833333333333334
-    },
-    {
-      "config": 0,
-      "item": 3,
-      "rating": 4,
-      "count": 54,
-      "valid": 168,
-      "share": 0.32142857142857145
-    },
-    {
-      "config": 0,
-      "item": 3,
-      "rating": 5,
-      "count": 67,
-      "valid": 168,
-      "share": 0.39880952380952384
-    },
-    {
-      "config": 0,
-      "item": 4,
-      "rating": 1,
-      "count": 5,
-      "valid": 169,
-      "share": 0.029585798816568046
-    },
-    {
-      "config": 0,
-      "item": 4,
-      "rating": 2,
-      "count": 14,
-      "valid": 169,
-      "share": 0.08284023668639054
-    },
-    {
-      "config": 0,
-      "item": 4,
       "rating": 3,
       "count": 31,
-      "valid": 169,
-      "share": 0.1834319526627219
+      "valid": 154,
+      "share": 0.2012987012987013
+    },
+    {
+      "config": 0,
+      "item": 1,
+      "rating": 4,
+      "count": 43,
+      "valid": 154,
+      "share": 0.2792207792207792
+    },
+    {
+      "config": 0,
+      "item": 1,
+      "rating": 5,
+      "count": 55,
+      "valid": 154,
+      "share": 0.35714285714285715
+    },
+    {
+      "config": 0,
+      "item": 2,
+      "rating": 1,
+      "count": 44,
+      "valid": 157,
+      "share": 0.2802547770700637
+    },
+    {
+      "config": 0,
+      "item": 2,
+      "rating": 2,
+      "count": 33,
+      "valid": 157,
+      "share": 0.21019108280254778
+    },
+    {
+      "config": 0,
+      "item": 2,
+      "rating": 3,
+      "count": 23,
+      "valid": 157,
+      "share": 0.1464968152866242
+    },
+    {
+      "config": 0,
+      "item": 2,
+      "rating": 4,
+      "count": 30,
+      "valid": 157,
+      "share": 0.1910828025477707
+    },
+    {
+      "config": 0,
+      "item": 2,
+      "rating": 5,
+      "count": 27,
+      "valid": 157,
+      "share": 0.17197452229299362
+    },
+    {
+      "config": 0,
+      "item": 3,
+      "rating": 1,
+      "count": 56,
+      "valid": 157,
+      "share": 0.35668789808917195
+    },
+    {
+      "config": 0,
+      "item": 3,
+      "rating": 2,
+      "count": 30,
+      "valid": 157,
+      "share": 0.1910828025477707
+    },
+    {
+      "config": 0,
+      "item": 3,
+      "rating": 3,
+      "count": 17,
+      "valid": 157,
+      "share": 0.10828025477707007
+    },
+    {
+      "config": 0,
+      "item": 3,
+      "rating": 4,
+      "count": 24,
+      "valid": 157,
+      "share": 0.15286624203821655
+    },
+    {
+      "config": 0,
+      "item": 3,
+      "rating": 5,
+      "count": 30,
+      "valid": 157,
+      "share": 0.1910828025477707
+    },
+    {
+      "config": 0,
+      "item": 4,
+      "rating": 1,
+      "count": 47,
+      "valid": 157,
+      "share": 0.29936305732484075
+    },
+    {
+      "config": 0,
+      "item": 4,
+      "rating": 2,
+      "count": 33,
+      "valid": 157,
+      "share": 0.21019108280254778
+    },
+    {
+      "config": 0,
+      "item": 4,
+      "rating": 3,
+      "count": 22,
+      "valid": 157,
+      "share": 0.14012738853503184
     },
     {
       "config": 0,
       "item": 4,
       "rating": 4,
-      "count": 55,
-      "valid": 169,
-      "share": 0.3254437869822485
+      "count": 28,
+      "valid": 157,
+      "share": 0.17834394904458598
     },
     {
       "config": 0,
       "item": 4,
       "rating": 5,
-      "count": 64,
-      "valid": 169,
-      "share": 0.378698224852071
+      "count": 27,
+      "valid": 157,
+      "share": 0.17197452229299362
     },
     {
       "config": 0,
       "item": 5,
       "rating": 1,
-      "count": 0,
-      "valid": 170,
-      "share": 0.0
+      "count": 3,
+      "valid": 156,
+      "share": 0.019230769230769232
     },
     {
       "config": 0,
       "item": 5,
       "rating": 2,
-      "count": 17,
-      "valid": 170,
-      "share": 0.1
+      "count": 12,
+      "valid": 156,
+      "share": 0.07692307692307693
     },
     {
       "config": 0,
       "item": 5,
       "rating": 3,
       "count": 24,
-      "valid": 170,
-      "share": 0.1411764705882353
+      "valid": 156,
+      "share": 0.15384615384615385
     },
     {
       "config": 0,
       "item": 5,
       "rating": 4,
-      "count": 59,
-      "valid": 170,
-      "share": 0.34705882352941175
+      "count": 51,
+      "valid": 156,
+      "share": 0.3269230769230769
     },
     {
       "config": 0,
       "item": 5,
       "rating": 5,
-      "count": 70,
-      "valid": 170,
-      "share": 0.4117647058823529
+      "count": 66,
+      "valid": 156,
+      "share": 0.4230769230769231
     },
     {
       "config": 0,
       "item": 6,
       "rating": 1,
-      "count": 0,
-      "valid": 170,
-      "share": 0.0
+      "count": 4,
+      "valid": 153,
+      "share": 0.026143790849673203
     },
     {
       "config": 0,
       "item": 6,
       "rating": 2,
       "count": 13,
-      "valid": 170,
-      "share": 0.07647058823529412
+      "valid": 153,
+      "share": 0.08496732026143791
     },
     {
       "config": 0,
       "item": 6,
-      "rating": 3,
-      "count": 35,
-      "valid": 170,
-      "share": 0.20588235294117646
-    },
-    {
-      "config": 0,
-      "item": 6,
-      "rating": 4,
-      "count": 61,
-      "valid": 170,
-      "share": 0.3588235294117647
-    },
-    {
-      "config": 0,
-      "item": 6,
-      "rating": 5,
-      "count": 61,
-      "valid": 170,
-      "share": 0.3588235294117647
-    },
-    {
-      "config": 0,
-      "item": 7,
-      "rating": 1,
-      "count": 0,
-      "valid": 171,
-      "share": 0.0
-    },
-    {
-      "config": 0,
-      "item": 7,
-      "rating": 2,
-      "count": 7,
-      "valid": 171,
-      "share": 0.04093567251461988
-    },
-    {
-      "config": 0,
-      "item": 7,
       "rating": 3,
       "count": 33,
-      "valid": 171,
-      "share": 0.19298245614035087
+      "valid": 153,
+      "share": 0.21568627450980393
     },
     {
       "config": 0,
-      "item": 7,
+      "item": 6,
       "rating": 4,
-      "count": 66,
-      "valid": 171,
-      "share": 0.38596491228070173
+      "count": 49,
+      "valid": 153,
+      "share": 0.3202614379084967
     },
     {
       "config": 0,
-      "item": 7,
+      "item": 6,
       "rating": 5,
-      "count": 65,
-      "valid": 171,
-      "share": 0.38011695906432746
-    },
-    {
-      "config": 0,
-      "item": 8,
-      "rating": 1,
-      "count": 1,
-      "valid": 170,
-      "share": 0.0058823529411764705
-    },
-    {
-      "config": 0,
-      "item": 8,
-      "rating": 2,
-      "count": 11,
-      "valid": 170,
-      "share": 0.06470588235294118
-    },
-    {
-      "config": 0,
-      "item": 8,
-      "rating": 3,
-      "count": 26,
-      "valid": 170,
-      "share": 0.15294117647058825
-    },
-    {
-      "config": 0,
-      "item": 8,
-      "rating": 4,
-      "count": 72,
-      "valid": 170,
-      "share": 0.4235294117647059
-    },
-    {
-      "config": 0,
-      "item": 8,
-      "rating": 5,
-      "count": 60,
-      "valid": 170,
+      "count": 54,
+      "valid": 153,
       "share": 0.35294117647058826
     },
     {
       "config": 0,
-      "item": 9,
+      "item": 7,
       "rating": 1,
-      "count": 1,
-      "valid": 169,
-      "share": 0.005917159763313609
+      "count": 4,
+      "valid": 155,
+      "share": 0.025806451612903226
     },
     {
       "config": 0,
-      "item": 9,
+      "item": 7,
       "rating": 2,
-      "count": 13,
-      "valid": 169,
-      "share": 0.07692307692307693
+      "count": 12,
+      "valid": 155,
+      "share": 0.07741935483870968
     },
     {
       "config": 0,
-      "item": 9,
+      "item": 7,
       "rating": 3,
-      "count": 32,
-      "valid": 169,
-      "share": 0.1893491124260355
+      "count": 22,
+      "valid": 155,
+      "share": 0.14193548387096774
     },
     {
       "config": 0,
-      "item": 9,
+      "item": 7,
       "rating": 4,
-      "count": 51,
-      "valid": 169,
-      "share": 0.30177514792899407
+      "count": 55,
+      "valid": 155,
+      "share": 0.3548387096774194
     },
     {
       "config": 0,
-      "item": 9,
+      "item": 7,
       "rating": 5,
-      "count": 72,
-      "valid": 169,
-      "share": 0.4260355029585799
+      "count": 62,
+      "valid": 155,
+      "share": 0.4
     },
     {
       "config": 0,
-      "item": 10,
+      "item": 8,
       "rating": 1,
-      "count": 0,
-      "valid": 169,
-      "share": 0.0
+      "count": 3,
+      "valid": 155,
+      "share": 0.01935483870967742
     },
     {
       "config": 0,
-      "item": 10,
+      "item": 8,
       "rating": 2,
       "count": 9,
-      "valid": 169,
-      "share": 0.05325443786982249
+      "valid": 155,
+      "share": 0.05806451612903226
     },
     {
       "config": 0,
-      "item": 10,
+      "item": 8,
       "rating": 3,
       "count": 29,
-      "valid": 169,
-      "share": 0.17159763313609466
+      "valid": 155,
+      "share": 0.1870967741935484
+    },
+    {
+      "config": 0,
+      "item": 8,
+      "rating": 4,
+      "count": 40,
+      "valid": 155,
+      "share": 0.25806451612903225
+    },
+    {
+      "config": 0,
+      "item": 8,
+      "rating": 5,
+      "count": 74,
+      "valid": 155,
+      "share": 0.4774193548387097
+    },
+    {
+      "config": 0,
+      "item": 9,
+      "rating": 1,
+      "count": 0,
+      "valid": 150,
+      "share": 0.0
+    },
+    {
+      "config": 0,
+      "item": 9,
+      "rating": 2,
+      "count": 8,
+      "valid": 150,
+      "share": 0.05333333333333334
+    },
+    {
+      "config": 0,
+      "item": 9,
+      "rating": 3,
+      "count": 31,
+      "valid": 150,
+      "share": 0.20666666666666667
+    },
+    {
+      "config": 0,
+      "item": 9,
+      "rating": 4,
+      "count": 48,
+      "valid": 150,
+      "share": 0.32
+    },
+    {
+      "config": 0,
+      "item": 9,
+      "rating": 5,
+      "count": 63,
+      "valid": 150,
+      "share": 0.42
+    },
+    {
+      "config": 0,
+      "item": 10,
+      "rating": 1,
+      "count": 3,
+      "valid": 150,
+      "share": 0.02
+    },
+    {
+      "config": 0,
+      "item": 10,
+      "rating": 2,
+      "count": 14,
+      "valid": 150,
+      "share": 0.09333333333333334
+    },
+    {
+      "config": 0,
+      "item": 10,
+      "rating": 3,
+      "count": 23,
+      "valid": 150,
+      "share": 0.15333333333333332
     },
     {
       "config": 0,
       "item": 10,
       "rating": 4,
-      "count": 66,
-      "valid": 169,
-      "share": 0.3905325443786982
+      "count": 49,
+      "valid": 150,
+      "share": 0.32666666666666666
     },
     {
       "config": 0,
       "item": 10,
       "rating": 5,
-      "count": 65,
-      "valid": 169,
-      "share": 0.38461538461538464
-    },
-    {
-      "config": 0,
-      "item": 11,
-      "rating": 1,
-      "count": 0,
-      "valid": 166,
-      "share": 0.0
-    },
-    {
-      "config": 0,
-      "item": 11,
-      "rating": 2,
-      "count": 9,
-      "valid": 166,
-      "share": 0.05421686746987952
-    },
-    {
-      "config": 0,
-      "item": 11,
-      "rating": 3,
-      "count": 37,
-      "valid": 166,
-      "share": 0.22289156626506024
-    },
-    {
-      "config": 0,
-      "item": 11,
-      "rating": 4,
       "count": 61,
-      "valid": 166,
-      "share": 0.3674698795180723
+      "valid": 150,
+      "share": 0.4066666666666667
+    },
+    {
+      "config": 0,
+      "item": 11,
+      "rating": 1,
+      "count": 5,
+      "valid": 159,
+      "share": 0.031446540880503145
+    },
+    {
+      "config": 0,
+      "item": 11,
+      "rating": 2,
+      "count": 12,
+      "valid": 159,
+      "share": 0.07547169811320754
+    },
+    {
+      "config": 0,
+      "item": 11,
+      "rating": 3,
+      "count": 19,
+      "valid": 159,
+      "share": 0.11949685534591195
+    },
+    {
+      "config": 0,
+      "item": 11,
+      "rating": 4,
+      "count": 44,
+      "valid": 159,
+      "share": 0.27672955974842767
     },
     {
       "config": 0,
       "item": 11,
       "rating": 5,
-      "count": 59,
-      "valid": 166,
-      "share": 0.35542168674698793
+      "count": 79,
+      "valid": 159,
+      "share": 0.4968553459119497
     },
     {
       "config": 0,
       "item": 12,
       "rating": 1,
-      "count": 0,
-      "valid": 170,
-      "share": 0.0
+      "count": 4,
+      "valid": 157,
+      "share": 0.025477707006369428
     },
     {
       "config": 0,
       "item": 12,
       "rating": 2,
+      "count": 15,
+      "valid": 157,
+      "share": 0.09554140127388536
+    },
+    {
+      "config": 0,
+      "item": 12,
+      "rating": 3,
+      "count": 17,
+      "valid": 157,
+      "share": 0.10828025477707007
+    },
+    {
+      "config": 0,
+      "item": 12,
+      "rating": 4,
+      "count": 50,
+      "valid": 157,
+      "share": 0.3184713375796178
+    },
+    {
+      "config": 0,
+      "item": 12,
+      "rating": 5,
+      "count": 71,
+      "valid": 157,
+      "share": 0.45222929936305734
+    },
+    {
+      "config": 0,
+      "item": 13,
+      "rating": 1,
+      "count": 9,
+      "valid": 153,
+      "share": 0.058823529411764705
+    },
+    {
+      "config": 0,
+      "item": 13,
+      "rating": 2,
+      "count": 12,
+      "valid": 153,
+      "share": 0.0784313725490196
+    },
+    {
+      "config": 0,
+      "item": 13,
+      "rating": 3,
       "count": 16,
-      "valid": 170,
-      "share": 0.09411764705882353
-    },
-    {
-      "config": 0,
-      "item": 12,
-      "rating": 3,
-      "count": 25,
-      "valid": 170,
-      "share": 0.14705882352941177
-    },
-    {
-      "config": 0,
-      "item": 12,
-      "rating": 4,
-      "count": 65,
-      "valid": 170,
-      "share": 0.38235294117647056
-    },
-    {
-      "config": 0,
-      "item": 12,
-      "rating": 5,
-      "count": 64,
-      "valid": 170,
-      "share": 0.3764705882352941
-    },
-    {
-      "config": 0,
-      "item": 13,
-      "rating": 1,
-      "count": 1,
-      "valid": 171,
-      "share": 0.005847953216374269
-    },
-    {
-      "config": 0,
-      "item": 13,
-      "rating": 2,
-      "count": 13,
-      "valid": 171,
-      "share": 0.07602339181286549
-    },
-    {
-      "config": 0,
-      "item": 13,
-      "rating": 3,
-      "count": 27,
-      "valid": 171,
-      "share": 0.15789473684210525
+      "valid": 153,
+      "share": 0.10457516339869281
     },
     {
       "config": 0,
       "item": 13,
       "rating": 4,
-      "count": 65,
-      "valid": 171,
-      "share": 0.38011695906432746
+      "count": 38,
+      "valid": 153,
+      "share": 0.24836601307189543
     },
     {
       "config": 0,
       "item": 13,
       "rating": 5,
-      "count": 65,
-      "valid": 171,
-      "share": 0.38011695906432746
+      "count": 78,
+      "valid": 153,
+      "share": 0.5098039215686274
     },
     {
       "config": 0,
       "item": 14,
       "rating": 1,
-      "count": 1,
-      "valid": 169,
-      "share": 0.005917159763313609
+      "count": 7,
+      "valid": 145,
+      "share": 0.04827586206896552
     },
     {
       "config": 0,
       "item": 14,
       "rating": 2,
-      "count": 10,
-      "valid": 169,
-      "share": 0.05917159763313609
+      "count": 15,
+      "valid": 145,
+      "share": 0.10344827586206896
     },
     {
       "config": 0,
       "item": 14,
       "rating": 3,
-      "count": 33,
-      "valid": 169,
-      "share": 0.1952662721893491
+      "count": 23,
+      "valid": 145,
+      "share": 0.15862068965517243
     },
     {
       "config": 0,
       "item": 14,
       "rating": 4,
-      "count": 67,
-      "valid": 169,
-      "share": 0.39644970414201186
+      "count": 42,
+      "valid": 145,
+      "share": 0.2896551724137931
     },
     {
       "config": 0,
       "item": 14,
       "rating": 5,
       "count": 58,
-      "valid": 169,
-      "share": 0.3431952662721893
+      "valid": 145,
+      "share": 0.4
     },
     {
       "config": 0,
       "item": 15,
       "rating": 1,
-      "count": 0,
-      "valid": 169,
-      "share": 0.0
+      "count": 5,
+      "valid": 151,
+      "share": 0.033112582781456956
     },
     {
       "config": 0,
       "item": 15,
       "rating": 2,
-      "count": 8,
-      "valid": 169,
-      "share": 0.047337278106508875
+      "count": 16,
+      "valid": 151,
+      "share": 0.10596026490066225
     },
     {
       "config": 0,
       "item": 15,
       "rating": 3,
-      "count": 28,
-      "valid": 169,
-      "share": 0.16568047337278108
+      "count": 26,
+      "valid": 151,
+      "share": 0.17218543046357615
     },
     {
       "config": 0,
       "item": 15,
       "rating": 4,
-      "count": 65,
-      "valid": 169,
-      "share": 0.38461538461538464
+      "count": 56,
+      "valid": 151,
+      "share": 0.3708609271523179
     },
     {
       "config": 0,
       "item": 15,
       "rating": 5,
-      "count": 68,
-      "valid": 169,
-      "share": 0.40236686390532544
+      "count": 48,
+      "valid": 151,
+      "share": 0.31788079470198677
     },
     {
       "config": 1,
@@ -3608,41 +3608,41 @@
       "config": 1,
       "item": 3,
       "rating": 1,
-      "count": 75,
-      "valid": 513,
-      "share": 0.14619883040935672
+      "count": 74,
+      "valid": 512,
+      "share": 0.14453125
     },
     {
       "config": 1,
       "item": 3,
       "rating": 2,
       "count": 104,
-      "valid": 513,
-      "share": 0.20272904483430798
+      "valid": 512,
+      "share": 0.203125
     },
     {
       "config": 1,
       "item": 3,
       "rating": 3,
       "count": 239,
-      "valid": 513,
-      "share": 0.46588693957115007
+      "valid": 512,
+      "share": 0.466796875
     },
     {
       "config": 1,
       "item": 3,
       "rating": 4,
       "count": 65,
-      "valid": 513,
-      "share": 0.1267056530214425
+      "valid": 512,
+      "share": 0.126953125
     },
     {
       "config": 1,
       "item": 3,
       "rating": 5,
       "count": 30,
-      "valid": 513,
-      "share": 0.05847953216374269
+      "valid": 512,
+      "share": 0.05859375
     },
     {
       "config": 1,
@@ -3729,15 +3729,15 @@
       "item": 6,
       "rating": 1,
       "count": 20,
-      "valid": 513,
-      "share": 0.03898635477582846
+      "valid": 511,
+      "share": 0.03913894324853229
     },
     {
       "config": 1,
       "item": 6,
       "rating": 2,
       "count": 0,
-      "valid": 513,
+      "valid": 511,
       "share": 0.0
     },
     {
@@ -3745,24 +3745,24 @@
       "item": 6,
       "rating": 3,
       "count": 0,
-      "valid": 513,
+      "valid": 511,
       "share": 0.0
     },
     {
       "config": 1,
       "item": 6,
       "rating": 4,
-      "count": 318,
-      "valid": 513,
-      "share": 0.6198830409356725
+      "count": 317,
+      "valid": 511,
+      "share": 0.6203522504892368
     },
     {
       "config": 1,
       "item": 6,
       "rating": 5,
-      "count": 175,
-      "valid": 513,
-      "share": 0.341130604288499
+      "count": 174,
+      "valid": 511,
+      "share": 0.3405088062622309
     },
     {
       "config": 1,
@@ -3809,15 +3809,15 @@
       "item": 8,
       "rating": 1,
       "count": 9,
-      "valid": 513,
-      "share": 0.017543859649122806
+      "valid": 511,
+      "share": 0.01761252446183953
     },
     {
       "config": 1,
       "item": 8,
       "rating": 2,
       "count": 0,
-      "valid": 513,
+      "valid": 511,
       "share": 0.0
     },
     {
@@ -3825,7 +3825,7 @@
       "item": 8,
       "rating": 3,
       "count": 0,
-      "valid": 513,
+      "valid": 511,
       "share": 0.0
     },
     {
@@ -3833,56 +3833,56 @@
       "item": 8,
       "rating": 4,
       "count": 469,
-      "valid": 513,
-      "share": 0.9142300194931774
+      "valid": 511,
+      "share": 0.9178082191780822
     },
     {
       "config": 1,
       "item": 8,
       "rating": 5,
-      "count": 35,
-      "valid": 513,
-      "share": 0.0682261208576998
+      "count": 33,
+      "valid": 511,
+      "share": 0.06457925636007827
     },
     {
       "config": 1,
       "item": 9,
       "rating": 1,
-      "count": 94,
-      "valid": 513,
-      "share": 0.18323586744639375
+      "count": 93,
+      "valid": 512,
+      "share": 0.181640625
     },
     {
       "config": 1,
       "item": 9,
       "rating": 2,
       "count": 23,
-      "valid": 513,
-      "share": 0.04483430799220273
+      "valid": 512,
+      "share": 0.044921875
     },
     {
       "config": 1,
       "item": 9,
       "rating": 3,
       "count": 141,
-      "valid": 513,
-      "share": 0.27485380116959063
+      "valid": 512,
+      "share": 0.275390625
     },
     {
       "config": 1,
       "item": 9,
       "rating": 4,
       "count": 182,
-      "valid": 513,
-      "share": 0.35477582846003897
+      "valid": 512,
+      "share": 0.35546875
     },
     {
       "config": 1,
       "item": 9,
       "rating": 5,
       "count": 73,
-      "valid": 513,
-      "share": 0.14230019493177387
+      "valid": 512,
+      "share": 0.142578125
     },
     {
       "config": 1,
@@ -5329,40 +5329,40 @@
       "item": 1,
       "rating": 1,
       "count": 114,
-      "valid": 5626,
-      "share": 0.0202630643441166
+      "valid": 5613,
+      "share": 0.020309994655264563
     },
     {
       "config": 4,
       "item": 1,
       "rating": 2,
-      "count": 706,
-      "valid": 5626,
-      "share": 0.1254888019907572
+      "count": 705,
+      "valid": 5613,
+      "share": 0.12560128273650453
     },
     {
       "config": 4,
       "item": 1,
       "rating": 3,
-      "count": 1576,
-      "valid": 5626,
-      "share": 0.28012797724848915
+      "count": 1564,
+      "valid": 5613,
+      "share": 0.27863887404240156
     },
     {
       "config": 4,
       "item": 1,
       "rating": 4,
       "count": 3224,
-      "valid": 5626,
-      "share": 0.573053679345894
+      "valid": 5613,
+      "share": 0.5743809014787101
     },
     {
       "config": 4,
       "item": 1,
       "rating": 5,
       "count": 6,
-      "valid": 5626,
-      "share": 0.001066477070742979
+      "valid": 5613,
+      "share": 0.0010689470871191875
     },
     {
       "config": 4,
@@ -5529,7 +5529,7 @@
       "item": 6,
       "rating": 1,
       "count": 0,
-      "valid": 5626,
+      "valid": 5623,
       "share": 0.0
     },
     {
@@ -5537,7 +5537,7 @@
       "item": 6,
       "rating": 2,
       "count": 0,
-      "valid": 5626,
+      "valid": 5623,
       "share": 0.0
     },
     {
@@ -5545,7 +5545,7 @@
       "item": 6,
       "rating": 3,
       "count": 0,
-      "valid": 5626,
+      "valid": 5623,
       "share": 0.0
     },
     {
@@ -5553,16 +5553,16 @@
       "item": 6,
       "rating": 4,
       "count": 3003,
-      "valid": 5626,
-      "share": 0.533771773906861
+      "valid": 5623,
+      "share": 0.5340565534412235
     },
     {
       "config": 4,
       "item": 6,
       "rating": 5,
-      "count": 2623,
-      "valid": 5626,
-      "share": 0.466228226093139
+      "count": 2620,
+      "valid": 5623,
+      "share": 0.46594344655877645
     },
     {
       "config": 4,
@@ -5648,81 +5648,81 @@
       "config": 4,
       "item": 9,
       "rating": 1,
-      "count": 590,
-      "valid": 5622,
-      "share": 0.10494485948061189
+      "count": 584,
+      "valid": 5611,
+      "share": 0.10408126893601853
     },
     {
       "config": 4,
       "item": 9,
       "rating": 2,
       "count": 785,
-      "valid": 5622,
-      "share": 0.13963002490217005
+      "valid": 5611,
+      "share": 0.13990376047050437
     },
     {
       "config": 4,
       "item": 9,
       "rating": 3,
-      "count": 1459,
-      "valid": 5622,
-      "share": 0.25951618641053004
+      "count": 1456,
+      "valid": 5611,
+      "share": 0.259490286936375
     },
     {
       "config": 4,
       "item": 9,
       "rating": 4,
-      "count": 2752,
-      "valid": 5622,
-      "share": 0.4895055140519388
+      "count": 2751,
+      "valid": 5611,
+      "share": 0.4902869363749777
     },
     {
       "config": 4,
       "item": 9,
       "rating": 5,
-      "count": 36,
-      "valid": 5622,
-      "share": 0.0064034151547491995
+      "count": 35,
+      "valid": 5611,
+      "share": 0.006237747282124399
     },
     {
       "config": 4,
       "item": 10,
       "rating": 1,
-      "count": 397,
-      "valid": 5624,
-      "share": 0.07059032716927453
+      "count": 396,
+      "valid": 5622,
+      "share": 0.07043756670224119
     },
     {
       "config": 4,
       "item": 10,
       "rating": 2,
-      "count": 443,
-      "valid": 5624,
-      "share": 0.07876955903271693
+      "count": 442,
+      "valid": 5622,
+      "share": 0.07861970828886518
     },
     {
       "config": 4,
       "item": 10,
       "rating": 3,
       "count": 1849,
-      "valid": 5624,
-      "share": 0.32876955903271693
+      "valid": 5622,
+      "share": 0.32888651725364637
     },
     {
       "config": 4,
       "item": 10,
       "rating": 4,
       "count": 2928,
-      "valid": 5624,
-      "share": 0.5206258890469416
+      "valid": 5622,
+      "share": 0.5208110992529349
     },
     {
       "config": 4,
       "item": 10,
       "rating": 5,
       "count": 7,
-      "valid": 5624,
-      "share": 0.0012446657183499289
+      "valid": 5622,
+      "share": 0.0012451085023123443
     },
     {
       "config": 4,
@@ -5889,40 +5889,40 @@
       "item": 15,
       "rating": 1,
       "count": 2175,
-      "valid": 5522,
-      "share": 0.39387902933719665
+      "valid": 5521,
+      "share": 0.39395037130954536
     },
     {
       "config": 4,
       "item": 15,
       "rating": 2,
       "count": 177,
-      "valid": 5522,
-      "share": 0.032053603766751176
+      "valid": 5521,
+      "share": 0.03205940952725955
     },
     {
       "config": 4,
       "item": 15,
       "rating": 3,
       "count": 295,
-      "valid": 5522,
-      "share": 0.053422672944585296
+      "valid": 5521,
+      "share": 0.05343234921209926
     },
     {
       "config": 4,
       "item": 15,
       "rating": 4,
       "count": 1641,
-      "valid": 5522,
-      "share": 0.2971749366171677
+      "valid": 5521,
+      "share": 0.2972287629052708
     },
     {
       "config": 4,
       "item": 15,
       "rating": 5,
-      "count": 1234,
-      "valid": 5522,
-      "share": 0.22346975733429916
+      "count": 1233,
+      "valid": 5521,
+      "share": 0.22332910704582504
     },
     {
       "config": 5,
@@ -6289,40 +6289,40 @@
       "item": 10,
       "rating": 1,
       "count": 14,
-      "valid": 5604,
-      "share": 0.0024982155603140615
+      "valid": 5603,
+      "share": 0.0024986614313760487
     },
     {
       "config": 5,
       "item": 10,
       "rating": 2,
       "count": 11,
-      "valid": 5604,
-      "share": 0.0019628836545324767
+      "valid": 5603,
+      "share": 0.0019632339817954665
     },
     {
       "config": 5,
       "item": 10,
       "rating": 3,
       "count": 2643,
-      "valid": 5604,
-      "share": 0.471627408993576
+      "valid": 5603,
+      "share": 0.4717115830804926
     },
     {
       "config": 5,
       "item": 10,
       "rating": 4,
       "count": 2923,
-      "valid": 5604,
-      "share": 0.5215917201998572
+      "valid": 5603,
+      "share": 0.5216848117080136
     },
     {
       "config": 5,
       "item": 10,
       "rating": 5,
-      "count": 13,
-      "valid": 5604,
-      "share": 0.0023197715917201997
+      "count": 12,
+      "valid": 5603,
+      "share": 0.0021417097983223274
     },
     {
       "config": 5,
@@ -7729,829 +7729,829 @@
     {
       "config": 1,
       "item": 1,
-      "total_variation": 0.3128998968008255
+      "total_variation": 0.26156299840510366
     },
     {
       "config": 1,
       "item": 2,
-      "total_variation": 0.466532867342584
+      "total_variation": 0.26086092797457194
     },
     {
       "config": 1,
       "item": 3,
-      "total_variation": 0.53505291005291
+      "total_variation": 0.3705588176751592
     },
     {
       "config": 1,
       "item": 4,
-      "total_variation": 0.4877677428284716
+      "total_variation": 0.40862417898958303
     },
     {
       "config": 1,
       "item": 5,
-      "total_variation": 0.29036807705538353
+      "total_variation": 0.2912730544309492
     },
     {
       "config": 1,
       "item": 6,
-      "total_variation": 0.30004586629973623
+      "total_variation": 0.3130859649795992
     },
     {
       "config": 1,
       "item": 7,
-      "total_variation": 0.5282651072124757
+      "total_variation": 0.5335848582028548
     },
     {
       "config": 1,
       "item": 8,
-      "total_variation": 0.5023621144364179
+      "total_variation": 0.65974370304905
     },
     {
       "config": 1,
       "item": 9,
-      "total_variation": 0.3158240769576802
+      "total_variation": 0.28583333333333333
     },
     {
       "config": 1,
       "item": 10,
-      "total_variation": 0.2819244033818933
+      "total_variation": 0.34405458089668617
     },
     {
       "config": 1,
       "item": 11,
-      "total_variation": 0.3638765588670472
+      "total_variation": 0.19106991798153664
     },
     {
       "config": 1,
       "item": 12,
-      "total_variation": 0.33697970416236667
+      "total_variation": 0.23574328602823405
     },
     {
       "config": 1,
       "item": 13,
-      "total_variation": 0.29824561403508776
+      "total_variation": 0.11558307533539736
     },
     {
       "config": 1,
       "item": 14,
-      "total_variation": 0.2864805010553999
+      "total_variation": 0.244121798749748
     },
     {
       "config": 1,
       "item": 15,
-      "total_variation": 0.2859960552268245
+      "total_variation": 0.251345803803106
     },
     {
       "config": 2,
       "item": 1,
-      "total_variation": 0.44750601995184036
+      "total_variation": 0.443457127667654
     },
     {
       "config": 2,
       "item": 2,
-      "total_variation": 0.5484042123718237
+      "total_variation": 0.5279671223352081
     },
     {
       "config": 2,
       "item": 3,
-      "total_variation": 0.5334168755221387
+      "total_variation": 0.6140971679020624
     },
     {
       "config": 2,
       "item": 4,
-      "total_variation": 0.5836303447639479
+      "total_variation": 0.6259544828099974
     },
     {
       "config": 2,
       "item": 5,
-      "total_variation": 0.17295034973053547
+      "total_variation": 0.18177387914230017
     },
     {
       "config": 2,
       "item": 6,
-      "total_variation": 0.22792110996445364
+      "total_variation": 0.25857126476321524
     },
     {
       "config": 2,
       "item": 7,
-      "total_variation": 0.36257309941520466
+      "total_variation": 0.3878513488021128
     },
     {
       "config": 2,
       "item": 8,
-      "total_variation": 0.36399495470702903
+      "total_variation": 0.5294598503427026
     },
     {
       "config": 2,
       "item": 9,
-      "total_variation": 0.5270309237920574
+      "total_variation": 0.5392202729044835
     },
     {
       "config": 2,
       "item": 10,
-      "total_variation": 0.3261358524516419
+      "total_variation": 0.3830409356725146
     },
     {
       "config": 2,
       "item": 11,
-      "total_variation": 0.3112449799196787
+      "total_variation": 0.16981132075471697
     },
     {
       "config": 2,
       "item": 12,
-      "total_variation": 0.34672629285632384
+      "total_variation": 0.2709675817285606
     },
     {
       "config": 2,
       "item": 13,
-      "total_variation": 0.32943469785575047
+      "total_variation": 0.19974773535145052
     },
     {
       "config": 2,
       "item": 14,
-      "total_variation": 0.22697440511205694
+      "total_variation": 0.24223969886401828
     },
     {
       "config": 2,
       "item": 15,
-      "total_variation": 0.19184054811585172
+      "total_variation": 0.14703794069426693
     },
     {
       "config": 3,
       "item": 1,
-      "total_variation": 0.4590987272101823
+      "total_variation": 0.40776182881446044
     },
     {
       "config": 3,
       "item": 2,
-      "total_variation": 0.6097327473845693
+      "total_variation": 0.5201698513800425
     },
     {
       "config": 3,
       "item": 3,
-      "total_variation": 0.5769284321915901
+      "total_variation": 0.5544877764120137
     },
     {
       "config": 3,
       "item": 4,
-      "total_variation": 0.6388341003725619
+      "total_variation": 0.5713735861238376
     },
     {
       "config": 3,
       "item": 5,
-      "total_variation": 0.21396628826969386
+      "total_variation": 0.18342330184435449
     },
     {
       "config": 3,
       "item": 6,
-      "total_variation": 0.23181974544203646
+      "total_variation": 0.21878224974200206
     },
     {
       "config": 3,
       "item": 7,
-      "total_variation": 0.41325536062378165
+      "total_variation": 0.41857511161416083
     },
     {
       "config": 3,
       "item": 8,
-      "total_variation": 0.37955509689255823
+      "total_variation": 0.531547506759731
     },
     {
       "config": 3,
       "item": 9,
-      "total_variation": 0.5513224217677659
+      "total_variation": 0.5399220272904484
     },
     {
       "config": 3,
       "item": 10,
-      "total_variation": 0.41904564171770653
+      "total_variation": 0.4220272904483431
     },
     {
       "config": 3,
       "item": 11,
-      "total_variation": 0.39506564268770994
+      "total_variation": 0.22218544264224505
     },
     {
       "config": 3,
       "item": 12,
-      "total_variation": 0.42469900240798075
+      "total_variation": 0.3234625842738481
     },
     {
       "config": 3,
       "item": 13,
-      "total_variation": 0.3957115009746589
+      "total_variation": 0.2332301341589267
     },
     {
       "config": 3,
       "item": 14,
-      "total_variation": 0.18478148032803904
+      "total_variation": 0.2539356052967668
     },
     {
       "config": 3,
       "item": 15,
-      "total_variation": 0.18849556501378362
+      "total_variation": 0.16522726979332067
     },
     {
       "config": 4,
       "item": 1,
-      "total_variation": 0.42834528763513935
+      "total_variation": 0.4006989803355383
     },
     {
       "config": 4,
       "item": 2,
-      "total_variation": 0.5814740101431015
+      "total_variation": 0.44974651357097734
     },
     {
       "config": 4,
       "item": 3,
-      "total_variation": 0.6752683120884331
+      "total_variation": 0.6181627158710356
     },
     {
       "config": 4,
       "item": 4,
-      "total_variation": 0.5584700786921246
+      "total_variation": 0.5146895329011573
     },
     {
       "config": 4,
       "item": 5,
-      "total_variation": 0.24117647058823533
+      "total_variation": 0.25
     },
     {
       "config": 4,
       "item": 6,
-      "total_variation": 0.2823529411764706
+      "total_variation": 0.32679738562091504
     },
     {
       "config": 4,
       "item": 7,
-      "total_variation": 0.6037258093687827
+      "total_variation": 0.6348520119720652
     },
     {
       "config": 4,
       "item": 8,
-      "total_variation": 0.5739821417368938
+      "total_variation": 0.7394470373725675
     },
     {
       "config": 4,
       "item": 9,
-      "total_variation": 0.41963208780383066
+      "total_variation": 0.4137622527178756
     },
     {
       "config": 4,
       "item": 10,
-      "total_variation": 0.38337071889703467
+      "total_variation": 0.4201351832088225
     },
     {
       "config": 4,
       "item": 11,
-      "total_variation": 0.2696430942397389
+      "total_variation": 0.21877200866596463
     },
     {
       "config": 4,
       "item": 12,
-      "total_variation": 0.12953202614379086
+      "total_variation": 0.09391762208067943
     },
     {
       "config": 4,
       "item": 13,
-      "total_variation": 0.1406970144878727
+      "total_variation": 0.07364965182660338
     },
     {
       "config": 4,
       "item": 14,
-      "total_variation": 0.40813965014200326
+      "total_variation": 0.36618404199211396
     },
     {
       "config": 4,
       "item": 15,
-      "total_variation": 0.39387902933719665
+      "total_variation": 0.3608377885280884
     },
     {
       "config": 5,
       "item": 1,
-      "total_variation": 0.5183600713012477
+      "total_variation": 0.5143111790170614
     },
     {
       "config": 5,
       "item": 2,
-      "total_variation": 0.6400018148207549
+      "total_variation": 0.6828541119601661
     },
     {
       "config": 5,
       "item": 3,
-      "total_variation": 0.6443770803613885
+      "total_variation": 0.7444301589176517
     },
     {
       "config": 5,
       "item": 4,
-      "total_variation": 0.7005045779131382
+      "total_variation": 0.7438091420408284
     },
     {
       "config": 5,
       "item": 5,
-      "total_variation": 0.15393327949828534
+      "total_variation": 0.141551352908101
     },
     {
       "config": 5,
       "item": 6,
-      "total_variation": 0.19116755952068942
+      "total_variation": 0.19598058435635884
     },
     {
       "config": 5,
       "item": 7,
-      "total_variation": 0.3966188880440803
+      "total_variation": 0.47772197195901434
     },
     {
       "config": 5,
       "item": 8,
-      "total_variation": 0.4015808036276609
+      "total_variation": 0.5488591098524096
     },
     {
       "config": 5,
       "item": 9,
-      "total_variation": 0.5508393679180815
+      "total_variation": 0.5394389734407639
     },
     {
       "config": 5,
       "item": 10,
-      "total_variation": 0.4335871672389544
+      "total_variation": 0.5133963947885062
     },
     {
       "config": 5,
       "item": 11,
-      "total_variation": 0.25509524729935784
+      "total_variation": 0.14692765613964281
     },
     {
       "config": 5,
       "item": 12,
-      "total_variation": 0.25428799194428126
+      "total_variation": 0.21605963273576417
     },
     {
       "config": 5,
       "item": 13,
-      "total_variation": 0.2639490884072927
+      "total_variation": 0.18758169934640523
     },
     {
       "config": 5,
       "item": 14,
-      "total_variation": 0.27281654270618194
+      "total_variation": 0.4095042949617269
     },
     {
       "config": 5,
       "item": 15,
-      "total_variation": 0.2737055685453579
+      "total_variation": 0.2788152686323228
     },
     {
       "config": 6,
       "item": 1,
-      "total_variation": 0.4193670450636395
+      "total_variation": 0.371800713905977
     },
     {
       "config": 6,
       "item": 2,
-      "total_variation": 0.5639987542821551
+      "total_variation": 0.403546020039483
     },
     {
       "config": 6,
       "item": 3,
-      "total_variation": 0.6771094402673351
+      "total_variation": 0.4959585801020598
     },
     {
       "config": 6,
       "item": 4,
-      "total_variation": 0.5813349942904598
+      "total_variation": 0.4391552128729467
     },
     {
       "config": 6,
       "item": 5,
-      "total_variation": 0.4599587203302373
+      "total_variation": 0.460863697705803
     },
     {
       "config": 6,
       "item": 6,
-      "total_variation": 0.418954248366013
+      "total_variation": 0.43137254901960786
     },
     {
       "config": 6,
       "item": 7,
-      "total_variation": 0.38011695906432746
+      "total_variation": 0.4130918694585927
     },
     {
       "config": 6,
       "item": 8,
-      "total_variation": 0.5238046095631236
+      "total_variation": 0.6757970194302962
     },
     {
       "config": 6,
       "item": 9,
-      "total_variation": 0.40354337520329425
+      "total_variation": 0.3790643274853801
     },
     {
       "config": 6,
       "item": 10,
-      "total_variation": 0.38918301671338107
+      "total_variation": 0.435672514619883
     },
     {
       "config": 6,
       "item": 11,
-      "total_variation": 0.37522017896145987
+      "total_variation": 0.4345139578506013
     },
     {
       "config": 6,
       "item": 12,
-      "total_variation": 0.4480564155486756
+      "total_variation": 0.48646031213915897
     },
     {
       "config": 6,
       "item": 13,
-      "total_variation": 0.30409356725146197
+      "total_variation": 0.4069487444100447
     },
     {
       "config": 6,
       "item": 14,
-      "total_variation": 0.36887089518668464
+      "total_variation": 0.39818511796733214
     },
     {
       "config": 6,
       "item": 15,
-      "total_variation": 0.38676078757050414
+      "total_variation": 0.3387165485457573
     },
     {
       "config": 7,
       "item": 1,
-      "total_variation": 0.12115583075335397
+      "total_variation": 0.16480595427963848
     },
     {
       "config": 7,
       "item": 2,
-      "total_variation": 0.08648974240867376
+      "total_variation": 0.44532590869216976
     },
     {
       "config": 7,
       "item": 3,
-      "total_variation": 0.16092436974789917
+      "total_variation": 0.500711877107531
     },
     {
       "config": 7,
       "item": 4,
-      "total_variation": 0.16279150713539853
+      "total_variation": 0.4849756463094792
     },
     {
       "config": 7,
       "item": 5,
-      "total_variation": 0.11531500174034112
+      "total_variation": 0.13461538461538464
     },
     {
       "config": 7,
       "item": 6,
-      "total_variation": 0.10901272789817681
+      "total_variation": 0.14757481940144482
     },
     {
       "config": 7,
       "item": 7,
-      "total_variation": 0.05097062182082428
+      "total_variation": 0.05943882420309219
     },
     {
       "config": 7,
       "item": 8,
-      "total_variation": 0.035294117647058795
+      "total_variation": 0.15958254269449718
     },
     {
       "config": 7,
       "item": 9,
-      "total_variation": 0.1394013226592412
+      "total_variation": 0.12117647058823527
     },
     {
       "config": 7,
       "item": 10,
-      "total_variation": 0.03771756808194052
+      "total_variation": 0.10023391812865498
     },
     {
       "config": 7,
       "item": 11,
-      "total_variation": 0.08867047135912068
+      "total_variation": 0.20611276619221008
     },
     {
       "config": 7,
       "item": 12,
-      "total_variation": 0.27485380116959063
+      "total_variation": 0.2846128059001005
     },
     {
       "config": 7,
       "item": 13,
-      "total_variation": 0.12280701754385964
+      "total_variation": 0.28448572411420703
     },
     {
       "config": 7,
       "item": 14,
-      "total_variation": 0.07208492864601462
+      "total_variation": 0.13387423935091278
     },
     {
       "config": 7,
       "item": 15,
-      "total_variation": 0.03800366300366302
+      "total_variation": 0.12078208766950488
     }
   ],
   "complete_item_sensitivity": [
     {
       "config": 0,
       "measure": "visual",
-      "rows": 157,
-      "n": 157,
-      "mean": 3.9713375796178343,
-      "se": 0.061412353648446445,
-      "lo": 3.8500305246378814,
-      "hi": 4.092644634597787
+      "rows": 117,
+      "n": 117,
+      "mean": 2.9935897435897436,
+      "se": 0.11308369953089698,
+      "lo": 2.7696132278485535,
+      "hi": 3.2175662593309338
     },
     {
       "config": 0,
       "measure": "economic",
-      "rows": 157,
-      "n": 157,
-      "mean": 4.036624203821656,
-      "se": 0.05321291992371928,
-      "lo": 3.931513387848334,
-      "hi": 4.141735019794979
+      "rows": 117,
+      "n": 117,
+      "mean": 4.032051282051282,
+      "se": 0.07614549517037242,
+      "lo": 3.881235534349396,
+      "hi": 4.182867029753168
     },
     {
       "config": 0,
       "measure": "health",
-      "rows": 157,
-      "n": 157,
-      "mean": 4.064604185623294,
-      "se": 0.051027855993889835,
-      "lo": 3.9638094991340798,
-      "hi": 4.165398872112508
+      "rows": 117,
+      "n": 117,
+      "mean": 3.9780219780219777,
+      "se": 0.07226813620063494,
+      "lo": 3.8348858283162857,
+      "hi": 4.12115812772767
     },
     {
       "config": 0,
       "measure": "health_visual",
-      "rows": 157,
-      "n": 157,
-      "mean": 0.09326660600545951,
-      "se": 0.04883922263463887,
-      "lo": -0.0032049003503006046,
-      "hi": 0.18973811236121962
+      "rows": 117,
+      "n": 117,
+      "mean": 0.9844322344322345,
+      "se": 0.11728307717832771,
+      "lo": 0.7521383221285451,
+      "hi": 1.2167261467359238
     },
     {
       "config": 0,
       "measure": "economic_visual",
-      "rows": 157,
-      "n": 157,
-      "mean": 0.06528662420382166,
-      "se": 0.04625149780710076,
-      "lo": -0.026073381626749007,
-      "hi": 0.15664663003439233
+      "rows": 117,
+      "n": 117,
+      "mean": 1.0384615384615385,
+      "se": 0.11365862036497154,
+      "lo": 0.8133463195670451,
+      "hi": 1.2635767573560321
     },
     {
       "config": 0,
       "measure": "health_economic",
-      "rows": 157,
-      "n": 157,
-      "mean": 0.02797998180163785,
-      "se": 0.03267803136555625,
-      "lo": -0.03656852533082622,
-      "hi": 0.09252848893410193
+      "rows": 117,
+      "n": 117,
+      "mean": -0.05402930402930401,
+      "se": 0.07336617616520798,
+      "lo": -0.19934026024053025,
+      "hi": 0.09128165218192225
     },
     {
       "config": 1,
       "measure": "visual",
-      "rows": 513,
-      "n": 171,
-      "mean": 2.933235867446394,
-      "se": 0.07673268285848205,
-      "lo": 2.7817642694628,
-      "hi": 3.084707465429988
+      "rows": 507,
+      "n": 507,
+      "mean": 2.9368836291913216,
+      "se": 0.04468413797706657,
+      "lo": 2.8490943427155755,
+      "hi": 3.0246729156670678
     },
     {
       "config": 1,
       "measure": "economic",
-      "rows": 513,
-      "n": 171,
-      "mean": 4.059941520467836,
-      "se": 0.045694615830529896,
-      "lo": 3.9697395853698287,
-      "hi": 4.150143455565844
+      "rows": 507,
+      "n": 507,
+      "mean": 4.060650887573964,
+      "se": 0.02725529334745732,
+      "lo": 4.007103412698463,
+      "hi": 4.114198362449466
     },
     {
       "config": 1,
       "measure": "health",
-      "rows": 513,
-      "n": 171,
-      "mean": 3.62962962962963,
-      "se": 0.10052547944022078,
-      "lo": 3.4311906536725423,
-      "hi": 3.828068605586718
+      "rows": 507,
+      "n": 507,
+      "mean": 3.6351084812623276,
+      "se": 0.05807668941917139,
+      "lo": 3.521007340325038,
+      "hi": 3.749209622199617
     },
     {
       "config": 1,
       "measure": "health_visual",
-      "rows": 513,
-      "n": 171,
-      "mean": 0.6963937621832359,
-      "se": 0.04017549413024168,
-      "lo": 0.6170866655330173,
-      "hi": 0.7757008588334545
+      "rows": 507,
+      "n": 507,
+      "mean": 0.6982248520710059,
+      "se": 0.024388316097398503,
+      "lo": 0.6503100222127145,
+      "hi": 0.7461396819292974
     },
     {
       "config": 1,
       "measure": "economic_visual",
-      "rows": 513,
-      "n": 171,
-      "mean": 1.1267056530214425,
-      "se": 0.046333577828972274,
-      "lo": 1.0352423962629718,
-      "hi": 1.2181689097799133
+      "rows": 507,
+      "n": 507,
+      "mean": 1.123767258382643,
+      "se": 0.028340203605753476,
+      "lo": 1.0680883001267318,
+      "hi": 1.1794462166385542
     },
     {
       "config": 1,
       "measure": "health_economic",
-      "rows": 513,
-      "n": 171,
-      "mean": -0.4303118908382066,
-      "se": 0.06873988272549936,
-      "lo": -0.5660055678185792,
-      "hi": -0.29461821385783393
+      "rows": 507,
+      "n": 507,
+      "mean": -0.42554240631163703,
+      "se": 0.04047185452400155,
+      "lo": -0.5050559740308086,
+      "hi": -0.3460288385924654
     },
     {
       "config": 2,
       "measure": "visual",
       "rows": 513,
-      "n": 171,
+      "n": 513,
       "mean": 3.1798245614035086,
-      "se": 0.034659771296521494,
-      "lo": 3.1114055937816865,
-      "hi": 3.2482435290253306
+      "se": 0.02103553955601424,
+      "lo": 3.138497969734003,
+      "hi": 3.221151153073014
     },
     {
       "config": 2,
       "measure": "economic",
       "rows": 513,
-      "n": 171,
-      "mean": 4.182261208576997,
-      "se": 0.0458915067329829,
-      "lo": 4.091670607547968,
-      "hi": 4.272851809606026
+      "n": 513,
+      "mean": 4.182261208576998,
+      "se": 0.02671523476257925,
+      "lo": 4.1297762416262715,
+      "hi": 4.234746175527724
     },
     {
       "config": 2,
       "measure": "health",
       "rows": 513,
-      "n": 171,
-      "mean": 3.895850737956001,
-      "se": 0.05097363231714852,
-      "lo": 3.795227936113576,
-      "hi": 3.996473539798426
+      "n": 513,
+      "mean": 3.8958507379560015,
+      "se": 0.02968261319367039,
+      "lo": 3.8375360352657166,
+      "hi": 3.9541654406462863
     },
     {
       "config": 2,
       "measure": "health_visual",
       "rows": 513,
-      "n": 171,
+      "n": 513,
       "mean": 0.7160261765524923,
-      "se": 0.025604119343258826,
-      "lo": 0.6654832171848549,
-      "hi": 0.7665691359201298
+      "se": 0.016816796167113218,
+      "lo": 0.6829877623707703,
+      "hi": 0.7490645907342144
     },
     {
       "config": 2,
       "measure": "economic_visual",
       "rows": 513,
-      "n": 171,
+      "n": 513,
       "mean": 1.0024366471734893,
-      "se": 0.03326752835902487,
-      "lo": 0.9367659903713598,
-      "hi": 1.068107303975619
+      "se": 0.020562887729773136,
+      "lo": 0.9620386311163609,
+      "hi": 1.0428346632306178
     },
     {
       "config": 2,
       "measure": "health_economic",
       "rows": 513,
-      "n": 171,
-      "mean": -0.28641047062099695,
-      "se": 0.032926938212829125,
-      "lo": -0.35140879678408343,
-      "hi": -0.22141214445791044
+      "n": 513,
+      "mean": -0.2864104706209969,
+      "se": 0.019772268967581972,
+      "lo": -0.32525523064376877,
+      "hi": -0.247565710598225
     },
     {
       "config": 3,
       "measure": "visual",
       "rows": 513,
-      "n": 171,
-      "mean": 3.0107212475633522,
-      "se": 0.06644479475165753,
-      "lo": 2.8795581125888146,
-      "hi": 3.14188438253789
+      "n": 513,
+      "mean": 3.0107212475633527,
+      "se": 0.03873386530654608,
+      "lo": 2.934624381540841,
+      "hi": 3.0868181135858643
     },
     {
       "config": 3,
       "measure": "economic",
       "rows": 513,
-      "n": 171,
-      "mean": 3.7977582846003903,
-      "se": 0.09258607452057807,
-      "lo": 3.6149918266032834,
-      "hi": 3.9805247425974972
+      "n": 513,
+      "mean": 3.79775828460039,
+      "se": 0.05399294997359357,
+      "lo": 3.6916832970466342,
+      "hi": 3.9038332721541456
     },
     {
       "config": 3,
       "measure": "health",
       "rows": 513,
-      "n": 171,
-      "mean": 3.630743525480368,
-      "se": 0.09188050202103472,
-      "lo": 3.449369879385801,
-      "hi": 3.812117171574935
+      "n": 513,
+      "mean": 3.6307435254803675,
+      "se": 0.053206546375479336,
+      "lo": 3.526213512815426,
+      "hi": 3.735273538145309
     },
     {
       "config": 3,
       "measure": "health_visual",
       "rows": 513,
-      "n": 171,
+      "n": 513,
       "mean": 0.6200222779170147,
-      "se": 0.03359948685033901,
-      "lo": 0.5536963295067927,
-      "hi": 0.6863482263272367
+      "se": 0.02066250486009547,
+      "lo": 0.5794285532374782,
+      "hi": 0.6606160025965512
     },
     {
       "config": 3,
       "measure": "economic_visual",
       "rows": 513,
-      "n": 171,
-      "mean": 0.787037037037037,
-      "se": 0.03074231562755864,
-      "lo": 0.7263511923571311,
-      "hi": 0.8477228817169429
+      "n": 513,
+      "mean": 0.7870370370370371,
+      "se": 0.020117101319630907,
+      "lo": 0.7475148165778636,
+      "hi": 0.8265592574962106
     },
     {
       "config": 3,
       "measure": "health_economic",
       "rows": 513,
-      "n": 171,
+      "n": 513,
       "mean": -0.16701475912002225,
-      "se": 0.016907372512110188,
-      "lo": -0.20039019494098065,
-      "hi": -0.13363932329906386
+      "se": 0.011987746572991051,
+      "lo": -0.19056598329187263,
+      "hi": -0.14346353494817188
     },
     {
       "config": 4,
       "measure": "visual",
-      "rows": 5459,
-      "n": 5459,
-      "mean": 2.9347865909507234,
-      "se": 0.007883816574988389,
-      "lo": 2.91933116702507,
-      "hi": 2.950242014876377
+      "rows": 5432,
+      "n": 5432,
+      "mean": 2.936763622974963,
+      "se": 0.007905863092083788,
+      "lo": 2.9212649619949413,
+      "hi": 2.952262283954985
     },
     {
       "config": 4,
       "measure": "economic",
-      "rows": 5459,
-      "n": 5459,
-      "mean": 4.243954936801612,
-      "se": 0.003242056550382789,
-      "lo": 4.2375992132887035,
-      "hi": 4.25031066031452
+      "rows": 5432,
+      "n": 5432,
+      "mean": 4.244707290132548,
+      "se": 0.0032502815622998194,
+      "lo": 4.23833543529052,
+      "hi": 4.251079144974576
     },
     {
       "config": 4,
       "measure": "health",
-      "rows": 5459,
-      "n": 5459,
-      "mean": 3.5940386779368283,
-      "se": 0.01388558514216198,
-      "lo": 3.5668173945918156,
-      "hi": 3.621259961281841
+      "rows": 5432,
+      "n": 5432,
+      "mean": 3.5976488533557753,
+      "se": 0.013911383948250531,
+      "lo": 3.5703769639914444,
+      "hi": 3.6249207427201062
     },
     {
       "config": 4,
       "measure": "health_visual",
-      "rows": 5459,
-      "n": 5459,
-      "mean": 0.6592520869861043,
-      "se": 0.0077426509804839495,
-      "lo": 0.6440734039112851,
-      "hi": 0.6744307700609234
+      "rows": 5432,
+      "n": 5432,
+      "mean": 0.6608852303808121,
+      "se": 0.007750525076381896,
+      "lo": 0.6456910941838064,
+      "hi": 0.6760793665778179
     },
     {
       "config": 4,
       "measure": "economic_visual",
-      "rows": 5459,
-      "n": 5459,
-      "mean": 1.3091683458508885,
-      "se": 0.005824043809515609,
-      "lo": 1.2977508978190293,
-      "hi": 1.3205857938827477
+      "rows": 5432,
+      "n": 5432,
+      "mean": 1.3079436671575846,
+      "se": 0.005843028686171417,
+      "lo": 1.2964889885666802,
+      "hi": 1.319398345748489
     },
     {
       "config": 4,
       "measure": "health_economic",
-      "rows": 5459,
-      "n": 5459,
-      "mean": -0.6499162588647842,
-      "se": 0.011249400325857223,
-      "lo": -0.6719695688691157,
-      "hi": -0.6278629488604527
+      "rows": 5432,
+      "n": 5432,
+      "mean": -0.6470584367767724,
+      "se": 0.011270043700267313,
+      "lo": -0.6691522403888506,
+      "hi": -0.6249646331646943
     },
     {
       "config": 5,
@@ -8588,10 +8588,10 @@
       "measure": "health_visual",
       "rows": 5580,
       "n": 5580,
-      "mean": 0.6795378904249872,
+      "mean": 0.6795378904249871,
       "se": 0.005870783163865924,
-      "lo": 0.6680288699886672,
-      "hi": 0.6910469108613073
+      "lo": 0.6680288699886671,
+      "hi": 0.6910469108613072
     },
     {
       "config": 5,
@@ -8608,10 +8608,10 @@
       "measure": "health_economic",
       "rows": 5580,
       "n": 5580,
-      "mean": -0.20065924219150025,
+      "mean": -0.20065924219150028,
       "se": 0.003250834336342829,
-      "lo": -0.20703214300690417,
-      "hi": -0.19428634137609632
+      "lo": -0.2070321430069042,
+      "hi": -0.19428634137609635
     },
     {
       "config": 6,
@@ -8659,7 +8659,7 @@
       "rows": 171,
       "n": 171,
       "mean": 0.6154970760233918,
-      "se": 0.056836215951681354,
+      "se": 0.05683621595168135,
       "lo": 0.5033014361365458,
       "hi": 0.7276927159102378
     },
@@ -8668,7 +8668,7 @@
       "measure": "health_economic",
       "rows": 171,
       "n": 171,
-      "mean": 0.0403091060985798,
+      "mean": 0.04030910609857979,
       "se": 0.05524070120624711,
       "lo": -0.0687369610235157,
       "hi": 0.1493551732206753
@@ -8708,10 +8708,10 @@
       "measure": "health_visual",
       "rows": 162,
       "n": 162,
-      "mean": -0.1558641975308642,
+      "mean": -0.15586419753086417,
       "se": 0.023002517340643923,
-      "lo": -0.20128975490567194,
-      "hi": -0.11043864015605645
+      "lo": -0.2012897549056719,
+      "hi": -0.11043864015605642
     },
     {
       "config": 7,
@@ -8728,10 +8728,444 @@
       "measure": "health_economic",
       "rows": 162,
       "n": 162,
-      "mean": -0.12037037037037036,
+      "mean": -0.12037037037037035,
       "se": 0.023363516456340716,
-      "lo": -0.1665088317199689,
-      "hi": -0.07423190902077181
+      "lo": -0.16650883171996889,
+      "hi": -0.0742319090207718
+    }
+  ],
+  "profile_sensitivity": [
+    {
+      "config": 0,
+      "measure": "visual",
+      "n": 160,
+      "mean": 2.9723958333333336,
+      "se": 0.09538943850828795,
+      "lo": 2.7840020535421406,
+      "hi": 3.1607896131245266
+    },
+    {
+      "config": 0,
+      "measure": "economic",
+      "n": 160,
+      "mean": 4.021875,
+      "se": 0.06373897520144921,
+      "lo": 3.8959907653719195,
+      "hi": 4.147759234628079
+    },
+    {
+      "config": 0,
+      "measure": "health",
+      "n": 160,
+      "mean": 4.0226636904761905,
+      "se": 0.060115730043007146,
+      "lo": 3.9039353513139354,
+      "hi": 4.141392029638446
+    },
+    {
+      "config": 0,
+      "measure": "health_visual",
+      "n": 160,
+      "mean": 1.0502678571428572,
+      "se": 0.10245848808089311,
+      "lo": 0.8479127312179546,
+      "hi": 1.2526229830677598
+    },
+    {
+      "config": 0,
+      "measure": "economic_visual",
+      "n": 160,
+      "mean": 1.0494791666666665,
+      "se": 0.0979549828991283,
+      "lo": 0.8560184464198956,
+      "hi": 1.2429398869134376
+    },
+    {
+      "config": 0,
+      "measure": "health_economic",
+      "n": 160,
+      "mean": 0.00078869047619049,
+      "se": 0.06550058668360395,
+      "lo": -0.12857472015750016,
+      "hi": 0.13015210110988112
+    },
+    {
+      "config": 1,
+      "measure": "visual",
+      "n": 171,
+      "mean": 2.935022742040286,
+      "se": 0.07695636622079476,
+      "lo": 2.783109589362269,
+      "hi": 3.0869358947183034
+    },
+    {
+      "config": 1,
+      "measure": "economic",
+      "n": 171,
+      "mean": 4.057504873294347,
+      "se": 0.0459501905950606,
+      "lo": 3.9667984293411083,
+      "hi": 4.148211317247585
+    },
+    {
+      "config": 1,
+      "measure": "health",
+      "n": 171,
+      "mean": 3.6300937529007706,
+      "se": 0.10050168853665167,
+      "lo": 3.431701740584818,
+      "hi": 3.8284857652167235
+    },
+    {
+      "config": 1,
+      "measure": "health_visual",
+      "n": 171,
+      "mean": 0.6950710108604846,
+      "se": 0.040209174504799335,
+      "lo": 0.6156974285881701,
+      "hi": 0.7744445931327991
+    },
+    {
+      "config": 1,
+      "measure": "economic_visual",
+      "n": 171,
+      "mean": 1.1224821312540612,
+      "se": 0.04633622433390256,
+      "lo": 1.031013650250641,
+      "hi": 1.2139506122574812
+    },
+    {
+      "config": 1,
+      "measure": "health_economic",
+      "n": 171,
+      "mean": -0.4274111203935765,
+      "se": 0.06847388434738773,
+      "lo": -0.5625797121313554,
+      "hi": -0.2922425286557976
+    },
+    {
+      "config": 2,
+      "measure": "visual",
+      "n": 171,
+      "mean": 3.1798245614035086,
+      "se": 0.034659771296521494,
+      "lo": 3.1114055937816865,
+      "hi": 3.2482435290253306
+    },
+    {
+      "config": 2,
+      "measure": "economic",
+      "n": 171,
+      "mean": 4.182261208576997,
+      "se": 0.0458915067329829,
+      "lo": 4.091670607547968,
+      "hi": 4.272851809606026
+    },
+    {
+      "config": 2,
+      "measure": "health",
+      "n": 171,
+      "mean": 3.895850737956001,
+      "se": 0.05097363231714852,
+      "lo": 3.795227936113576,
+      "hi": 3.996473539798426
+    },
+    {
+      "config": 2,
+      "measure": "health_visual",
+      "n": 171,
+      "mean": 0.7160261765524923,
+      "se": 0.025604119343258826,
+      "lo": 0.6654832171848549,
+      "hi": 0.7665691359201298
+    },
+    {
+      "config": 2,
+      "measure": "economic_visual",
+      "n": 171,
+      "mean": 1.0024366471734893,
+      "se": 0.03326752835902487,
+      "lo": 0.9367659903713598,
+      "hi": 1.068107303975619
+    },
+    {
+      "config": 2,
+      "measure": "health_economic",
+      "n": 171,
+      "mean": -0.28641047062099695,
+      "se": 0.032926938212829125,
+      "lo": -0.35140879678408343,
+      "hi": -0.22141214445791044
+    },
+    {
+      "config": 3,
+      "measure": "visual",
+      "n": 171,
+      "mean": 3.0107212475633522,
+      "se": 0.06644479475165753,
+      "lo": 2.8795581125888146,
+      "hi": 3.14188438253789
+    },
+    {
+      "config": 3,
+      "measure": "economic",
+      "n": 171,
+      "mean": 3.7977582846003903,
+      "se": 0.09258607452057807,
+      "lo": 3.6149918266032834,
+      "hi": 3.9805247425974972
+    },
+    {
+      "config": 3,
+      "measure": "health",
+      "n": 171,
+      "mean": 3.630743525480368,
+      "se": 0.09188050202103472,
+      "lo": 3.449369879385801,
+      "hi": 3.812117171574935
+    },
+    {
+      "config": 3,
+      "measure": "health_visual",
+      "n": 171,
+      "mean": 0.6200222779170147,
+      "se": 0.03359948685033901,
+      "lo": 0.5536963295067927,
+      "hi": 0.6863482263272367
+    },
+    {
+      "config": 3,
+      "measure": "economic_visual",
+      "n": 171,
+      "mean": 0.787037037037037,
+      "se": 0.03074231562755864,
+      "lo": 0.7263511923571311,
+      "hi": 0.8477228817169429
+    },
+    {
+      "config": 3,
+      "measure": "health_economic",
+      "n": 171,
+      "mean": -0.16701475912002225,
+      "se": 0.016907372512110188,
+      "lo": -0.20039019494098065,
+      "hi": -0.13363932329906386
+    },
+    {
+      "config": 4,
+      "measure": "visual",
+      "n": 5626,
+      "mean": 2.9322490816447444,
+      "se": 0.007719627666746424,
+      "lo": 2.917115633101679,
+      "hi": 2.94738253018781
+    },
+    {
+      "config": 4,
+      "measure": "economic",
+      "n": 5626,
+      "mean": 4.236669036615713,
+      "se": 0.003205061324393587,
+      "lo": 4.230385879872413,
+      "hi": 4.242952193359013
+    },
+    {
+      "config": 4,
+      "measure": "health",
+      "n": 5626,
+      "mean": 3.601443976097371,
+      "se": 0.013499430924894947,
+      "lo": 3.574979883257429,
+      "hi": 3.6279080689373133
+    },
+    {
+      "config": 4,
+      "measure": "health_visual",
+      "n": 5626,
+      "mean": 0.6691948944526265,
+      "se": 0.0076206876268400635,
+      "lo": 0.6542554065599201,
+      "hi": 0.6841343823453329
+    },
+    {
+      "config": 4,
+      "measure": "economic_visual",
+      "n": 5626,
+      "mean": 1.304419954970968,
+      "se": 0.005763016871324328,
+      "lo": 1.2931222184686373,
+      "hi": 1.3157176914732989
+    },
+    {
+      "config": 4,
+      "measure": "health_economic",
+      "n": 5626,
+      "mean": -0.6352250605183416,
+      "se": 0.010992944887477861,
+      "lo": -0.6567754736953952,
+      "hi": -0.613674647341288
+    },
+    {
+      "config": 5,
+      "measure": "visual",
+      "n": 5611,
+      "mean": 3.239128497594012,
+      "se": 0.003609472229024598,
+      "lo": 3.2320525353796064,
+      "hi": 3.246204459808417
+    },
+    {
+      "config": 5,
+      "measure": "economic",
+      "n": 5611,
+      "mean": 4.118992455296144,
+      "se": 0.0072947577259363326,
+      "lo": 4.104691907527166,
+      "hi": 4.1332930030651225
+    },
+    {
+      "config": 5,
+      "measure": "health",
+      "n": 5610,
+      "mean": 3.9204643069348952,
+      "se": 0.008120701341320815,
+      "lo": 3.904544589477497,
+      "hi": 3.9363840243922934
+    },
+    {
+      "config": 5,
+      "measure": "health_visual",
+      "n": 5610,
+      "mean": 0.6809366777013836,
+      "se": 0.00588949071233088,
+      "lo": 0.6693909965874629,
+      "hi": 0.6924823588153042
+    },
+    {
+      "config": 5,
+      "measure": "economic_visual",
+      "n": 5611,
+      "mean": 0.8798639577021327,
+      "se": 0.005383745471840411,
+      "lo": 0.8693097333963223,
+      "hi": 0.890418182007943
+    },
+    {
+      "config": 5,
+      "measure": "health_economic",
+      "n": 5610,
+      "mean": -0.1989058653764536,
+      "se": 0.0032858406612984166,
+      "lo": -0.20534738474027162,
+      "hi": -0.1924643460126356
+    },
+    {
+      "config": 6,
+      "measure": "visual",
+      "n": 171,
+      "mean": 2.590643274853801,
+      "se": 0.039440544638676855,
+      "lo": 2.5127869807791927,
+      "hi": 2.6684995689284094
+    },
+    {
+      "config": 6,
+      "measure": "economic",
+      "n": 171,
+      "mean": 3.206140350877193,
+      "se": 0.052474395489884966,
+      "lo": 3.1025550174575973,
+      "hi": 3.309725684296789
+    },
+    {
+      "config": 6,
+      "measure": "health",
+      "n": 171,
+      "mean": 3.2464494569757725,
+      "se": 0.045755070135451305,
+      "lo": 3.1561281840698023,
+      "hi": 3.3367707298817426
+    },
+    {
+      "config": 6,
+      "measure": "health_visual",
+      "n": 171,
+      "mean": 0.6558061821219716,
+      "se": 0.04634307008829687,
+      "lo": 0.5643241874850009,
+      "hi": 0.7472881767589423
+    },
+    {
+      "config": 6,
+      "measure": "economic_visual",
+      "n": 171,
+      "mean": 0.6154970760233918,
+      "se": 0.056836215951681354,
+      "lo": 0.5033014361365458,
+      "hi": 0.7276927159102378
+    },
+    {
+      "config": 6,
+      "measure": "health_economic",
+      "n": 171,
+      "mean": 0.0403091060985798,
+      "se": 0.05524070120624711,
+      "lo": -0.0687369610235157,
+      "hi": 0.1493551732206753
+    },
+    {
+      "config": 7,
+      "measure": "visual",
+      "n": 171,
+      "mean": 4.14083820662768,
+      "se": 0.06133619675422079,
+      "lo": 4.019759529452625,
+      "hi": 4.261916883802734
+    },
+    {
+      "config": 7,
+      "measure": "economic",
+      "n": 171,
+      "mean": 4.104288499025341,
+      "se": 0.061990165581123524,
+      "lo": 3.981918876459715,
+      "hi": 4.226658121590968
+    },
+    {
+      "config": 7,
+      "measure": "health",
+      "n": 171,
+      "mean": 3.978000556947925,
+      "se": 0.060278523636373364,
+      "lo": 3.8590097441787083,
+      "hi": 4.096991369717141
+    },
+    {
+      "config": 7,
+      "measure": "health_visual",
+      "n": 171,
+      "mean": -0.16283764967975492,
+      "se": 0.022274649569139923,
+      "lo": -0.20680818008574656,
+      "hi": -0.11886711927376328
+    },
+    {
+      "config": 7,
+      "measure": "economic_visual",
+      "n": 171,
+      "mean": -0.03654970760233918,
+      "se": 0.015579933101121393,
+      "lo": -0.06730475584764478,
+      "hi": -0.005794659357033584
+    },
+    {
+      "config": 7,
+      "measure": "health_economic",
+      "n": 171,
+      "mean": -0.12628794207741573,
+      "se": 0.022500628522687145,
+      "lo": -0.17070455871328138,
+      "hi": -0.08187132544155008
     }
   ]
 }
