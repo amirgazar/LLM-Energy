@@ -1,7 +1,8 @@
 """Reproduce the ACIS 2026 study analysis from the supplied files, without network calls.
 
 Only aggregate outputs are written. Source files are read without modification.
-The human benchmark and primary summaries follow the original Data Analysis.R.
+The human benchmark and response coding follow the original Data Analysis.R.
+Repeated runs are averaged within source profiles before primary uncertainty estimates.
 The profile workbook is not a substitute for the original human response source.
 """
 from pathlib import Path
@@ -126,11 +127,11 @@ def analyse(root,out):
         alltexts[group].extend(texts)
         diagnostics.append(dict(config=cid,name=meta[cid]['name'],rows=len(d),profiles=d.profile_id.nunique(),runs=d.run.nunique(),q16_available=meta[cid]['q16_available'],open_responses=len(texts),**counts))
         for domain in DOMAINS:
-            z=interval(scores[domain]);legacy=z
+            z=interval(clusters[domain]);legacy=interval(scores[domain])
             profile_checks.append(dict(config=cid,measure=domain,**interval(clusters[domain])))
             means.append(dict(config=cid,name=meta[cid]['name'],domain=domain,**z,pooled_mean=legacy['mean'],pooled_se=legacy['se'],valid_rows=legacy['n']))
         for contrast in ['health_visual','economic_visual','health_economic']:
-            contrasts.append(dict(config=cid,name=meta[cid]['name'],contrast=contrast,**interval(scores[contrast])))
+            contrasts.append(dict(config=cid,name=meta[cid]['name'],contrast=contrast,**interval(clusters[contrast])))
             profile_checks.append(dict(config=cid,measure=contrast,**interval(clusters[contrast])))
         for run,rd in scores.groupby('run'):
             for domain in DOMAINS:run_rows.append(dict(config=cid,run=run,domain=domain,**interval(rd[domain])))
@@ -152,7 +153,7 @@ def analyse(root,out):
     complete=[]
     for cid,d in scored.items():
         good=d.dropna(subset=[f'score_{i}' for i in range(1,16)])
-        c=good[columns]
+        c=profile_values(good,columns)
         for col in columns:complete.append(dict(config=cid,measure=col,rows=len(good),**interval(c[col])))
     # Item distributions provide a check beyond the order of three means.
     items=pd.DataFrame(item_rows);tv=[]

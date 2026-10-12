@@ -7,7 +7,7 @@ The study compares the 161 human responses in the original survey analysis with 
 ## Analysis approach
 
 - Report differences and 95% intervals instead of treating a non-significant result as proof of equality.
-- Retain the original response-level domain means and standard errors, pooling saved runs within each configuration. Provide a separate profile-level sensitivity check for repeated runs.
+- Average repeated runs within each source profile before calculating means, standard errors and intervals across profiles.
 - Read the human benchmark from the original survey CSV, with the same selection and question mapping as Data Analysis.R. Survey-based model runs contain 171 input profiles. Compare aggregate results rather than claiming individual prediction accuracy.
 - Treat the two local-model runs as exploratory. The available script reads ordinal answers from reasoning text, can misclassify ordinal answers, and does not ask the open-ended question.
 - Separate refusals, missing values, and invalid outputs.
@@ -33,13 +33,13 @@ python -m unittest tests.py
 
 The analysis reads the original `1 Survey Results` and `5 Final Results` folders. It does not edit them, access the internet, or request new model responses. It writes aggregate outputs only.
 
-The primary analysis follows the original script: select CSV rows whose `Believe valid` field starts with `Y`; map `Q9_1` through `Q9_15` to items 1 through 15; map the five importance labels to scores 1 through 5; and calculate each respondent's mean over available items. Configuration means and standard errors use all available response rows, including the pooled runs for configurations 1 to 3. The 161 human records include 160 usable domain scores. The human profile workbook is not used as the answer source.
+The primary analysis follows the original script: select CSV rows whose `Believe valid` field starts with `Y`; map `Q9_1` through `Q9_15` to items 1 through 15; map the five importance labels to scores 1 through 5; and calculate each respondent's mean over available items. For configurations 1 to 3, average the three runs within each source profile first, then calculate means, standard errors and 95% t intervals across 171 profile averages. The 161 human records include 160 usable domain scores. The human profile workbook is not used as the answer source.
 
-Repeated runs from one profile are not independent people. Primary intervals describe the stored responses and do not cover all model or population uncertainty. `profile_sensitivity.csv` first averages repeated runs within each profile, then calculates intervals across profiles. This separate check does not replace the original figure method.
+Repeated runs from one profile are not independent observations. Primary intervals describe variation among saved profiles, not population uncertainty. For compatibility, `profile_sensitivity.csv` retains its filename and provides a copy of the profile-level primary estimates. The pooled columns in `domain_summary.csv` are diagnostic values, not the primary uncertainty estimates.
 
 Domain indices are the mean of available numeric ordinal answers: visual and ecological items 1 to 4; economic items 5 to 8; environmental and health items 9 to 15. An index is missing when all its items are missing. Complete-item results are also provided. These domain labels are short names: the last group includes climate and Indigenous-community impacts as well as health.
 
-The paired contrasts subtract two domain scores within a response. Primary contrasts pool response rows, as in the original script. The profile-level version is provided separately. Their intervals are not tests of equivalence. No minimum meaningful difference was set before the study, so no later choice of a threshold is presented as confirmatory evidence.
+The paired contrasts subtract two domain scores within a response. For configurations 1 to 3, average each paired difference across the three runs within a profile before calculating the mean and interval across profiles. Complete-item results use the same profile-level approach. Their intervals are not tests of equivalence. No minimum meaningful difference was set before the study, so no later choice of a threshold is presented as confirmatory evidence.
 
 Item distance is half the sum of the absolute differences between human and generated response shares over the five answer options. It ranges from 0 for identical distributions to 1 for no overlap. It is descriptive and is calculated among valid ordinal answers.
 
