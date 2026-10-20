@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying ACIS 2026 paper."
+title: "LLM-Energy: ACIS 2026 study"
+authors:
+  - family-names: Gazar
+    given-names: Amir
+preferred-citation:
+  type: conference-paper
+  title: "When LLM-Simulated Survey Responses Get the Order Right but the Story Wrong: A Study of Public Opinion on Decarbonization"
+  year: 2026
+  notes: "ACIS 2026, paper 256. Revised manuscript."
+  authors:
+    - family-names: Gazar
+      given-names: Amir
+    - family-names: Jackson
+      given-names: Chloe
+    - family-names: Matthews
+      given-names: Emily
+    - family-names: Mavrommati
+      given-names: Georgia
+    - family-names: Chowdhury
+      given-names: Mahabub Arefin
+    - family-names: Villiers
+      given-names: Nick
+    - family-names: Howarth
+      given-names: Richard
+    - family-names: Calder
+      given-names: Ryan

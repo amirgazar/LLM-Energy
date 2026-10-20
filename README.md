@@ -17,7 +17,7 @@ There are 13,023 generated written answers and 15,794 theme occurrences. Reliabi
 - `verified/`: current aggregate tables, website-compatible results, and both updated figures.
 - `analysis_verified.py`: offline reproduction of the verified analysis using restricted inputs held separately.
 - `verified_keywords.json`: both keyword dictionaries used in this analysis.
-- `questions.json`: questionnaire for the collection example. The website also shows the local script's shorter impact wording.
+- `questions.json`: questionnaire for the collection example. The website lists all 16 outcome questions.
 - `collect.py`: existing dry-run-first collection example, not the code used to produce the completed DeepSeek run.
 - `privacy_check.py`: checks the release files for likely credentials and participant records without printing matched values.
 
@@ -41,3 +41,9 @@ Intervals describe these profiles, not a representative population. A non-signif
 No participant profiles, identifiers, individual answers, verbatim study answers, credentials or notebook outputs are included in this release. Keep restricted inputs outside this checkout. Fictional examples in tests are not study participants. The privacy check detects common patterns; it does not certify remote history or branches. Existing historical source manifests contain file-level checksums, not source data.
 
 Use the author list and title in the ACIS 2026 paper 256. No new licence is asserted for inherited material.
+
+## Citation
+
+Gazar, A., Jackson, C., Matthews, E., Mavrommati, G., Chowdhury, M. A., Villiers, N., Howarth, R., and Calder, R. (2026). When LLM-Simulated Survey Responses Get the Order Right but the Story Wrong: A Study of Public Opinion on Decarbonization. ACIS 2026, paper 256. Revised manuscript.
+
+The citation follows the submitted revised manuscript. No DOI or proceedings page range has been added.
