@@ -1,0 +1,1441 @@
+dataset,question,denominator,category,share_equal_profile_weight,profiles_with_answers
+Human benchmark,1,numeric only,Not at all important,0.06493506493506493,154
+Human benchmark,1,numeric only,Slightly important,0.09740259740259741,154
+Human benchmark,1,numeric only,Moderately important,0.2012987012987013,154
+Human benchmark,1,numeric only,Important,0.2792207792207792,154
+Human benchmark,1,numeric only,Very important,0.35714285714285715,154
+Human benchmark,1,all answers,Not at all important,0.062111801242236024,161
+Human benchmark,1,all answers,Slightly important,0.09316770186335403,161
+Human benchmark,1,all answers,Moderately important,0.19254658385093168,161
+Human benchmark,1,all answers,Important,0.2670807453416149,161
+Human benchmark,1,all answers,Very important,0.3416149068322981,161
+Human benchmark,1,all answers,Refusal,0.037267080745341616,161
+Human benchmark,1,all answers,Blank,0.006211180124223602,161
+Human benchmark,2,numeric only,Not at all important,0.2802547770700637,157
+Human benchmark,2,numeric only,Slightly important,0.21019108280254778,157
+Human benchmark,2,numeric only,Moderately important,0.1464968152866242,157
+Human benchmark,2,numeric only,Important,0.1910828025477707,157
+Human benchmark,2,numeric only,Very important,0.17197452229299362,157
+Human benchmark,2,all answers,Not at all important,0.2732919254658385,161
+Human benchmark,2,all answers,Slightly important,0.20496894409937888,161
+Human benchmark,2,all answers,Moderately important,0.14285714285714285,161
+Human benchmark,2,all answers,Important,0.18633540372670807,161
+Human benchmark,2,all answers,Very important,0.16770186335403728,161
+Human benchmark,2,all answers,Refusal,0.018633540372670808,161
+Human benchmark,2,all answers,Blank,0.006211180124223602,161
+Human benchmark,3,numeric only,Not at all important,0.35668789808917195,157
+Human benchmark,3,numeric only,Slightly important,0.1910828025477707,157
+Human benchmark,3,numeric only,Moderately important,0.10828025477707007,157
+Human benchmark,3,numeric only,Important,0.15286624203821655,157
+Human benchmark,3,numeric only,Very important,0.1910828025477707,157
+Human benchmark,3,all answers,Not at all important,0.34782608695652173,161
+Human benchmark,3,all answers,Slightly important,0.18633540372670807,161
+Human benchmark,3,all answers,Moderately important,0.10559006211180125,161
+Human benchmark,3,all answers,Important,0.14906832298136646,161
+Human benchmark,3,all answers,Very important,0.18633540372670807,161
+Human benchmark,3,all answers,Refusal,0.018633540372670808,161
+Human benchmark,3,all answers,Blank,0.006211180124223602,161
+Human benchmark,4,numeric only,Not at all important,0.29936305732484075,157
+Human benchmark,4,numeric only,Slightly important,0.21019108280254778,157
+Human benchmark,4,numeric only,Moderately important,0.14012738853503184,157
+Human benchmark,4,numeric only,Important,0.17834394904458598,157
+Human benchmark,4,numeric only,Very important,0.17197452229299362,157
+Human benchmark,4,all answers,Not at all important,0.2919254658385093,161
+Human benchmark,4,all answers,Slightly important,0.20496894409937888,161
+Human benchmark,4,all answers,Moderately important,0.13664596273291926,161
+Human benchmark,4,all answers,Important,0.17391304347826086,161
+Human benchmark,4,all answers,Very important,0.16770186335403728,161
+Human benchmark,4,all answers,Refusal,0.018633540372670808,161
+Human benchmark,4,all answers,Blank,0.006211180124223602,161
+Human benchmark,5,numeric only,Not at all important,0.019230769230769232,156
+Human benchmark,5,numeric only,Slightly important,0.07692307692307693,156
+Human benchmark,5,numeric only,Moderately important,0.15384615384615385,156
+Human benchmark,5,numeric only,Important,0.3269230769230769,156
+Human benchmark,5,numeric only,Very important,0.4230769230769231,156
+Human benchmark,5,all answers,Not at all important,0.018633540372670808,161
+Human benchmark,5,all answers,Slightly important,0.07453416149068323,161
+Human benchmark,5,all answers,Moderately important,0.14906832298136646,161
+Human benchmark,5,all answers,Important,0.3167701863354037,161
+Human benchmark,5,all answers,Very important,0.40993788819875776,161
+Human benchmark,5,all answers,Refusal,0.024844720496894408,161
+Human benchmark,5,all answers,Blank,0.006211180124223602,161
+Human benchmark,6,numeric only,Not at all important,0.026143790849673203,153
+Human benchmark,6,numeric only,Slightly important,0.08496732026143791,153
+Human benchmark,6,numeric only,Moderately important,0.21568627450980393,153
+Human benchmark,6,numeric only,Important,0.3202614379084967,153
+Human benchmark,6,numeric only,Very important,0.35294117647058826,153
+Human benchmark,6,all answers,Not at all important,0.024844720496894408,161
+Human benchmark,6,all answers,Slightly important,0.08074534161490683,161
+Human benchmark,6,all answers,Moderately important,0.20496894409937888,161
+Human benchmark,6,all answers,Important,0.30434782608695654,161
+Human benchmark,6,all answers,Very important,0.33540372670807456,161
+Human benchmark,6,all answers,Refusal,0.043478260869565216,161
+Human benchmark,6,all answers,Blank,0.006211180124223602,161
+Human benchmark,7,numeric only,Not at all important,0.025806451612903226,155
+Human benchmark,7,numeric only,Slightly important,0.07741935483870968,155
+Human benchmark,7,numeric only,Moderately important,0.14193548387096774,155
+Human benchmark,7,numeric only,Important,0.3548387096774194,155
+Human benchmark,7,numeric only,Very important,0.4,155
+Human benchmark,7,all answers,Not at all important,0.024844720496894408,161
+Human benchmark,7,all answers,Slightly important,0.07453416149068323,161
+Human benchmark,7,all answers,Moderately important,0.13664596273291926,161
+Human benchmark,7,all answers,Important,0.3416149068322981,161
+Human benchmark,7,all answers,Very important,0.38509316770186336,161
+Human benchmark,7,all answers,Refusal,0.031055900621118012,161
+Human benchmark,7,all answers,Blank,0.006211180124223602,161
+Human benchmark,8,numeric only,Not at all important,0.01935483870967742,155
+Human benchmark,8,numeric only,Slightly important,0.05806451612903226,155
+Human benchmark,8,numeric only,Moderately important,0.1870967741935484,155
+Human benchmark,8,numeric only,Important,0.25806451612903225,155
+Human benchmark,8,numeric only,Very important,0.4774193548387097,155
+Human benchmark,8,all answers,Not at all important,0.018633540372670808,161
+Human benchmark,8,all answers,Slightly important,0.055900621118012424,161
+Human benchmark,8,all answers,Moderately important,0.18012422360248448,161
+Human benchmark,8,all answers,Important,0.2484472049689441,161
+Human benchmark,8,all answers,Very important,0.45962732919254656,161
+Human benchmark,8,all answers,Refusal,0.031055900621118012,161
+Human benchmark,8,all answers,Blank,0.006211180124223602,161
+Human benchmark,9,numeric only,Not at all important,0.0,150
+Human benchmark,9,numeric only,Slightly important,0.05333333333333334,150
+Human benchmark,9,numeric only,Moderately important,0.20666666666666667,150
+Human benchmark,9,numeric only,Important,0.32,150
+Human benchmark,9,numeric only,Very important,0.42,150
+Human benchmark,9,all answers,Not at all important,0.0,161
+Human benchmark,9,all answers,Slightly important,0.049689440993788817,161
+Human benchmark,9,all answers,Moderately important,0.19254658385093168,161
+Human benchmark,9,all answers,Important,0.2981366459627329,161
+Human benchmark,9,all answers,Very important,0.391304347826087,161
+Human benchmark,9,all answers,Refusal,0.062111801242236024,161
+Human benchmark,9,all answers,Blank,0.006211180124223602,161
+Human benchmark,10,numeric only,Not at all important,0.02,150
+Human benchmark,10,numeric only,Slightly important,0.09333333333333334,150
+Human benchmark,10,numeric only,Moderately important,0.15333333333333332,150
+Human benchmark,10,numeric only,Important,0.32666666666666666,150
+Human benchmark,10,numeric only,Very important,0.4066666666666667,150
+Human benchmark,10,all answers,Not at all important,0.018633540372670808,161
+Human benchmark,10,all answers,Slightly important,0.08695652173913043,161
+Human benchmark,10,all answers,Moderately important,0.14285714285714285,161
+Human benchmark,10,all answers,Important,0.30434782608695654,161
+Human benchmark,10,all answers,Very important,0.37888198757763975,161
+Human benchmark,10,all answers,Refusal,0.062111801242236024,161
+Human benchmark,10,all answers,Blank,0.006211180124223602,161
+Human benchmark,11,numeric only,Not at all important,0.031446540880503145,159
+Human benchmark,11,numeric only,Slightly important,0.07547169811320754,159
+Human benchmark,11,numeric only,Moderately important,0.11949685534591195,159
+Human benchmark,11,numeric only,Important,0.27672955974842767,159
+Human benchmark,11,numeric only,Very important,0.4968553459119497,159
+Human benchmark,11,all answers,Not at all important,0.031055900621118012,161
+Human benchmark,11,all answers,Slightly important,0.07453416149068323,161
+Human benchmark,11,all answers,Moderately important,0.11801242236024845,161
+Human benchmark,11,all answers,Important,0.2732919254658385,161
+Human benchmark,11,all answers,Very important,0.4906832298136646,161
+Human benchmark,11,all answers,Refusal,0.006211180124223602,161
+Human benchmark,11,all answers,Blank,0.006211180124223602,161
+Human benchmark,12,numeric only,Not at all important,0.025477707006369428,157
+Human benchmark,12,numeric only,Slightly important,0.09554140127388536,157
+Human benchmark,12,numeric only,Moderately important,0.10828025477707007,157
+Human benchmark,12,numeric only,Important,0.3184713375796178,157
+Human benchmark,12,numeric only,Very important,0.45222929936305734,157
+Human benchmark,12,all answers,Not at all important,0.024844720496894408,161
+Human benchmark,12,all answers,Slightly important,0.09316770186335403,161
+Human benchmark,12,all answers,Moderately important,0.10559006211180125,161
+Human benchmark,12,all answers,Important,0.3105590062111801,161
+Human benchmark,12,all answers,Very important,0.4409937888198758,161
+Human benchmark,12,all answers,Refusal,0.018633540372670808,161
+Human benchmark,12,all answers,Blank,0.006211180124223602,161
+Human benchmark,13,numeric only,Not at all important,0.058823529411764705,153
+Human benchmark,13,numeric only,Slightly important,0.0784313725490196,153
+Human benchmark,13,numeric only,Moderately important,0.10457516339869281,153
+Human benchmark,13,numeric only,Important,0.24836601307189543,153
+Human benchmark,13,numeric only,Very important,0.5098039215686274,153
+Human benchmark,13,all answers,Not at all important,0.055900621118012424,161
+Human benchmark,13,all answers,Slightly important,0.07453416149068323,161
+Human benchmark,13,all answers,Moderately important,0.09937888198757763,161
+Human benchmark,13,all answers,Important,0.2360248447204969,161
+Human benchmark,13,all answers,Very important,0.484472049689441,161
+Human benchmark,13,all answers,Refusal,0.043478260869565216,161
+Human benchmark,13,all answers,Blank,0.006211180124223602,161
+Human benchmark,14,numeric only,Not at all important,0.04827586206896552,145
+Human benchmark,14,numeric only,Slightly important,0.10344827586206896,145
+Human benchmark,14,numeric only,Moderately important,0.15862068965517243,145
+Human benchmark,14,numeric only,Important,0.2896551724137931,145
+Human benchmark,14,numeric only,Very important,0.4,145
+Human benchmark,14,all answers,Not at all important,0.043478260869565216,161
+Human benchmark,14,all answers,Slightly important,0.09316770186335403,161
+Human benchmark,14,all answers,Moderately important,0.14285714285714285,161
+Human benchmark,14,all answers,Important,0.2608695652173913,161
+Human benchmark,14,all answers,Very important,0.36024844720496896,161
+Human benchmark,14,all answers,Refusal,0.09316770186335403,161
+Human benchmark,14,all answers,Blank,0.006211180124223602,161
+Human benchmark,15,numeric only,Not at all important,0.033112582781456956,151
+Human benchmark,15,numeric only,Slightly important,0.10596026490066225,151
+Human benchmark,15,numeric only,Moderately important,0.17218543046357615,151
+Human benchmark,15,numeric only,Important,0.3708609271523179,151
+Human benchmark,15,numeric only,Very important,0.31788079470198677,151
+Human benchmark,15,all answers,Not at all important,0.031055900621118012,161
+Human benchmark,15,all answers,Slightly important,0.09937888198757763,161
+Human benchmark,15,all answers,Moderately important,0.16149068322981366,161
+Human benchmark,15,all answers,Important,0.34782608695652173,161
+Human benchmark,15,all answers,Very important,0.2981366459627329,161
+Human benchmark,15,all answers,Refusal,0.055900621118012424,161
+Human benchmark,15,all answers,Blank,0.006211180124223602,161
+1 GPT demographic,1,numeric only,Not at all important,0.060041407867494824,161
+1 GPT demographic,1,numeric only,Slightly important,0.060041407867494824,161
+1 GPT demographic,1,numeric only,Moderately important,0.20496894409937888,161
+1 GPT demographic,1,numeric only,Important,0.5196687370600414,161
+1 GPT demographic,1,numeric only,Very important,0.15527950310559005,161
+1 GPT demographic,1,all answers,Not at all important,0.060041407867494824,161
+1 GPT demographic,1,all answers,Slightly important,0.060041407867494824,161
+1 GPT demographic,1,all answers,Moderately important,0.20496894409937888,161
+1 GPT demographic,1,all answers,Important,0.5196687370600414,161
+1 GPT demographic,1,all answers,Very important,0.15527950310559005,161
+1 GPT demographic,1,all answers,Refusal,0.0,161
+1 GPT demographic,1,all answers,Blank,0.0,161
+1 GPT demographic,2,numeric only,Not at all important,0.057971014492753624,161
+1 GPT demographic,2,numeric only,Slightly important,0.16977225672877846,161
+1 GPT demographic,2,numeric only,Moderately important,0.42650103519668736,161
+1 GPT demographic,2,numeric only,Important,0.2525879917184265,161
+1 GPT demographic,2,numeric only,Very important,0.09316770186335403,161
+1 GPT demographic,2,all answers,Not at all important,0.057971014492753624,161
+1 GPT demographic,2,all answers,Slightly important,0.16977225672877846,161
+1 GPT demographic,2,all answers,Moderately important,0.42650103519668736,161
+1 GPT demographic,2,all answers,Important,0.2525879917184265,161
+1 GPT demographic,2,all answers,Very important,0.09316770186335403,161
+1 GPT demographic,2,all answers,Refusal,0.0,161
+1 GPT demographic,2,all answers,Blank,0.0,161
+1 GPT demographic,3,numeric only,Not at all important,0.053830227743271224,161
+1 GPT demographic,3,numeric only,Slightly important,0.15734989648033126,161
+1 GPT demographic,3,numeric only,Moderately important,0.5300207039337475,161
+1 GPT demographic,3,numeric only,Important,0.16563146997929606,161
+1 GPT demographic,3,numeric only,Very important,0.09316770186335403,161
+1 GPT demographic,3,all answers,Not at all important,0.053830227743271224,161
+1 GPT demographic,3,all answers,Slightly important,0.15734989648033126,161
+1 GPT demographic,3,all answers,Moderately important,0.5300207039337475,161
+1 GPT demographic,3,all answers,Important,0.16563146997929606,161
+1 GPT demographic,3,all answers,Very important,0.09316770186335403,161
+1 GPT demographic,3,all answers,Refusal,0.0,161
+1 GPT demographic,3,all answers,Blank,0.0,161
+1 GPT demographic,4,numeric only,Not at all important,0.047619047619047616,161
+1 GPT demographic,4,numeric only,Slightly important,0.14078674948240166,161
+1 GPT demographic,4,numeric only,Moderately important,0.4782608695652174,161
+1 GPT demographic,4,numeric only,Important,0.3146997929606625,161
+1 GPT demographic,4,numeric only,Very important,0.018633540372670808,161
+1 GPT demographic,4,all answers,Not at all important,0.047619047619047616,161
+1 GPT demographic,4,all answers,Slightly important,0.14078674948240166,161
+1 GPT demographic,4,all answers,Moderately important,0.4782608695652174,161
+1 GPT demographic,4,all answers,Important,0.3146997929606625,161
+1 GPT demographic,4,all answers,Very important,0.018633540372670808,161
+1 GPT demographic,4,all answers,Refusal,0.0,161
+1 GPT demographic,4,all answers,Blank,0.0,161
+1 GPT demographic,5,numeric only,Not at all important,0.016563146997929608,161
+1 GPT demographic,5,numeric only,Slightly important,0.0,161
+1 GPT demographic,5,numeric only,Moderately important,0.0,161
+1 GPT demographic,5,numeric only,Important,0.4699792960662526,161
+1 GPT demographic,5,numeric only,Very important,0.5134575569358178,161
+1 GPT demographic,5,all answers,Not at all important,0.016563146997929608,161
+1 GPT demographic,5,all answers,Slightly important,0.0,161
+1 GPT demographic,5,all answers,Moderately important,0.0,161
+1 GPT demographic,5,all answers,Important,0.4699792960662526,161
+1 GPT demographic,5,all answers,Very important,0.5134575569358178,161
+1 GPT demographic,5,all answers,Refusal,0.0,161
+1 GPT demographic,5,all answers,Blank,0.0,161
+1 GPT demographic,6,numeric only,Not at all important,0.012422360248447204,161
+1 GPT demographic,6,numeric only,Slightly important,0.0,161
+1 GPT demographic,6,numeric only,Moderately important,0.0,161
+1 GPT demographic,6,numeric only,Important,0.48447204968944096,161
+1 GPT demographic,6,numeric only,Very important,0.5031055900621118,161
+1 GPT demographic,6,all answers,Not at all important,0.012422360248447204,161
+1 GPT demographic,6,all answers,Slightly important,0.0,161
+1 GPT demographic,6,all answers,Moderately important,0.0,161
+1 GPT demographic,6,all answers,Important,0.48447204968944096,161
+1 GPT demographic,6,all answers,Very important,0.5031055900621118,161
+1 GPT demographic,6,all answers,Refusal,0.0,161
+1 GPT demographic,6,all answers,Blank,0.0,161
+1 GPT demographic,7,numeric only,Not at all important,0.028985507246376812,161
+1 GPT demographic,7,numeric only,Slightly important,0.0,161
+1 GPT demographic,7,numeric only,Moderately important,0.022774327122153208,161
+1 GPT demographic,7,numeric only,Important,0.8467908902691511,161
+1 GPT demographic,7,numeric only,Very important,0.10144927536231883,161
+1 GPT demographic,7,all answers,Not at all important,0.028985507246376812,161
+1 GPT demographic,7,all answers,Slightly important,0.0,161
+1 GPT demographic,7,all answers,Moderately important,0.022774327122153208,161
+1 GPT demographic,7,all answers,Important,0.8467908902691511,161
+1 GPT demographic,7,all answers,Very important,0.10144927536231883,161
+1 GPT demographic,7,all answers,Refusal,0.0,161
+1 GPT demographic,7,all answers,Blank,0.0,161
+1 GPT demographic,8,numeric only,Not at all important,0.008281573498964802,161
+1 GPT demographic,8,numeric only,Slightly important,0.0,161
+1 GPT demographic,8,numeric only,Moderately important,0.0,161
+1 GPT demographic,8,numeric only,Important,0.8923395445134575,161
+1 GPT demographic,8,numeric only,Very important,0.09937888198757763,161
+1 GPT demographic,8,all answers,Not at all important,0.008281573498964802,161
+1 GPT demographic,8,all answers,Slightly important,0.0,161
+1 GPT demographic,8,all answers,Moderately important,0.0,161
+1 GPT demographic,8,all answers,Important,0.8923395445134575,161
+1 GPT demographic,8,all answers,Very important,0.09937888198757763,161
+1 GPT demographic,8,all answers,Refusal,0.0,161
+1 GPT demographic,8,all answers,Blank,0.0,161
+1 GPT demographic,9,numeric only,Not at all important,0.08281573498964803,161
+1 GPT demographic,9,numeric only,Slightly important,0.049689440993788817,161
+1 GPT demographic,9,numeric only,Moderately important,0.2546583850931677,161
+1 GPT demographic,9,numeric only,Important,0.41821946169772256,161
+1 GPT demographic,9,numeric only,Very important,0.19461697722567287,161
+1 GPT demographic,9,all answers,Not at all important,0.08281573498964803,161
+1 GPT demographic,9,all answers,Slightly important,0.049689440993788817,161
+1 GPT demographic,9,all answers,Moderately important,0.2546583850931677,161
+1 GPT demographic,9,all answers,Important,0.41821946169772256,161
+1 GPT demographic,9,all answers,Very important,0.19461697722567287,161
+1 GPT demographic,9,all answers,Refusal,0.0,161
+1 GPT demographic,9,all answers,Blank,0.0,161
+1 GPT demographic,10,numeric only,Not at all important,0.07453416149068323,161
+1 GPT demographic,10,numeric only,Slightly important,0.02691511387163561,161
+1 GPT demographic,10,numeric only,Moderately important,0.2567287784679089,161
+1 GPT demographic,10,numeric only,Important,0.4989648033126294,161
+1 GPT demographic,10,numeric only,Very important,0.14285714285714285,161
+1 GPT demographic,10,all answers,Not at all important,0.07453416149068323,161
+1 GPT demographic,10,all answers,Slightly important,0.02691511387163561,161
+1 GPT demographic,10,all answers,Moderately important,0.2567287784679089,161
+1 GPT demographic,10,all answers,Important,0.4989648033126294,161
+1 GPT demographic,10,all answers,Very important,0.14285714285714285,161
+1 GPT demographic,10,all answers,Refusal,0.0,161
+1 GPT demographic,10,all answers,Blank,0.0,161
+1 GPT demographic,11,numeric only,Not at all important,0.049689440993788817,161
+1 GPT demographic,11,numeric only,Slightly important,0.0,161
+1 GPT demographic,11,numeric only,Moderately important,0.0,161
+1 GPT demographic,11,numeric only,Important,0.2236024844720497,161
+1 GPT demographic,11,numeric only,Very important,0.7267080745341615,161
+1 GPT demographic,11,all answers,Not at all important,0.049689440993788817,161
+1 GPT demographic,11,all answers,Slightly important,0.0,161
+1 GPT demographic,11,all answers,Moderately important,0.0,161
+1 GPT demographic,11,all answers,Important,0.2236024844720497,161
+1 GPT demographic,11,all answers,Very important,0.7267080745341615,161
+1 GPT demographic,11,all answers,Refusal,0.0,161
+1 GPT demographic,11,all answers,Blank,0.0,161
+1 GPT demographic,12,numeric only,Not at all important,0.049689440993788817,161
+1 GPT demographic,12,numeric only,Slightly important,0.0,161
+1 GPT demographic,12,numeric only,Moderately important,0.0,161
+1 GPT demographic,12,numeric only,Important,0.2194616977225673,161
+1 GPT demographic,12,numeric only,Very important,0.7308488612836439,161
+1 GPT demographic,12,all answers,Not at all important,0.049689440993788817,161
+1 GPT demographic,12,all answers,Slightly important,0.0,161
+1 GPT demographic,12,all answers,Moderately important,0.0,161
+1 GPT demographic,12,all answers,Important,0.2194616977225673,161
+1 GPT demographic,12,all answers,Very important,0.7308488612836439,161
+1 GPT demographic,12,all answers,Refusal,0.0,161
+1 GPT demographic,12,all answers,Blank,0.0,161
+1 GPT demographic,13,numeric only,Not at all important,0.06625258799171843,161
+1 GPT demographic,13,numeric only,Slightly important,0.018633540372670808,161
+1 GPT demographic,13,numeric only,Moderately important,0.039337474120082816,161
+1 GPT demographic,13,numeric only,Important,0.17598343685300208,161
+1 GPT demographic,13,numeric only,Very important,0.6997929606625258,161
+1 GPT demographic,13,all answers,Not at all important,0.06625258799171843,161
+1 GPT demographic,13,all answers,Slightly important,0.018633540372670808,161
+1 GPT demographic,13,all answers,Moderately important,0.039337474120082816,161
+1 GPT demographic,13,all answers,Important,0.17598343685300208,161
+1 GPT demographic,13,all answers,Very important,0.6997929606625258,161
+1 GPT demographic,13,all answers,Refusal,0.0,161
+1 GPT demographic,13,all answers,Blank,0.0,161
+1 GPT demographic,14,numeric only,Not at all important,0.14492753623188406,161
+1 GPT demographic,14,numeric only,Slightly important,0.049689440993788817,161
+1 GPT demographic,14,numeric only,Moderately important,0.09316770186335403,161
+1 GPT demographic,14,numeric only,Important,0.2650103519668737,161
+1 GPT demographic,14,numeric only,Very important,0.4472049689440994,161
+1 GPT demographic,14,all answers,Not at all important,0.14492753623188406,161
+1 GPT demographic,14,all answers,Slightly important,0.049689440993788817,161
+1 GPT demographic,14,all answers,Moderately important,0.09316770186335403,161
+1 GPT demographic,14,all answers,Important,0.2650103519668737,161
+1 GPT demographic,14,all answers,Very important,0.4472049689440994,161
+1 GPT demographic,14,all answers,Refusal,0.0,161
+1 GPT demographic,14,all answers,Blank,0.0,161
+1 GPT demographic,15,numeric only,Not at all important,0.13043478260869565,161
+1 GPT demographic,15,numeric only,Slightly important,0.045548654244306416,161
+1 GPT demographic,15,numeric only,Moderately important,0.08695652173913043,161
+1 GPT demographic,15,numeric only,Important,0.3002070393374741,161
+1 GPT demographic,15,numeric only,Very important,0.43685300207039335,161
+1 GPT demographic,15,all answers,Not at all important,0.13043478260869565,161
+1 GPT demographic,15,all answers,Slightly important,0.045548654244306416,161
+1 GPT demographic,15,all answers,Moderately important,0.08695652173913043,161
+1 GPT demographic,15,all answers,Important,0.3002070393374741,161
+1 GPT demographic,15,all answers,Very important,0.43685300207039335,161
+1 GPT demographic,15,all answers,Refusal,0.0,161
+1 GPT demographic,15,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,1,numeric only,Not at all important,0.06625258799171843,161
+2 GPT demographic and reported attitudes,1,numeric only,Slightly important,0.07246376811594203,161
+2 GPT demographic and reported attitudes,1,numeric only,Moderately important,0.2443064182194617,161
+2 GPT demographic and reported attitudes,1,numeric only,Important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,1,numeric only,Very important,0.045548654244306416,161
+2 GPT demographic and reported attitudes,1,all answers,Not at all important,0.06625258799171843,161
+2 GPT demographic and reported attitudes,1,all answers,Slightly important,0.07246376811594203,161
+2 GPT demographic and reported attitudes,1,all answers,Moderately important,0.2443064182194617,161
+2 GPT demographic and reported attitudes,1,all answers,Important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,1,all answers,Very important,0.045548654244306416,161
+2 GPT demographic and reported attitudes,1,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,1,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,2,numeric only,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,2,numeric only,Slightly important,0.08281573498964803,161
+2 GPT demographic and reported attitudes,2,numeric only,Moderately important,0.7246376811594203,161
+2 GPT demographic and reported attitudes,2,numeric only,Important,0.13250517598343683,161
+2 GPT demographic and reported attitudes,2,numeric only,Very important,0.0,161
+2 GPT demographic and reported attitudes,2,all answers,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,2,all answers,Slightly important,0.08281573498964803,161
+2 GPT demographic and reported attitudes,2,all answers,Moderately important,0.7246376811594203,161
+2 GPT demographic and reported attitudes,2,all answers,Important,0.13250517598343683,161
+2 GPT demographic and reported attitudes,2,all answers,Very important,0.0,161
+2 GPT demographic and reported attitudes,2,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,2,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,3,numeric only,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,3,numeric only,Slightly important,0.10559006211180123,161
+2 GPT demographic and reported attitudes,3,numeric only,Moderately important,0.6770186335403726,161
+2 GPT demographic and reported attitudes,3,numeric only,Important,0.14699792960662525,161
+2 GPT demographic and reported attitudes,3,numeric only,Very important,0.010351966873706004,161
+2 GPT demographic and reported attitudes,3,all answers,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,3,all answers,Slightly important,0.10559006211180123,161
+2 GPT demographic and reported attitudes,3,all answers,Moderately important,0.6770186335403726,161
+2 GPT demographic and reported attitudes,3,all answers,Important,0.14699792960662525,161
+2 GPT demographic and reported attitudes,3,all answers,Very important,0.010351966873706004,161
+2 GPT demographic and reported attitudes,3,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,3,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,4,numeric only,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,4,numeric only,Slightly important,0.08488612836438923,161
+2 GPT demographic and reported attitudes,4,numeric only,Moderately important,0.7556935817805382,161
+2 GPT demographic and reported attitudes,4,numeric only,Important,0.10973084886128363,161
+2 GPT demographic and reported attitudes,4,numeric only,Very important,0.0,161
+2 GPT demographic and reported attitudes,4,all answers,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,4,all answers,Slightly important,0.08488612836438923,161
+2 GPT demographic and reported attitudes,4,all answers,Moderately important,0.7556935817805382,161
+2 GPT demographic and reported attitudes,4,all answers,Important,0.10973084886128363,161
+2 GPT demographic and reported attitudes,4,all answers,Very important,0.0,161
+2 GPT demographic and reported attitudes,4,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,4,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,5,numeric only,Not at all important,0.055900621118012424,161
+2 GPT demographic and reported attitudes,5,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,5,numeric only,Moderately important,0.041407867494824016,161
+2 GPT demographic and reported attitudes,5,numeric only,Important,0.2567287784679089,161
+2 GPT demographic and reported attitudes,5,numeric only,Very important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,5,all answers,Not at all important,0.055900621118012424,161
+2 GPT demographic and reported attitudes,5,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,5,all answers,Moderately important,0.041407867494824016,161
+2 GPT demographic and reported attitudes,5,all answers,Important,0.2567287784679089,161
+2 GPT demographic and reported attitudes,5,all answers,Very important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,5,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,5,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,6,numeric only,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,6,numeric only,Slightly important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,6,numeric only,Moderately important,0.05175983436853002,161
+2 GPT demographic and reported attitudes,6,numeric only,Important,0.2732919254658385,161
+2 GPT demographic and reported attitudes,6,numeric only,Very important,0.546583850931677,161
+2 GPT demographic and reported attitudes,6,all answers,Not at all important,0.060041407867494824,161
+2 GPT demographic and reported attitudes,6,all answers,Slightly important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,6,all answers,Moderately important,0.05175983436853002,161
+2 GPT demographic and reported attitudes,6,all answers,Important,0.2732919254658385,161
+2 GPT demographic and reported attitudes,6,all answers,Very important,0.546583850931677,161
+2 GPT demographic and reported attitudes,6,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,6,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,7,numeric only,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,7,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,7,numeric only,Moderately important,0.13664596273291926,161
+2 GPT demographic and reported attitudes,7,numeric only,Important,0.6708074534161491,161
+2 GPT demographic and reported attitudes,7,numeric only,Very important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,7,all answers,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,7,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,7,all answers,Moderately important,0.13664596273291926,161
+2 GPT demographic and reported attitudes,7,all answers,Important,0.6708074534161491,161
+2 GPT demographic and reported attitudes,7,all answers,Very important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,7,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,7,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,8,numeric only,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,8,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,8,numeric only,Moderately important,0.09523809523809523,161
+2 GPT demographic and reported attitudes,8,numeric only,Important,0.6770186335403726,161
+2 GPT demographic and reported attitudes,8,numeric only,Very important,0.10351966873706003,161
+2 GPT demographic and reported attitudes,8,all answers,Not at all important,0.049689440993788817,161
+2 GPT demographic and reported attitudes,8,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,8,all answers,Moderately important,0.09523809523809523,161
+2 GPT demographic and reported attitudes,8,all answers,Important,0.6770186335403726,161
+2 GPT demographic and reported attitudes,8,all answers,Very important,0.10351966873706003,161
+2 GPT demographic and reported attitudes,8,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,8,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,9,numeric only,Not at all important,0.10351966873706005,161
+2 GPT demographic and reported attitudes,9,numeric only,Slightly important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,9,numeric only,Moderately important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,9,numeric only,Important,0.2546583850931677,161
+2 GPT demographic and reported attitudes,9,numeric only,Very important,0.0020703933747412005,161
+2 GPT demographic and reported attitudes,9,all answers,Not at all important,0.10351966873706005,161
+2 GPT demographic and reported attitudes,9,all answers,Slightly important,0.06832298136645963,161
+2 GPT demographic and reported attitudes,9,all answers,Moderately important,0.5714285714285714,161
+2 GPT demographic and reported attitudes,9,all answers,Important,0.2546583850931677,161
+2 GPT demographic and reported attitudes,9,all answers,Very important,0.0020703933747412005,161
+2 GPT demographic and reported attitudes,9,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,9,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,10,numeric only,Not at all important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,10,numeric only,Slightly important,0.07039337474120083,161
+2 GPT demographic and reported attitudes,10,numeric only,Moderately important,0.4161490683229814,161
+2 GPT demographic and reported attitudes,10,numeric only,Important,0.39751552795031053,161
+2 GPT demographic and reported attitudes,10,numeric only,Very important,0.041407867494824016,161
+2 GPT demographic and reported attitudes,10,all answers,Not at all important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,10,all answers,Slightly important,0.07039337474120083,161
+2 GPT demographic and reported attitudes,10,all answers,Moderately important,0.4161490683229814,161
+2 GPT demographic and reported attitudes,10,all answers,Important,0.39751552795031053,161
+2 GPT demographic and reported attitudes,10,all answers,Very important,0.041407867494824016,161
+2 GPT demographic and reported attitudes,10,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,10,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,11,numeric only,Not at all important,0.057971014492753624,161
+2 GPT demographic and reported attitudes,11,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,11,numeric only,Moderately important,0.033126293995859216,161
+2 GPT demographic and reported attitudes,11,numeric only,Important,0.17184265010351968,161
+2 GPT demographic and reported attitudes,11,numeric only,Very important,0.6625258799171843,161
+2 GPT demographic and reported attitudes,11,all answers,Not at all important,0.057971014492753624,161
+2 GPT demographic and reported attitudes,11,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,11,all answers,Moderately important,0.033126293995859216,161
+2 GPT demographic and reported attitudes,11,all answers,Important,0.17184265010351968,161
+2 GPT demographic and reported attitudes,11,all answers,Very important,0.6625258799171843,161
+2 GPT demographic and reported attitudes,11,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,11,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,12,numeric only,Not at all important,0.053830227743271224,161
+2 GPT demographic and reported attitudes,12,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,12,numeric only,Moderately important,0.037267080745341616,161
+2 GPT demographic and reported attitudes,12,numeric only,Important,0.14285714285714285,161
+2 GPT demographic and reported attitudes,12,numeric only,Very important,0.6915113871635611,161
+2 GPT demographic and reported attitudes,12,all answers,Not at all important,0.053830227743271224,161
+2 GPT demographic and reported attitudes,12,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,12,all answers,Moderately important,0.037267080745341616,161
+2 GPT demographic and reported attitudes,12,all answers,Important,0.14285714285714285,161
+2 GPT demographic and reported attitudes,12,all answers,Very important,0.6915113871635611,161
+2 GPT demographic and reported attitudes,12,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,12,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,13,numeric only,Not at all important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,13,numeric only,Slightly important,0.055900621118012424,161
+2 GPT demographic and reported attitudes,13,numeric only,Moderately important,0.051759834368530024,161
+2 GPT demographic and reported attitudes,13,numeric only,Important,0.18012422360248448,161
+2 GPT demographic and reported attitudes,13,numeric only,Very important,0.6376811594202898,161
+2 GPT demographic and reported attitudes,13,all answers,Not at all important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,13,all answers,Slightly important,0.055900621118012424,161
+2 GPT demographic and reported attitudes,13,all answers,Moderately important,0.051759834368530024,161
+2 GPT demographic and reported attitudes,13,all answers,Important,0.18012422360248448,161
+2 GPT demographic and reported attitudes,13,all answers,Very important,0.6376811594202898,161
+2 GPT demographic and reported attitudes,13,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,13,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,14,numeric only,Not at all important,0.11594202898550725,161
+2 GPT demographic and reported attitudes,14,numeric only,Slightly important,0.06418219461697723,161
+2 GPT demographic and reported attitudes,14,numeric only,Moderately important,0.20289855072463767,161
+2 GPT demographic and reported attitudes,14,numeric only,Important,0.40165631469979296,161
+2 GPT demographic and reported attitudes,14,numeric only,Very important,0.2153209109730849,161
+2 GPT demographic and reported attitudes,14,all answers,Not at all important,0.11594202898550725,161
+2 GPT demographic and reported attitudes,14,all answers,Slightly important,0.06418219461697723,161
+2 GPT demographic and reported attitudes,14,all answers,Moderately important,0.20289855072463767,161
+2 GPT demographic and reported attitudes,14,all answers,Important,0.40165631469979296,161
+2 GPT demographic and reported attitudes,14,all answers,Very important,0.2153209109730849,161
+2 GPT demographic and reported attitudes,14,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,14,all answers,Blank,0.0,161
+2 GPT demographic and reported attitudes,15,numeric only,Not at all important,0.08902691511387163,161
+2 GPT demographic and reported attitudes,15,numeric only,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,15,numeric only,Moderately important,0.14906832298136646,161
+2 GPT demographic and reported attitudes,15,numeric only,Important,0.4306418219461698,161
+2 GPT demographic and reported attitudes,15,numeric only,Very important,0.2567287784679089,161
+2 GPT demographic and reported attitudes,15,all answers,Not at all important,0.08902691511387163,161
+2 GPT demographic and reported attitudes,15,all answers,Slightly important,0.07453416149068323,161
+2 GPT demographic and reported attitudes,15,all answers,Moderately important,0.14906832298136646,161
+2 GPT demographic and reported attitudes,15,all answers,Important,0.4306418219461698,161
+2 GPT demographic and reported attitudes,15,all answers,Very important,0.2567287784679089,161
+2 GPT demographic and reported attitudes,15,all answers,Refusal,0.0,161
+2 GPT demographic and reported attitudes,15,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,1,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,1,numeric only,Slightly important,0.0020833333333333333,160
+3 GPT demographic and generated attitudes,1,numeric only,Moderately important,0.175,160
+3 GPT demographic and generated attitudes,1,numeric only,Important,0.6916666666666667,160
+3 GPT demographic and generated attitudes,1,numeric only,Very important,0.08125,160
+3 GPT demographic and generated attitudes,1,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,1,all answers,Slightly important,0.0020703933747412005,161
+3 GPT demographic and generated attitudes,1,all answers,Moderately important,0.17391304347826086,161
+3 GPT demographic and generated attitudes,1,all answers,Important,0.6873706004140787,161
+3 GPT demographic and generated attitudes,1,all answers,Very important,0.08074534161490683,161
+3 GPT demographic and generated attitudes,1,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,1,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,2,numeric only,Not at all important,0.05625,160
+3 GPT demographic and generated attitudes,2,numeric only,Slightly important,0.012499999999999999,160
+3 GPT demographic and generated attitudes,2,numeric only,Moderately important,0.7125,160
+3 GPT demographic and generated attitudes,2,numeric only,Important,0.20625,160
+3 GPT demographic and generated attitudes,2,numeric only,Very important,0.012499999999999999,160
+3 GPT demographic and generated attitudes,2,all answers,Not at all important,0.055900621118012424,161
+3 GPT demographic and generated attitudes,2,all answers,Slightly important,0.012422360248447204,161
+3 GPT demographic and generated attitudes,2,all answers,Moderately important,0.7080745341614907,161
+3 GPT demographic and generated attitudes,2,all answers,Important,0.20496894409937888,161
+3 GPT demographic and generated attitudes,2,all answers,Very important,0.012422360248447204,161
+3 GPT demographic and generated attitudes,2,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,2,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,3,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,3,numeric only,Slightly important,0.014583333333333332,160
+3 GPT demographic and generated attitudes,3,numeric only,Moderately important,0.7375,160
+3 GPT demographic and generated attitudes,3,numeric only,Important,0.18541666666666667,160
+3 GPT demographic and generated attitudes,3,numeric only,Very important,0.012499999999999999,160
+3 GPT demographic and generated attitudes,3,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,3,all answers,Slightly important,0.014492753623188404,161
+3 GPT demographic and generated attitudes,3,all answers,Moderately important,0.732919254658385,161
+3 GPT demographic and generated attitudes,3,all answers,Important,0.18426501035196688,161
+3 GPT demographic and generated attitudes,3,all answers,Very important,0.012422360248447204,161
+3 GPT demographic and generated attitudes,3,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,3,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,4,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,4,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,4,numeric only,Moderately important,0.7916666666666666,160
+3 GPT demographic and generated attitudes,4,numeric only,Important,0.15833333333333333,160
+3 GPT demographic and generated attitudes,4,numeric only,Very important,0.0,160
+3 GPT demographic and generated attitudes,4,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,4,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,4,all answers,Moderately important,0.7867494824016563,161
+3 GPT demographic and generated attitudes,4,all answers,Important,0.15734989648033126,161
+3 GPT demographic and generated attitudes,4,all answers,Very important,0.0,161
+3 GPT demographic and generated attitudes,4,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,4,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,5,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,5,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,5,numeric only,Moderately important,0.05625,160
+3 GPT demographic and generated attitudes,5,numeric only,Important,0.26458333333333334,160
+3 GPT demographic and generated attitudes,5,numeric only,Very important,0.6291666666666667,160
+3 GPT demographic and generated attitudes,5,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,5,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,5,all answers,Moderately important,0.055900621118012424,161
+3 GPT demographic and generated attitudes,5,all answers,Important,0.2629399585921325,161
+3 GPT demographic and generated attitudes,5,all answers,Very important,0.6252587991718427,161
+3 GPT demographic and generated attitudes,5,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,5,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,6,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,6,numeric only,Slightly important,0.0020833333333333333,160
+3 GPT demographic and generated attitudes,6,numeric only,Moderately important,0.0625,160
+3 GPT demographic and generated attitudes,6,numeric only,Important,0.28125,160
+3 GPT demographic and generated attitudes,6,numeric only,Very important,0.6041666666666666,160
+3 GPT demographic and generated attitudes,6,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,6,all answers,Slightly important,0.0020703933747412005,161
+3 GPT demographic and generated attitudes,6,all answers,Moderately important,0.062111801242236024,161
+3 GPT demographic and generated attitudes,6,all answers,Important,0.2795031055900621,161
+3 GPT demographic and generated attitudes,6,all answers,Very important,0.6004140786749482,161
+3 GPT demographic and generated attitudes,6,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,6,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,7,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,7,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,7,numeric only,Moderately important,0.06041666666666667,160
+3 GPT demographic and generated attitudes,7,numeric only,Important,0.7666666666666666,160
+3 GPT demographic and generated attitudes,7,numeric only,Very important,0.12291666666666666,160
+3 GPT demographic and generated attitudes,7,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,7,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,7,all answers,Moderately important,0.060041407867494824,161
+3 GPT demographic and generated attitudes,7,all answers,Important,0.7619047619047619,161
+3 GPT demographic and generated attitudes,7,all answers,Very important,0.12215320910973085,161
+3 GPT demographic and generated attitudes,7,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,7,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,8,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,8,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,8,numeric only,Moderately important,0.041666666666666664,160
+3 GPT demographic and generated attitudes,8,numeric only,Important,0.7541666666666667,160
+3 GPT demographic and generated attitudes,8,numeric only,Very important,0.15416666666666667,160
+3 GPT demographic and generated attitudes,8,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,8,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,8,all answers,Moderately important,0.041407867494824016,161
+3 GPT demographic and generated attitudes,8,all answers,Important,0.7494824016563147,161
+3 GPT demographic and generated attitudes,8,all answers,Very important,0.15320910973084886,161
+3 GPT demographic and generated attitudes,8,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,8,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,9,numeric only,Not at all important,0.05625,160
+3 GPT demographic and generated attitudes,9,numeric only,Slightly important,0.010416666666666666,160
+3 GPT demographic and generated attitudes,9,numeric only,Moderately important,0.5979166666666667,160
+3 GPT demographic and generated attitudes,9,numeric only,Important,0.31875,160
+3 GPT demographic and generated attitudes,9,numeric only,Very important,0.016666666666666666,160
+3 GPT demographic and generated attitudes,9,all answers,Not at all important,0.055900621118012424,161
+3 GPT demographic and generated attitudes,9,all answers,Slightly important,0.010351966873706004,161
+3 GPT demographic and generated attitudes,9,all answers,Moderately important,0.5942028985507246,161
+3 GPT demographic and generated attitudes,9,all answers,Important,0.3167701863354037,161
+3 GPT demographic and generated attitudes,9,all answers,Very important,0.016563146997929604,161
+3 GPT demographic and generated attitudes,9,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,9,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,10,numeric only,Not at all important,0.05416666666666667,160
+3 GPT demographic and generated attitudes,10,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,10,numeric only,Moderately important,0.425,160
+3 GPT demographic and generated attitudes,10,numeric only,Important,0.43124999999999997,160
+3 GPT demographic and generated attitudes,10,numeric only,Very important,0.08958333333333333,160
+3 GPT demographic and generated attitudes,10,all answers,Not at all important,0.053830227743271224,161
+3 GPT demographic and generated attitudes,10,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,10,all answers,Moderately important,0.42236024844720493,161
+3 GPT demographic and generated attitudes,10,all answers,Important,0.42857142857142855,161
+3 GPT demographic and generated attitudes,10,all answers,Very important,0.08902691511387163,161
+3 GPT demographic and generated attitudes,10,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,10,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,11,numeric only,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,11,numeric only,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,11,numeric only,Moderately important,0.057971014492753624,161
+3 GPT demographic and generated attitudes,11,numeric only,Important,0.12836438923395443,161
+3 GPT demographic and generated attitudes,11,numeric only,Very important,0.7639751552795031,161
+3 GPT demographic and generated attitudes,11,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,11,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,11,all answers,Moderately important,0.057971014492753624,161
+3 GPT demographic and generated attitudes,11,all answers,Important,0.12629399585921325,161
+3 GPT demographic and generated attitudes,11,all answers,Very important,0.7639751552795031,161
+3 GPT demographic and generated attitudes,11,all answers,Refusal,0.0020703933747412005,161
+3 GPT demographic and generated attitudes,11,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,12,numeric only,Not at all important,0.05,160
+3 GPT demographic and generated attitudes,12,numeric only,Slightly important,0.0,160
+3 GPT demographic and generated attitudes,12,numeric only,Moderately important,0.058333333333333334,160
+3 GPT demographic and generated attitudes,12,numeric only,Important,0.08333333333333333,160
+3 GPT demographic and generated attitudes,12,numeric only,Very important,0.8083333333333333,160
+3 GPT demographic and generated attitudes,12,all answers,Not at all important,0.049689440993788817,161
+3 GPT demographic and generated attitudes,12,all answers,Slightly important,0.0,161
+3 GPT demographic and generated attitudes,12,all answers,Moderately important,0.057971014492753624,161
+3 GPT demographic and generated attitudes,12,all answers,Important,0.08281573498964803,161
+3 GPT demographic and generated attitudes,12,all answers,Very important,0.8033126293995859,161
+3 GPT demographic and generated attitudes,12,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,12,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,13,numeric only,Not at all important,0.06041666666666667,160
+3 GPT demographic and generated attitudes,13,numeric only,Slightly important,0.008333333333333333,160
+3 GPT demographic and generated attitudes,13,numeric only,Moderately important,0.06874999999999999,160
+3 GPT demographic and generated attitudes,13,numeric only,Important,0.0625,160
+3 GPT demographic and generated attitudes,13,numeric only,Very important,0.8,160
+3 GPT demographic and generated attitudes,13,all answers,Not at all important,0.060041407867494824,161
+3 GPT demographic and generated attitudes,13,all answers,Slightly important,0.008281573498964802,161
+3 GPT demographic and generated attitudes,13,all answers,Moderately important,0.06832298136645963,161
+3 GPT demographic and generated attitudes,13,all answers,Important,0.062111801242236024,161
+3 GPT demographic and generated attitudes,13,all answers,Very important,0.7950310559006211,161
+3 GPT demographic and generated attitudes,13,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,13,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,14,numeric only,Not at all important,0.07708333333333334,160
+3 GPT demographic and generated attitudes,14,numeric only,Slightly important,0.035416666666666666,160
+3 GPT demographic and generated attitudes,14,numeric only,Moderately important,0.1625,160
+3 GPT demographic and generated attitudes,14,numeric only,Important,0.43124999999999997,160
+3 GPT demographic and generated attitudes,14,numeric only,Very important,0.29375,160
+3 GPT demographic and generated attitudes,14,all answers,Not at all important,0.07660455486542443,161
+3 GPT demographic and generated attitudes,14,all answers,Slightly important,0.035196687370600416,161
+3 GPT demographic and generated attitudes,14,all answers,Moderately important,0.16149068322981366,161
+3 GPT demographic and generated attitudes,14,all answers,Important,0.42857142857142855,161
+3 GPT demographic and generated attitudes,14,all answers,Very important,0.2919254658385093,161
+3 GPT demographic and generated attitudes,14,all answers,Refusal,0.006211180124223602,161
+3 GPT demographic and generated attitudes,14,all answers,Blank,0.0,161
+3 GPT demographic and generated attitudes,15,numeric only,Not at all important,0.055900621118012424,161
+3 GPT demographic and generated attitudes,15,numeric only,Slightly important,0.008281573498964802,161
+3 GPT demographic and generated attitudes,15,numeric only,Moderately important,0.13664596273291926,161
+3 GPT demographic and generated attitudes,15,numeric only,Important,0.4492753623188406,161
+3 GPT demographic and generated attitudes,15,numeric only,Very important,0.3498964803312629,161
+3 GPT demographic and generated attitudes,15,all answers,Not at all important,0.055900621118012424,161
+3 GPT demographic and generated attitudes,15,all answers,Slightly important,0.008281573498964802,161
+3 GPT demographic and generated attitudes,15,all answers,Moderately important,0.13664596273291926,161
+3 GPT demographic and generated attitudes,15,all answers,Important,0.44513457556935815,161
+3 GPT demographic and generated attitudes,15,all answers,Very important,0.3498964803312629,161
+3 GPT demographic and generated attitudes,15,all answers,Refusal,0.004140786749482401,161
+3 GPT demographic and generated attitudes,15,all answers,Blank,0.0,161
+4 NPORS demographic,1,numeric only,Not at all important,0.0202630643441166,5626
+4 NPORS demographic,1,numeric only,Slightly important,0.1254888019907572,5626
+4 NPORS demographic,1,numeric only,Moderately important,0.28012797724848915,5626
+4 NPORS demographic,1,numeric only,Important,0.573053679345894,5626
+4 NPORS demographic,1,numeric only,Very important,0.001066477070742979,5626
+4 NPORS demographic,1,all answers,Not at all important,0.0202630643441166,5626
+4 NPORS demographic,1,all answers,Slightly important,0.1254888019907572,5626
+4 NPORS demographic,1,all answers,Moderately important,0.28012797724848915,5626
+4 NPORS demographic,1,all answers,Important,0.573053679345894,5626
+4 NPORS demographic,1,all answers,Very important,0.001066477070742979,5626
+4 NPORS demographic,1,all answers,Refusal,0.0,5626
+4 NPORS demographic,1,all answers,Blank,0.0,5626
+4 NPORS demographic,2,numeric only,Not at all important,0.05314610735869179,5626
+4 NPORS demographic,2,numeric only,Slightly important,0.3402061855670103,5626
+4 NPORS demographic,2,numeric only,Moderately important,0.466228226093139,5626
+4 NPORS demographic,2,numeric only,Important,0.14041948098115892,5626
+4 NPORS demographic,2,numeric only,Very important,0.0,5626
+4 NPORS demographic,2,all answers,Not at all important,0.05314610735869179,5626
+4 NPORS demographic,2,all answers,Slightly important,0.3402061855670103,5626
+4 NPORS demographic,2,all answers,Moderately important,0.466228226093139,5626
+4 NPORS demographic,2,all answers,Important,0.14041948098115892,5626
+4 NPORS demographic,2,all answers,Very important,0.0,5626
+4 NPORS demographic,2,all answers,Refusal,0.0,5626
+4 NPORS demographic,2,all answers,Blank,0.0,5626
+4 NPORS demographic,3,numeric only,Not at all important,0.03750444365446143,5626
+4 NPORS demographic,3,numeric only,Slightly important,0.33665126199786705,5626
+4 NPORS demographic,3,numeric only,Moderately important,0.5808745111980093,5626
+4 NPORS demographic,3,numeric only,Important,0.04496978314966228,5626
+4 NPORS demographic,3,numeric only,Very important,0.0,5626
+4 NPORS demographic,3,all answers,Not at all important,0.03750444365446143,5626
+4 NPORS demographic,3,all answers,Slightly important,0.33665126199786705,5626
+4 NPORS demographic,3,all answers,Moderately important,0.5808745111980093,5626
+4 NPORS demographic,3,all answers,Important,0.04496978314966228,5626
+4 NPORS demographic,3,all answers,Very important,0.0,5626
+4 NPORS demographic,3,all answers,Refusal,0.0,5626
+4 NPORS demographic,3,all answers,Blank,0.0,5626
+4 NPORS demographic,4,numeric only,Not at all important,0.0037326697476004265,5626
+4 NPORS demographic,4,numeric only,Slightly important,0.169925346605048,5626
+4 NPORS demographic,4,numeric only,Moderately important,0.6548169214361891,5626
+4 NPORS demographic,4,numeric only,Important,0.17152506221116245,5626
+4 NPORS demographic,4,numeric only,Very important,0.0,5626
+4 NPORS demographic,4,all answers,Not at all important,0.0037326697476004265,5626
+4 NPORS demographic,4,all answers,Slightly important,0.169925346605048,5626
+4 NPORS demographic,4,all answers,Moderately important,0.6548169214361891,5626
+4 NPORS demographic,4,all answers,Important,0.17152506221116245,5626
+4 NPORS demographic,4,all answers,Very important,0.0,5626
+4 NPORS demographic,4,all answers,Refusal,0.0,5626
+4 NPORS demographic,4,all answers,Blank,0.0,5626
+4 NPORS demographic,5,numeric only,Not at all important,0.0,5626
+4 NPORS demographic,5,numeric only,Slightly important,0.0,5626
+4 NPORS demographic,5,numeric only,Moderately important,0.0,5626
+4 NPORS demographic,5,numeric only,Important,0.5135087095627444,5626
+4 NPORS demographic,5,numeric only,Very important,0.4864912904372556,5626
+4 NPORS demographic,5,all answers,Not at all important,0.0,5626
+4 NPORS demographic,5,all answers,Slightly important,0.0,5626
+4 NPORS demographic,5,all answers,Moderately important,0.0,5626
+4 NPORS demographic,5,all answers,Important,0.5135087095627444,5626
+4 NPORS demographic,5,all answers,Very important,0.4864912904372556,5626
+4 NPORS demographic,5,all answers,Refusal,0.0,5626
+4 NPORS demographic,5,all answers,Blank,0.0,5626
+4 NPORS demographic,6,numeric only,Not at all important,0.0,5626
+4 NPORS demographic,6,numeric only,Slightly important,0.0,5626
+4 NPORS demographic,6,numeric only,Moderately important,0.0,5626
+4 NPORS demographic,6,numeric only,Important,0.533771773906861,5626
+4 NPORS demographic,6,numeric only,Very important,0.466228226093139,5626
+4 NPORS demographic,6,all answers,Not at all important,0.0,5626
+4 NPORS demographic,6,all answers,Slightly important,0.0,5626
+4 NPORS demographic,6,all answers,Moderately important,0.0,5626
+4 NPORS demographic,6,all answers,Important,0.533771773906861,5626
+4 NPORS demographic,6,all answers,Very important,0.466228226093139,5626
+4 NPORS demographic,6,all answers,Refusal,0.0,5626
+4 NPORS demographic,6,all answers,Blank,0.0,5626
+4 NPORS demographic,7,numeric only,Not at all important,0.0,5626
+4 NPORS demographic,7,numeric only,Slightly important,0.0,5626
+4 NPORS demographic,7,numeric only,Moderately important,0.009242801279772485,5626
+4 NPORS demographic,7,numeric only,Important,0.9896907216494846,5626
+4 NPORS demographic,7,numeric only,Very important,0.001066477070742979,5626
+4 NPORS demographic,7,all answers,Not at all important,0.0,5626
+4 NPORS demographic,7,all answers,Slightly important,0.0,5626
+4 NPORS demographic,7,all answers,Moderately important,0.009242801279772485,5626
+4 NPORS demographic,7,all answers,Important,0.9896907216494846,5626
+4 NPORS demographic,7,all answers,Very important,0.001066477070742979,5626
+4 NPORS demographic,7,all answers,Refusal,0.0,5626
+4 NPORS demographic,7,all answers,Blank,0.0,5626
+4 NPORS demographic,8,numeric only,Not at all important,0.0,5626
+4 NPORS demographic,8,numeric only,Slightly important,0.0,5626
+4 NPORS demographic,8,numeric only,Moderately important,0.0,5626
+4 NPORS demographic,8,numeric only,Important,0.9975115535015997,5626
+4 NPORS demographic,8,numeric only,Very important,0.002488446498400284,5626
+4 NPORS demographic,8,all answers,Not at all important,0.0,5626
+4 NPORS demographic,8,all answers,Slightly important,0.0,5626
+4 NPORS demographic,8,all answers,Moderately important,0.0,5626
+4 NPORS demographic,8,all answers,Important,0.9975115535015997,5626
+4 NPORS demographic,8,all answers,Very important,0.002488446498400284,5626
+4 NPORS demographic,8,all answers,Refusal,0.0,5626
+4 NPORS demographic,8,all answers,Blank,0.0,5626
+4 NPORS demographic,9,numeric only,Not at all important,0.10494485948061189,5622
+4 NPORS demographic,9,numeric only,Slightly important,0.13963002490217005,5622
+4 NPORS demographic,9,numeric only,Moderately important,0.25951618641053004,5622
+4 NPORS demographic,9,numeric only,Important,0.4895055140519388,5622
+4 NPORS demographic,9,numeric only,Very important,0.0064034151547491995,5622
+4 NPORS demographic,9,all answers,Not at all important,0.10487024528972627,5626
+4 NPORS demographic,9,all answers,Slightly important,0.13953075008887308,5626
+4 NPORS demographic,9,all answers,Moderately important,0.25933167436900106,5626
+4 NPORS demographic,9,all answers,Important,0.48915748311411306,5626
+4 NPORS demographic,9,all answers,Very important,0.006398862424457874,5626
+4 NPORS demographic,9,all answers,Refusal,0.0007109847138286527,5626
+4 NPORS demographic,9,all answers,Blank,0.0,5626
+4 NPORS demographic,10,numeric only,Not at all important,0.07059032716927453,5624
+4 NPORS demographic,10,numeric only,Slightly important,0.07876955903271693,5624
+4 NPORS demographic,10,numeric only,Moderately important,0.32876955903271693,5624
+4 NPORS demographic,10,numeric only,Important,0.5206258890469416,5624
+4 NPORS demographic,10,numeric only,Very important,0.0012446657183499289,5624
+4 NPORS demographic,10,all answers,Not at all important,0.07056523284749378,5626
+4 NPORS demographic,10,all answers,Slightly important,0.07874155705652329,5626
+4 NPORS demographic,10,all answers,Moderately important,0.3286526839672947,5626
+4 NPORS demographic,10,all answers,Important,0.5204408105225737,5626
+4 NPORS demographic,10,all answers,Very important,0.001244223249200142,5626
+4 NPORS demographic,10,all answers,Refusal,0.00035549235691432633,5626
+4 NPORS demographic,10,all answers,Blank,0.0,5626
+4 NPORS demographic,11,numeric only,Not at all important,0.00017774617845716317,5626
+4 NPORS demographic,11,numeric only,Slightly important,0.0,5626
+4 NPORS demographic,11,numeric only,Moderately important,0.007465339495200853,5626
+4 NPORS demographic,11,numeric only,Important,0.4097049413437611,5626
+4 NPORS demographic,11,numeric only,Very important,0.5826519729825809,5626
+4 NPORS demographic,11,all answers,Not at all important,0.00017774617845716317,5626
+4 NPORS demographic,11,all answers,Slightly important,0.0,5626
+4 NPORS demographic,11,all answers,Moderately important,0.007465339495200853,5626
+4 NPORS demographic,11,all answers,Important,0.4097049413437611,5626
+4 NPORS demographic,11,all answers,Very important,0.5826519729825809,5626
+4 NPORS demographic,11,all answers,Refusal,0.0,5626
+4 NPORS demographic,11,all answers,Blank,0.0,5626
+4 NPORS demographic,12,numeric only,Not at all important,0.05457777777777778,5625
+4 NPORS demographic,12,numeric only,Slightly important,0.025244444444444444,5625
+4 NPORS demographic,12,numeric only,Moderately important,0.0864,5625
+4 NPORS demographic,12,numeric only,Important,0.3832888888888889,5625
+4 NPORS demographic,12,numeric only,Very important,0.4504888888888889,5625
+4 NPORS demographic,12,all answers,Not at all important,0.05456807678634909,5626
+4 NPORS demographic,12,all answers,Slightly important,0.02523995734091717,5626
+4 NPORS demographic,12,all answers,Moderately important,0.0863846427301813,5626
+4 NPORS demographic,12,all answers,Important,0.3832207607536438,5626
+4 NPORS demographic,12,all answers,Very important,0.4504088162104515,5626
+4 NPORS demographic,12,all answers,Refusal,0.00017774617845716317,5626
+4 NPORS demographic,12,all answers,Blank,0.0,5626
+4 NPORS demographic,13,numeric only,Not at all important,0.02577319587628866,5626
+4 NPORS demographic,13,numeric only,Slightly important,0.04674724493423391,5626
+4 NPORS demographic,13,numeric only,Moderately important,0.1336651261997867,5626
+4 NPORS demographic,13,numeric only,Important,0.2929257020974049,5626
+4 NPORS demographic,13,numeric only,Very important,0.5008887308922858,5626
+4 NPORS demographic,13,all answers,Not at all important,0.02577319587628866,5626
+4 NPORS demographic,13,all answers,Slightly important,0.04674724493423391,5626
+4 NPORS demographic,13,all answers,Moderately important,0.1336651261997867,5626
+4 NPORS demographic,13,all answers,Important,0.2929257020974049,5626
+4 NPORS demographic,13,all answers,Very important,0.5008887308922858,5626
+4 NPORS demographic,13,all answers,Refusal,0.0,5626
+4 NPORS demographic,13,all answers,Blank,0.0,5626
+4 NPORS demographic,14,numeric only,Not at all important,0.41405680990531685,5492
+4 NPORS demographic,14,numeric only,Slightly important,0.029679533867443555,5492
+4 NPORS demographic,14,numeric only,Moderately important,0.04989075018208303,5492
+4 NPORS demographic,14,numeric only,Important,0.29005826656955574,5492
+4 NPORS demographic,14,numeric only,Very important,0.21631463947560087,5492
+4 NPORS demographic,14,all answers,Not at all important,0.40419480981158906,5626
+4 NPORS demographic,14,all answers,Slightly important,0.028972627088517597,5626
+4 NPORS demographic,14,all answers,Moderately important,0.04870245289726271,5626
+4 NPORS demographic,14,all answers,Important,0.2831496622822609,5626
+4 NPORS demographic,14,all answers,Very important,0.21116246000710984,5626
+4 NPORS demographic,14,all answers,Refusal,0.023817987913259866,5626
+4 NPORS demographic,14,all answers,Blank,0.0,5626
+4 NPORS demographic,15,numeric only,Not at all important,0.39387902933719665,5522
+4 NPORS demographic,15,numeric only,Slightly important,0.032053603766751176,5522
+4 NPORS demographic,15,numeric only,Moderately important,0.053422672944585296,5522
+4 NPORS demographic,15,numeric only,Important,0.2971749366171677,5522
+4 NPORS demographic,15,numeric only,Very important,0.22346975733429916,5522
+4 NPORS demographic,15,all answers,Not at all important,0.3865979381443299,5626
+4 NPORS demographic,15,all answers,Slightly important,0.03146107358691788,5626
+4 NPORS demographic,15,all answers,Moderately important,0.052435122644863136,5626
+4 NPORS demographic,15,all answers,Important,0.2916814788482048,5626
+4 NPORS demographic,15,all answers,Very important,0.21933878421613937,5626
+4 NPORS demographic,15,all answers,Refusal,0.01848560255954497,5626
+4 NPORS demographic,15,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,1,numeric only,Not at all important,0.0016042780748663102,5610
+5 NPORS demographic and generated attitudes,1,numeric only,Slightly important,0.00142602495543672,5610
+5 NPORS demographic and generated attitudes,1,numeric only,Moderately important,0.34581105169340465,5610
+5 NPORS demographic and generated attitudes,1,numeric only,Important,0.6490196078431373,5610
+5 NPORS demographic and generated attitudes,1,numeric only,Very important,0.0021390374331550803,5610
+5 NPORS demographic and generated attitudes,1,all answers,Not at all important,0.0015997156061144685,5626
+5 NPORS demographic and generated attitudes,1,all answers,Slightly important,0.0014219694276573053,5626
+5 NPORS demographic and generated attitudes,1,all answers,Moderately important,0.3448275862068966,5626
+5 NPORS demographic and generated attitudes,1,all answers,Important,0.6471738357625311,5626
+5 NPORS demographic and generated attitudes,1,all answers,Very important,0.002132954141485958,5626
+5 NPORS demographic and generated attitudes,1,all answers,Refusal,0.0028439388553146107,5626
+5 NPORS demographic and generated attitudes,1,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,2,numeric only,Not at all important,0.0016048502139800285,5608
+5 NPORS demographic and generated attitudes,2,numeric only,Slightly important,0.016405135520684736,5608
+5 NPORS demographic and generated attitudes,2,numeric only,Moderately important,0.8293509272467903,5608
+5 NPORS demographic and generated attitudes,2,numeric only,Important,0.15263908701854492,5608
+5 NPORS demographic and generated attitudes,2,numeric only,Very important,0.0,5608
+5 NPORS demographic and generated attitudes,2,all answers,Not at all important,0.0015997156061144685,5626
+5 NPORS demographic and generated attitudes,2,all answers,Slightly important,0.016352648418059012,5626
+5 NPORS demographic and generated attitudes,2,all answers,Moderately important,0.8266974760042659,5626
+5 NPORS demographic and generated attitudes,2,all answers,Important,0.15215072875933167,5626
+5 NPORS demographic and generated attitudes,2,all answers,Very important,0.0,5626
+5 NPORS demographic and generated attitudes,2,all answers,Refusal,0.003199431212228937,5626
+5 NPORS demographic and generated attitudes,2,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,3,numeric only,Not at all important,0.0016048502139800285,5608
+5 NPORS demographic and generated attitudes,3,numeric only,Slightly important,0.034236804564907276,5608
+5 NPORS demographic and generated attitudes,3,numeric only,Moderately important,0.8527104136947218,5608
+5 NPORS demographic and generated attitudes,3,numeric only,Important,0.11126961483594865,5608
+5 NPORS demographic and generated attitudes,3,numeric only,Very important,0.0001783166904422254,5608
+5 NPORS demographic and generated attitudes,3,all answers,Not at all important,0.0015997156061144685,5626
+5 NPORS demographic and generated attitudes,3,all answers,Slightly important,0.03412726626377533,5626
+5 NPORS demographic and generated attitudes,3,all answers,Moderately important,0.8499822253821543,5626
+5 NPORS demographic and generated attitudes,3,all answers,Important,0.11091361535726982,5626
+5 NPORS demographic and generated attitudes,3,all answers,Very important,0.00017774617845716317,5626
+5 NPORS demographic and generated attitudes,3,all answers,Refusal,0.003199431212228937,5626
+5 NPORS demographic and generated attitudes,3,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,4,numeric only,Not at all important,0.0014262791941522554,5609
+5 NPORS demographic and generated attitudes,4,numeric only,Slightly important,0.0057051167766090215,5609
+5 NPORS demographic and generated attitudes,4,numeric only,Moderately important,0.8839365305758602,5609
+5 NPORS demographic and generated attitudes,4,numeric only,Important,0.1089320734533785,5609
+5 NPORS demographic and generated attitudes,4,numeric only,Very important,0.0,5609
+5 NPORS demographic and generated attitudes,4,all answers,Not at all important,0.0014219694276573053,5626
+5 NPORS demographic and generated attitudes,4,all answers,Slightly important,0.005687877710629221,5626
+5 NPORS demographic and generated attitudes,4,all answers,Moderately important,0.881265552790615,5626
+5 NPORS demographic and generated attitudes,4,all answers,Important,0.10860291503732669,5626
+5 NPORS demographic and generated attitudes,4,all answers,Very important,0.0,5626
+5 NPORS demographic and generated attitudes,4,all answers,Refusal,0.003021685033771774,5626
+5 NPORS demographic and generated attitudes,4,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,5,numeric only,Not at all important,0.0010697093956141914,5609
+5 NPORS demographic and generated attitudes,5,numeric only,Slightly important,0.0014262791941522554,5609
+5 NPORS demographic and generated attitudes,5,numeric only,Moderately important,0.139775361026921,5609
+5 NPORS demographic and generated attitudes,5,numeric only,Important,0.29310037439828845,5609
+5 NPORS demographic and generated attitudes,5,numeric only,Very important,0.5646282759850241,5609
+5 NPORS demographic and generated attitudes,5,all answers,Not at all important,0.001066477070742979,5626
+5 NPORS demographic and generated attitudes,5,all answers,Slightly important,0.0014219694276573053,5626
+5 NPORS demographic and generated attitudes,5,all answers,Moderately important,0.1393530039104159,5626
+5 NPORS demographic and generated attitudes,5,all answers,Important,0.29221471738357624,5626
+5 NPORS demographic and generated attitudes,5,all answers,Very important,0.5629221471738357,5626
+5 NPORS demographic and generated attitudes,5,all answers,Refusal,0.003021685033771774,5626
+5 NPORS demographic and generated attitudes,5,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,6,numeric only,Not at all important,0.0010693281055070398,5611
+5 NPORS demographic and generated attitudes,6,numeric only,Slightly important,0.0017822135091783995,5611
+5 NPORS demographic and generated attitudes,6,numeric only,Moderately important,0.14614150775262877,5611
+5 NPORS demographic and generated attitudes,6,numeric only,Important,0.30208518980573873,5611
+5 NPORS demographic and generated attitudes,6,numeric only,Very important,0.5489217608269471,5611
+5 NPORS demographic and generated attitudes,6,all answers,Not at all important,0.001066477070742979,5626
+5 NPORS demographic and generated attitudes,6,all answers,Slightly important,0.0017774617845716318,5626
+5 NPORS demographic and generated attitudes,6,all answers,Moderately important,0.1457518663348738,5626
+5 NPORS demographic and generated attitudes,6,all answers,Important,0.3012797724848916,5626
+5 NPORS demographic and generated attitudes,6,all answers,Very important,0.5474582296480626,5626
+5 NPORS demographic and generated attitudes,6,all answers,Refusal,0.0026661926768574476,5626
+5 NPORS demographic and generated attitudes,6,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,7,numeric only,Not at all important,0.001070090957731407,5607
+5 NPORS demographic and generated attitudes,7,numeric only,Slightly important,0.0016051364365971107,5607
+5 NPORS demographic and generated attitudes,7,numeric only,Moderately important,0.19618334225075798,5607
+5 NPORS demographic and generated attitudes,7,numeric only,Important,0.7783128232566435,5607
+5 NPORS demographic and generated attitudes,7,numeric only,Very important,0.02282860709827002,5607
+5 NPORS demographic and generated attitudes,7,all answers,Not at all important,0.001066477070742979,5626
+5 NPORS demographic and generated attitudes,7,all answers,Slightly important,0.0015997156061144685,5626
+5 NPORS demographic and generated attitudes,7,all answers,Moderately important,0.1955207963028795,5626
+5 NPORS demographic and generated attitudes,7,all answers,Important,0.7756843227870601,5626
+5 NPORS demographic and generated attitudes,7,all answers,Very important,0.022751510842516885,5626
+5 NPORS demographic and generated attitudes,7,all answers,Refusal,0.0033771773906861,5626
+5 NPORS demographic and generated attitudes,7,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,8,numeric only,Not at all important,0.0010706638115631692,5604
+5 NPORS demographic and generated attitudes,8,numeric only,Slightly important,0.0014275517487508922,5604
+5 NPORS demographic and generated attitudes,8,numeric only,Moderately important,0.1711277658815132,5604
+5 NPORS demographic and generated attitudes,8,numeric only,Important,0.8069236259814418,5604
+5 NPORS demographic and generated attitudes,8,numeric only,Very important,0.019450392576730906,5604
+5 NPORS demographic and generated attitudes,8,all answers,Not at all important,0.001066477070742979,5626
+5 NPORS demographic and generated attitudes,8,all answers,Slightly important,0.0014219694276573053,5626
+5 NPORS demographic and generated attitudes,8,all answers,Moderately important,0.17045858514041948,5626
+5 NPORS demographic and generated attitudes,8,all answers,Important,0.8037682189832919,5626
+5 NPORS demographic and generated attitudes,8,all answers,Very important,0.019374333451830785,5626
+5 NPORS demographic and generated attitudes,8,all answers,Refusal,0.0039104159260575895,5626
+5 NPORS demographic and generated attitudes,8,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,9,numeric only,Not at all important,0.01378692927484333,5585
+5 NPORS demographic and generated attitudes,9,numeric only,Slightly important,0.034556848701880034,5585
+5 NPORS demographic and generated attitudes,9,numeric only,Moderately important,0.7323187108325873,5585
+5 NPORS demographic and generated attitudes,9,numeric only,Important,0.21933751119068934,5585
+5 NPORS demographic and generated attitudes,9,numeric only,Very important,0.0,5585
+5 NPORS demographic and generated attitudes,9,all answers,Not at all important,0.013686455741201564,5626
+5 NPORS demographic and generated attitudes,9,all answers,Slightly important,0.03430501244223249,5626
+5 NPORS demographic and generated attitudes,9,all answers,Moderately important,0.7269818698897974,5626
+5 NPORS demographic and generated attitudes,9,all answers,Important,0.21773906861002487,5626
+5 NPORS demographic and generated attitudes,9,all answers,Very important,0.0,5626
+5 NPORS demographic and generated attitudes,9,all answers,Refusal,0.00728759331674369,5626
+5 NPORS demographic and generated attitudes,9,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,10,numeric only,Not at all important,0.0024982155603140615,5604
+5 NPORS demographic and generated attitudes,10,numeric only,Slightly important,0.0019628836545324767,5604
+5 NPORS demographic and generated attitudes,10,numeric only,Moderately important,0.471627408993576,5604
+5 NPORS demographic and generated attitudes,10,numeric only,Important,0.5215917201998572,5604
+5 NPORS demographic and generated attitudes,10,numeric only,Very important,0.0023197715917201997,5604
+5 NPORS demographic and generated attitudes,10,all answers,Not at all important,0.002488446498400284,5626
+5 NPORS demographic and generated attitudes,10,all answers,Slightly important,0.0019552079630287948,5626
+5 NPORS demographic and generated attitudes,10,all answers,Moderately important,0.46978314966228224,5626
+5 NPORS demographic and generated attitudes,10,all answers,Important,0.5195520796302879,5626
+5 NPORS demographic and generated attitudes,10,all answers,Very important,0.002310700319943121,5626
+5 NPORS demographic and generated attitudes,10,all answers,Refusal,0.0039104159260575895,5626
+5 NPORS demographic and generated attitudes,10,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,11,numeric only,Not at all important,0.0012477718360071302,5610
+5 NPORS demographic and generated attitudes,11,numeric only,Slightly important,0.0017825311942959,5610
+5 NPORS demographic and generated attitudes,11,numeric only,Moderately important,0.15401069518716579,5610
+5 NPORS demographic and generated attitudes,11,numeric only,Important,0.23368983957219253,5610
+5 NPORS demographic and generated attitudes,11,numeric only,Very important,0.6092691622103387,5610
+5 NPORS demographic and generated attitudes,11,all answers,Not at all important,0.001244223249200142,5626
+5 NPORS demographic and generated attitudes,11,all answers,Slightly important,0.0017774617845716318,5626
+5 NPORS demographic and generated attitudes,11,all answers,Moderately important,0.153572698186989,5626
+5 NPORS demographic and generated attitudes,11,all answers,Important,0.23302523995734092,5626
+5 NPORS demographic and generated attitudes,11,all answers,Very important,0.6075364379665837,5626
+5 NPORS demographic and generated attitudes,11,all answers,Refusal,0.0028439388553146107,5626
+5 NPORS demographic and generated attitudes,11,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,12,numeric only,Not at all important,0.0012482168330955777,5608
+5 NPORS demographic and generated attitudes,12,numeric only,Slightly important,0.0016048502139800285,5608
+5 NPORS demographic and generated attitudes,12,numeric only,Moderately important,0.15477888730385164,5608
+5 NPORS demographic and generated attitudes,12,numeric only,Important,0.22057774607703282,5608
+5 NPORS demographic and generated attitudes,12,numeric only,Very important,0.6217902995720399,5608
+5 NPORS demographic and generated attitudes,12,all answers,Not at all important,0.001244223249200142,5626
+5 NPORS demographic and generated attitudes,12,all answers,Slightly important,0.0015997156061144685,5626
+5 NPORS demographic and generated attitudes,12,all answers,Moderately important,0.15428368290081762,5626
+5 NPORS demographic and generated attitudes,12,all answers,Important,0.21987202275151085,5626
+5 NPORS demographic and generated attitudes,12,all answers,Very important,0.619800924280128,5626
+5 NPORS demographic and generated attitudes,12,all answers,Refusal,0.003199431212228937,5626
+5 NPORS demographic and generated attitudes,12,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,13,numeric only,Not at all important,0.0012477718360071302,5610
+5 NPORS demographic and generated attitudes,13,numeric only,Slightly important,0.0021390374331550803,5610
+5 NPORS demographic and generated attitudes,13,numeric only,Moderately important,0.17450980392156862,5610
+5 NPORS demographic and generated attitudes,13,numeric only,Important,0.1946524064171123,5610
+5 NPORS demographic and generated attitudes,13,numeric only,Very important,0.6274509803921569,5610
+5 NPORS demographic and generated attitudes,13,all answers,Not at all important,0.001244223249200142,5626
+5 NPORS demographic and generated attitudes,13,all answers,Slightly important,0.002132954141485958,5626
+5 NPORS demographic and generated attitudes,13,all answers,Moderately important,0.17401350870956275,5626
+5 NPORS demographic and generated attitudes,13,all answers,Important,0.19409882687522217,5626
+5 NPORS demographic and generated attitudes,13,all answers,Very important,0.6256665481692144,5626
+5 NPORS demographic and generated attitudes,13,all answers,Refusal,0.0028439388553146107,5626
+5 NPORS demographic and generated attitudes,13,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,14,numeric only,Not at all important,0.012669521770164168,5604
+5 NPORS demographic and generated attitudes,14,numeric only,Slightly important,0.039436117059243395,5604
+5 NPORS demographic and generated attitudes,14,numeric only,Moderately important,0.3570663811563169,5604
+5 NPORS demographic and generated attitudes,14,numeric only,Important,0.5007137758743755,5604
+5 NPORS demographic and generated attitudes,14,numeric only,Very important,0.09011420413990007,5604
+5 NPORS demographic and generated attitudes,14,all answers,Not at all important,0.012619978670458585,5626
+5 NPORS demographic and generated attitudes,14,all answers,Slightly important,0.03928190543903306,5626
+5 NPORS demographic and generated attitudes,14,all answers,Moderately important,0.3556701030927835,5626
+5 NPORS demographic and generated attitudes,14,all answers,Important,0.49875577675079985,5626
+5 NPORS demographic and generated attitudes,14,all answers,Very important,0.0897618201208674,5626
+5 NPORS demographic and generated attitudes,14,all answers,Refusal,0.0039104159260575895,5626
+5 NPORS demographic and generated attitudes,14,all answers,Blank,0.0,5626
+5 NPORS demographic and generated attitudes,15,numeric only,Not at all important,0.0021398002853067048,5608
+5 NPORS demographic and generated attitudes,15,numeric only,Slightly important,0.011055634807417974,5608
+5 NPORS demographic and generated attitudes,15,numeric only,Moderately important,0.3420114122681883,5608
+5 NPORS demographic and generated attitudes,15,numeric only,Important,0.47985021398002853,5608
+5 NPORS demographic and generated attitudes,15,numeric only,Very important,0.16494293865905849,5608
+5 NPORS demographic and generated attitudes,15,all answers,Not at all important,0.002132954141485958,5626
+5 NPORS demographic and generated attitudes,15,all answers,Slightly important,0.011020263064344117,5626
+5 NPORS demographic and generated attitudes,15,all answers,Moderately important,0.34091717028083895,5626
+5 NPORS demographic and generated attitudes,15,all answers,Important,0.4783149662282261,5626
+5 NPORS demographic and generated attitudes,15,all answers,Very important,0.16441521507287593,5626
+5 NPORS demographic and generated attitudes,15,all answers,Refusal,0.003199431212228937,5626
+5 NPORS demographic and generated attitudes,15,all answers,Blank,0.0,5626
+6 Locally deployed gpt-oss-120b,1,numeric only,Not at all important,0.05063291139240506,158
+6 Locally deployed gpt-oss-120b,1,numeric only,Slightly important,0.0759493670886076,158
+6 Locally deployed gpt-oss-120b,1,numeric only,Moderately important,0.21518987341772153,158
+6 Locally deployed gpt-oss-120b,1,numeric only,Important,0.5949367088607594,158
+6 Locally deployed gpt-oss-120b,1,numeric only,Very important,0.06329113924050633,158
+6 Locally deployed gpt-oss-120b,1,all answers,Not at all important,0.049689440993788817,161
+6 Locally deployed gpt-oss-120b,1,all answers,Slightly important,0.07453416149068323,161
+6 Locally deployed gpt-oss-120b,1,all answers,Moderately important,0.2111801242236025,161
+6 Locally deployed gpt-oss-120b,1,all answers,Important,0.5838509316770186,161
+6 Locally deployed gpt-oss-120b,1,all answers,Very important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,1,all answers,Refusal,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,1,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,2,numeric only,Not at all important,0.0949367088607595,158
+6 Locally deployed gpt-oss-120b,2,numeric only,Slightly important,0.5886075949367089,158
+6 Locally deployed gpt-oss-120b,2,numeric only,Moderately important,0.27848101265822783,158
+6 Locally deployed gpt-oss-120b,2,numeric only,Important,0.0189873417721519,158
+6 Locally deployed gpt-oss-120b,2,numeric only,Very important,0.0189873417721519,158
+6 Locally deployed gpt-oss-120b,2,all answers,Not at all important,0.09316770186335403,161
+6 Locally deployed gpt-oss-120b,2,all answers,Slightly important,0.577639751552795,161
+6 Locally deployed gpt-oss-120b,2,all answers,Moderately important,0.2732919254658385,161
+6 Locally deployed gpt-oss-120b,2,all answers,Important,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,2,all answers,Very important,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,2,all answers,Refusal,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,2,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,3,numeric only,Not at all important,0.16981132075471697,159
+6 Locally deployed gpt-oss-120b,3,numeric only,Slightly important,0.6415094339622641,159
+6 Locally deployed gpt-oss-120b,3,numeric only,Moderately important,0.16352201257861634,159
+6 Locally deployed gpt-oss-120b,3,numeric only,Important,0.018867924528301886,159
+6 Locally deployed gpt-oss-120b,3,numeric only,Very important,0.006289308176100629,159
+6 Locally deployed gpt-oss-120b,3,all answers,Not at all important,0.16770186335403728,161
+6 Locally deployed gpt-oss-120b,3,all answers,Slightly important,0.6335403726708074,161
+6 Locally deployed gpt-oss-120b,3,all answers,Moderately important,0.16149068322981366,161
+6 Locally deployed gpt-oss-120b,3,all answers,Important,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,3,all answers,Very important,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,3,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,3,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,4,numeric only,Not at all important,0.05625,160
+6 Locally deployed gpt-oss-120b,4,numeric only,Slightly important,0.4625,160
+6 Locally deployed gpt-oss-120b,4,numeric only,Moderately important,0.3875,160
+6 Locally deployed gpt-oss-120b,4,numeric only,Important,0.09375,160
+6 Locally deployed gpt-oss-120b,4,numeric only,Very important,0.0,160
+6 Locally deployed gpt-oss-120b,4,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,4,all answers,Slightly important,0.45962732919254656,161
+6 Locally deployed gpt-oss-120b,4,all answers,Moderately important,0.38509316770186336,161
+6 Locally deployed gpt-oss-120b,4,all answers,Important,0.09316770186335403,161
+6 Locally deployed gpt-oss-120b,4,all answers,Very important,0.0,161
+6 Locally deployed gpt-oss-120b,4,all answers,Refusal,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,4,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,5,numeric only,Not at all important,0.05660377358490566,159
+6 Locally deployed gpt-oss-120b,5,numeric only,Slightly important,0.06918238993710692,159
+6 Locally deployed gpt-oss-120b,5,numeric only,Moderately important,0.06918238993710692,159
+6 Locally deployed gpt-oss-120b,5,numeric only,Important,0.3018867924528302,159
+6 Locally deployed gpt-oss-120b,5,numeric only,Very important,0.5031446540880503,159
+6 Locally deployed gpt-oss-120b,5,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,5,all answers,Slightly important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,5,all answers,Moderately important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,5,all answers,Important,0.2981366459627329,161
+6 Locally deployed gpt-oss-120b,5,all answers,Very important,0.4968944099378882,161
+6 Locally deployed gpt-oss-120b,5,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,5,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,6,numeric only,Not at all important,0.06289308176100629,159
+6 Locally deployed gpt-oss-120b,6,numeric only,Slightly important,0.09433962264150944,159
+6 Locally deployed gpt-oss-120b,6,numeric only,Moderately important,0.06289308176100629,159
+6 Locally deployed gpt-oss-120b,6,numeric only,Important,0.3522012578616352,159
+6 Locally deployed gpt-oss-120b,6,numeric only,Very important,0.4276729559748428,159
+6 Locally deployed gpt-oss-120b,6,all answers,Not at all important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,6,all answers,Slightly important,0.09316770186335403,161
+6 Locally deployed gpt-oss-120b,6,all answers,Moderately important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,6,all answers,Important,0.34782608695652173,161
+6 Locally deployed gpt-oss-120b,6,all answers,Very important,0.422360248447205,161
+6 Locally deployed gpt-oss-120b,6,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,6,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,7,numeric only,Not at all important,0.05,160
+6 Locally deployed gpt-oss-120b,7,numeric only,Slightly important,0.15,160
+6 Locally deployed gpt-oss-120b,7,numeric only,Moderately important,0.24375,160
+6 Locally deployed gpt-oss-120b,7,numeric only,Important,0.4625,160
+6 Locally deployed gpt-oss-120b,7,numeric only,Very important,0.09375,160
+6 Locally deployed gpt-oss-120b,7,all answers,Not at all important,0.049689440993788817,161
+6 Locally deployed gpt-oss-120b,7,all answers,Slightly important,0.14906832298136646,161
+6 Locally deployed gpt-oss-120b,7,all answers,Moderately important,0.2422360248447205,161
+6 Locally deployed gpt-oss-120b,7,all answers,Important,0.45962732919254656,161
+6 Locally deployed gpt-oss-120b,7,all answers,Very important,0.09316770186335403,161
+6 Locally deployed gpt-oss-120b,7,all answers,Refusal,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,7,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,8,numeric only,Not at all important,0.05,160
+6 Locally deployed gpt-oss-120b,8,numeric only,Slightly important,0.04375,160
+6 Locally deployed gpt-oss-120b,8,numeric only,Moderately important,0.03125,160
+6 Locally deployed gpt-oss-120b,8,numeric only,Important,0.16875,160
+6 Locally deployed gpt-oss-120b,8,numeric only,Very important,0.70625,160
+6 Locally deployed gpt-oss-120b,8,all answers,Not at all important,0.049689440993788817,161
+6 Locally deployed gpt-oss-120b,8,all answers,Slightly important,0.043478260869565216,161
+6 Locally deployed gpt-oss-120b,8,all answers,Moderately important,0.031055900621118012,161
+6 Locally deployed gpt-oss-120b,8,all answers,Important,0.16770186335403728,161
+6 Locally deployed gpt-oss-120b,8,all answers,Very important,0.7018633540372671,161
+6 Locally deployed gpt-oss-120b,8,all answers,Refusal,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,8,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,9,numeric only,Not at all important,0.056962025316455694,158
+6 Locally deployed gpt-oss-120b,9,numeric only,Slightly important,0.06329113924050633,158
+6 Locally deployed gpt-oss-120b,9,numeric only,Moderately important,0.12025316455696203,158
+6 Locally deployed gpt-oss-120b,9,numeric only,Important,0.5,158
+6 Locally deployed gpt-oss-120b,9,numeric only,Very important,0.25949367088607594,158
+6 Locally deployed gpt-oss-120b,9,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,9,all answers,Slightly important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,9,all answers,Moderately important,0.11801242236024845,161
+6 Locally deployed gpt-oss-120b,9,all answers,Important,0.4906832298136646,161
+6 Locally deployed gpt-oss-120b,9,all answers,Very important,0.2546583850931677,161
+6 Locally deployed gpt-oss-120b,9,all answers,Refusal,0.018633540372670808,161
+6 Locally deployed gpt-oss-120b,9,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,10,numeric only,Not at all important,0.05806451612903226,155
+6 Locally deployed gpt-oss-120b,10,numeric only,Slightly important,0.07096774193548387,155
+6 Locally deployed gpt-oss-120b,10,numeric only,Moderately important,0.2645161290322581,155
+6 Locally deployed gpt-oss-120b,10,numeric only,Important,0.4,155
+6 Locally deployed gpt-oss-120b,10,numeric only,Very important,0.2064516129032258,155
+6 Locally deployed gpt-oss-120b,10,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,10,all answers,Slightly important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,10,all answers,Moderately important,0.2546583850931677,161
+6 Locally deployed gpt-oss-120b,10,all answers,Important,0.38509316770186336,161
+6 Locally deployed gpt-oss-120b,10,all answers,Very important,0.19875776397515527,161
+6 Locally deployed gpt-oss-120b,10,all answers,Refusal,0.037267080745341616,161
+6 Locally deployed gpt-oss-120b,10,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,11,numeric only,Not at all important,0.050314465408805034,159
+6 Locally deployed gpt-oss-120b,11,numeric only,Slightly important,0.06918238993710692,159
+6 Locally deployed gpt-oss-120b,11,numeric only,Moderately important,0.06918238993710692,159
+6 Locally deployed gpt-oss-120b,11,numeric only,Important,0.25157232704402516,159
+6 Locally deployed gpt-oss-120b,11,numeric only,Very important,0.559748427672956,159
+6 Locally deployed gpt-oss-120b,11,all answers,Not at all important,0.049689440993788817,161
+6 Locally deployed gpt-oss-120b,11,all answers,Slightly important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,11,all answers,Moderately important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,11,all answers,Important,0.2484472049689441,161
+6 Locally deployed gpt-oss-120b,11,all answers,Very important,0.5527950310559007,161
+6 Locally deployed gpt-oss-120b,11,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,11,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,12,numeric only,Not at all important,0.05625,160
+6 Locally deployed gpt-oss-120b,12,numeric only,Slightly important,0.06875,160
+6 Locally deployed gpt-oss-120b,12,numeric only,Moderately important,0.09375,160
+6 Locally deployed gpt-oss-120b,12,numeric only,Important,0.2125,160
+6 Locally deployed gpt-oss-120b,12,numeric only,Very important,0.56875,160
+6 Locally deployed gpt-oss-120b,12,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,12,all answers,Slightly important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,12,all answers,Moderately important,0.09316770186335403,161
+6 Locally deployed gpt-oss-120b,12,all answers,Important,0.2111801242236025,161
+6 Locally deployed gpt-oss-120b,12,all answers,Very important,0.5652173913043478,161
+6 Locally deployed gpt-oss-120b,12,all answers,Refusal,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,12,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,13,numeric only,Not at all important,0.0625,160
+6 Locally deployed gpt-oss-120b,13,numeric only,Slightly important,0.06875,160
+6 Locally deployed gpt-oss-120b,13,numeric only,Moderately important,0.0625,160
+6 Locally deployed gpt-oss-120b,13,numeric only,Important,0.20625,160
+6 Locally deployed gpt-oss-120b,13,numeric only,Very important,0.6,160
+6 Locally deployed gpt-oss-120b,13,all answers,Not at all important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,13,all answers,Slightly important,0.06832298136645963,161
+6 Locally deployed gpt-oss-120b,13,all answers,Moderately important,0.062111801242236024,161
+6 Locally deployed gpt-oss-120b,13,all answers,Important,0.20496894409937888,161
+6 Locally deployed gpt-oss-120b,13,all answers,Very important,0.5962732919254659,161
+6 Locally deployed gpt-oss-120b,13,all answers,Refusal,0.006211180124223602,161
+6 Locally deployed gpt-oss-120b,13,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,14,numeric only,Not at all important,0.050314465408805034,159
+6 Locally deployed gpt-oss-120b,14,numeric only,Slightly important,0.13836477987421383,159
+6 Locally deployed gpt-oss-120b,14,numeric only,Moderately important,0.1069182389937107,159
+6 Locally deployed gpt-oss-120b,14,numeric only,Important,0.32075471698113206,159
+6 Locally deployed gpt-oss-120b,14,numeric only,Very important,0.3836477987421384,159
+6 Locally deployed gpt-oss-120b,14,all answers,Not at all important,0.049689440993788817,161
+6 Locally deployed gpt-oss-120b,14,all answers,Slightly important,0.13664596273291926,161
+6 Locally deployed gpt-oss-120b,14,all answers,Moderately important,0.10559006211180125,161
+6 Locally deployed gpt-oss-120b,14,all answers,Important,0.3167701863354037,161
+6 Locally deployed gpt-oss-120b,14,all answers,Very important,0.37888198757763975,161
+6 Locally deployed gpt-oss-120b,14,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,14,all answers,Blank,0.0,161
+6 Locally deployed gpt-oss-120b,15,numeric only,Not at all important,0.05660377358490566,159
+6 Locally deployed gpt-oss-120b,15,numeric only,Slightly important,0.1320754716981132,159
+6 Locally deployed gpt-oss-120b,15,numeric only,Moderately important,0.1509433962264151,159
+6 Locally deployed gpt-oss-120b,15,numeric only,Important,0.2389937106918239,159
+6 Locally deployed gpt-oss-120b,15,numeric only,Very important,0.42138364779874216,159
+6 Locally deployed gpt-oss-120b,15,all answers,Not at all important,0.055900621118012424,161
+6 Locally deployed gpt-oss-120b,15,all answers,Slightly important,0.13043478260869565,161
+6 Locally deployed gpt-oss-120b,15,all answers,Moderately important,0.14906832298136646,161
+6 Locally deployed gpt-oss-120b,15,all answers,Important,0.2360248447204969,161
+6 Locally deployed gpt-oss-120b,15,all answers,Very important,0.4161490683229814,161
+6 Locally deployed gpt-oss-120b,15,all answers,Refusal,0.012422360248447204,161
+6 Locally deployed gpt-oss-120b,15,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,Not at all important,0.03125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,Slightly important,0.08125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,Moderately important,0.7,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,Important,0.1625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,Very important,0.025,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Not at all important,0.031055900621118012,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Slightly important,0.08074534161490683,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Moderately important,0.6956521739130435,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Important,0.16149068322981366,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Very important,0.024844720496894408,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,Not at all important,0.22012578616352202,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,Slightly important,0.5534591194968553,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,Moderately important,0.20754716981132076,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,Important,0.012578616352201259,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,Very important,0.006289308176100629,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Not at all important,0.21739130434782608,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Slightly important,0.546583850931677,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Moderately important,0.20496894409937888,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Important,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Very important,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Refusal,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,Not at all important,0.4779874213836478,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,Slightly important,0.4025157232704403,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,Moderately important,0.11320754716981132,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,Important,0.006289308176100629,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,Very important,0.0,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Not at all important,0.4720496894409938,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Slightly important,0.39751552795031053,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Moderately important,0.11180124223602485,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Important,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Very important,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Refusal,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,Not at all important,0.05625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,Slightly important,0.44375,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,Moderately important,0.4875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,Important,0.0125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,Very important,0.0,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Not at all important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Slightly important,0.4409937888198758,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Moderately important,0.484472049689441,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Important,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Very important,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,Not at all important,0.05625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,Slightly important,0.0625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,Moderately important,0.15,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,Important,0.31875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,Very important,0.4125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Not at all important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Slightly important,0.062111801242236024,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Moderately important,0.14906832298136646,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Important,0.3167701863354037,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Very important,0.40993788819875776,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,Not at all important,0.06289308176100629,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,Slightly important,0.05660377358490566,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,Moderately important,0.15723270440251572,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,Important,0.3333333333333333,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,Very important,0.389937106918239,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Not at all important,0.062111801242236024,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Slightly important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Moderately important,0.15527950310559005,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Important,0.32919254658385094,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Very important,0.38509316770186336,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Refusal,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,Not at all important,0.05063291139240506,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,Slightly important,0.1518987341772152,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,Moderately important,0.6329113924050633,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,Important,0.13924050632911392,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,Very important,0.02531645569620253,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Slightly important,0.14906832298136646,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Moderately important,0.6211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Important,0.13664596273291926,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Very important,0.024844720496894408,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Refusal,0.018633540372670808,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,Not at all important,0.00625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,Slightly important,0.025,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,Moderately important,0.125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,Important,0.4125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,Very important,0.43125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Not at all important,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Slightly important,0.024844720496894408,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Moderately important,0.12422360248447205,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Important,0.40993788819875776,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Very important,0.42857142857142855,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,Not at all important,0.05063291139240506,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,Slightly important,0.06329113924050633,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,Moderately important,0.22151898734177214,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,Important,0.43670886075949367,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,Very important,0.22784810126582278,158
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Slightly important,0.062111801242236024,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Moderately important,0.21739130434782608,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Important,0.42857142857142855,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Very important,0.2236024844720497,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Refusal,0.018633540372670808,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,Not at all important,0.058823529411764705,153
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,Slightly important,0.13071895424836602,153
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,Moderately important,0.477124183006536,153
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,Important,0.2679738562091503,153
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,Very important,0.06535947712418301,153
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Not at all important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Slightly important,0.12422360248447205,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Moderately important,0.453416149068323,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Important,0.2546583850931677,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Very important,0.062111801242236024,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Refusal,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,Not at all important,0.050314465408805034,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,Slightly important,0.03773584905660377,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,Moderately important,0.08176100628930817,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,Important,0.2389937106918239,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,Very important,0.5911949685534591,159
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Slightly important,0.037267080745341616,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Moderately important,0.08074534161490683,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Important,0.2360248447204969,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Very important,0.5838509316770186,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Refusal,0.012422360248447204,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,Not at all important,0.05625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,Slightly important,0.0625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,Moderately important,0.11875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,Important,0.26875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,Very important,0.49375,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Not at all important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Slightly important,0.062111801242236024,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Moderately important,0.11801242236024845,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Important,0.2670807453416149,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Very important,0.4906832298136646,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,Not at all important,0.05,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,Slightly important,0.075,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,Moderately important,0.1125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,Important,0.18125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,Very important,0.58125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Slightly important,0.07453416149068323,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Moderately important,0.11180124223602485,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Important,0.18012422360248448,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Very important,0.577639751552795,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,Not at all important,0.05,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,Slightly important,0.05625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,Moderately important,0.175,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,Important,0.3125,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,Very important,0.40625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Slightly important,0.055900621118012424,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Moderately important,0.17391304347826086,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Important,0.3105590062111801,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Very important,0.40372670807453415,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,Blank,0.0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,Not at all important,0.05,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,Slightly important,0.06875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,Moderately important,0.15625,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,Important,0.3375,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,Very important,0.3875,160
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Not at all important,0.049689440993788817,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Slightly important,0.06832298136645963,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Moderately important,0.15527950310559005,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Important,0.33540372670807456,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Very important,0.38509316770186336,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Refusal,0.006211180124223602,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,Blank,0.0,161

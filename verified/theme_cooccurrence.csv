@@ -1,0 +1,721 @@
+dataset,dictionary,theme_a,theme_b,responses_with_both,usable_responses
+Human benchmark,codebook_v1,climate,health,0,37
+Human benchmark,codebook_v1,climate,economic,1,37
+Human benchmark,codebook_v1,climate,visual_land,0,37
+Human benchmark,codebook_v1,climate,wildlife,0,37
+Human benchmark,codebook_v1,climate,reliability,1,37
+Human benchmark,codebook_v1,climate,nuclear,4,37
+Human benchmark,codebook_v1,climate,energy_independence,0,37
+Human benchmark,codebook_v1,climate,policy_process,1,37
+Human benchmark,codebook_v1,health,economic,0,37
+Human benchmark,codebook_v1,health,visual_land,0,37
+Human benchmark,codebook_v1,health,wildlife,0,37
+Human benchmark,codebook_v1,health,reliability,0,37
+Human benchmark,codebook_v1,health,nuclear,0,37
+Human benchmark,codebook_v1,health,energy_independence,0,37
+Human benchmark,codebook_v1,health,policy_process,0,37
+Human benchmark,codebook_v1,economic,visual_land,0,37
+Human benchmark,codebook_v1,economic,wildlife,1,37
+Human benchmark,codebook_v1,economic,reliability,0,37
+Human benchmark,codebook_v1,economic,nuclear,1,37
+Human benchmark,codebook_v1,economic,energy_independence,0,37
+Human benchmark,codebook_v1,economic,policy_process,1,37
+Human benchmark,codebook_v1,visual_land,wildlife,0,37
+Human benchmark,codebook_v1,visual_land,reliability,0,37
+Human benchmark,codebook_v1,visual_land,nuclear,0,37
+Human benchmark,codebook_v1,visual_land,energy_independence,0,37
+Human benchmark,codebook_v1,visual_land,policy_process,0,37
+Human benchmark,codebook_v1,wildlife,reliability,0,37
+Human benchmark,codebook_v1,wildlife,nuclear,0,37
+Human benchmark,codebook_v1,wildlife,energy_independence,0,37
+Human benchmark,codebook_v1,wildlife,policy_process,0,37
+Human benchmark,codebook_v1,reliability,nuclear,2,37
+Human benchmark,codebook_v1,reliability,energy_independence,0,37
+Human benchmark,codebook_v1,reliability,policy_process,1,37
+Human benchmark,codebook_v1,nuclear,energy_independence,0,37
+Human benchmark,codebook_v1,nuclear,policy_process,2,37
+Human benchmark,codebook_v1,energy_independence,policy_process,0,37
+Human benchmark,codebook,climate,health,0,37
+Human benchmark,codebook,climate,economic,1,37
+Human benchmark,codebook,climate,visual_land,0,37
+Human benchmark,codebook,climate,wildlife,0,37
+Human benchmark,codebook,climate,reliability,1,37
+Human benchmark,codebook,climate,nuclear,4,37
+Human benchmark,codebook,climate,energy_independence,0,37
+Human benchmark,codebook,climate,policy_process,1,37
+Human benchmark,codebook,health,economic,0,37
+Human benchmark,codebook,health,visual_land,0,37
+Human benchmark,codebook,health,wildlife,0,37
+Human benchmark,codebook,health,reliability,0,37
+Human benchmark,codebook,health,nuclear,0,37
+Human benchmark,codebook,health,energy_independence,0,37
+Human benchmark,codebook,health,policy_process,0,37
+Human benchmark,codebook,economic,visual_land,0,37
+Human benchmark,codebook,economic,wildlife,1,37
+Human benchmark,codebook,economic,reliability,0,37
+Human benchmark,codebook,economic,nuclear,1,37
+Human benchmark,codebook,economic,energy_independence,0,37
+Human benchmark,codebook,economic,policy_process,1,37
+Human benchmark,codebook,visual_land,wildlife,0,37
+Human benchmark,codebook,visual_land,reliability,0,37
+Human benchmark,codebook,visual_land,nuclear,0,37
+Human benchmark,codebook,visual_land,energy_independence,0,37
+Human benchmark,codebook,visual_land,policy_process,0,37
+Human benchmark,codebook,wildlife,reliability,0,37
+Human benchmark,codebook,wildlife,nuclear,0,37
+Human benchmark,codebook,wildlife,energy_independence,0,37
+Human benchmark,codebook,wildlife,policy_process,0,37
+Human benchmark,codebook,reliability,nuclear,2,37
+Human benchmark,codebook,reliability,energy_independence,0,37
+Human benchmark,codebook,reliability,policy_process,1,37
+Human benchmark,codebook,nuclear,energy_independence,0,37
+Human benchmark,codebook,nuclear,policy_process,2,37
+Human benchmark,codebook,energy_independence,policy_process,0,37
+1 GPT demographic,codebook_v1,climate,health,3,483
+1 GPT demographic,codebook_v1,climate,economic,3,483
+1 GPT demographic,codebook_v1,climate,visual_land,0,483
+1 GPT demographic,codebook_v1,climate,wildlife,4,483
+1 GPT demographic,codebook_v1,climate,reliability,4,483
+1 GPT demographic,codebook_v1,climate,nuclear,0,483
+1 GPT demographic,codebook_v1,climate,energy_independence,68,483
+1 GPT demographic,codebook_v1,climate,policy_process,3,483
+1 GPT demographic,codebook_v1,health,economic,1,483
+1 GPT demographic,codebook_v1,health,visual_land,0,483
+1 GPT demographic,codebook_v1,health,wildlife,5,483
+1 GPT demographic,codebook_v1,health,reliability,0,483
+1 GPT demographic,codebook_v1,health,nuclear,0,483
+1 GPT demographic,codebook_v1,health,energy_independence,7,483
+1 GPT demographic,codebook_v1,health,policy_process,0,483
+1 GPT demographic,codebook_v1,economic,visual_land,1,483
+1 GPT demographic,codebook_v1,economic,wildlife,1,483
+1 GPT demographic,codebook_v1,economic,reliability,12,483
+1 GPT demographic,codebook_v1,economic,nuclear,0,483
+1 GPT demographic,codebook_v1,economic,energy_independence,15,483
+1 GPT demographic,codebook_v1,economic,policy_process,1,483
+1 GPT demographic,codebook_v1,visual_land,wildlife,2,483
+1 GPT demographic,codebook_v1,visual_land,reliability,1,483
+1 GPT demographic,codebook_v1,visual_land,nuclear,0,483
+1 GPT demographic,codebook_v1,visual_land,energy_independence,0,483
+1 GPT demographic,codebook_v1,visual_land,policy_process,0,483
+1 GPT demographic,codebook_v1,wildlife,reliability,5,483
+1 GPT demographic,codebook_v1,wildlife,nuclear,0,483
+1 GPT demographic,codebook_v1,wildlife,energy_independence,20,483
+1 GPT demographic,codebook_v1,wildlife,policy_process,2,483
+1 GPT demographic,codebook_v1,reliability,nuclear,0,483
+1 GPT demographic,codebook_v1,reliability,energy_independence,15,483
+1 GPT demographic,codebook_v1,reliability,policy_process,2,483
+1 GPT demographic,codebook_v1,nuclear,energy_independence,0,483
+1 GPT demographic,codebook_v1,nuclear,policy_process,0,483
+1 GPT demographic,codebook_v1,energy_independence,policy_process,7,483
+1 GPT demographic,codebook,climate,health,3,483
+1 GPT demographic,codebook,climate,economic,7,483
+1 GPT demographic,codebook,climate,visual_land,0,483
+1 GPT demographic,codebook,climate,wildlife,4,483
+1 GPT demographic,codebook,climate,reliability,4,483
+1 GPT demographic,codebook,climate,nuclear,0,483
+1 GPT demographic,codebook,climate,energy_independence,68,483
+1 GPT demographic,codebook,climate,policy_process,3,483
+1 GPT demographic,codebook,health,economic,1,483
+1 GPT demographic,codebook,health,visual_land,0,483
+1 GPT demographic,codebook,health,wildlife,5,483
+1 GPT demographic,codebook,health,reliability,0,483
+1 GPT demographic,codebook,health,nuclear,0,483
+1 GPT demographic,codebook,health,energy_independence,7,483
+1 GPT demographic,codebook,health,policy_process,0,483
+1 GPT demographic,codebook,economic,visual_land,2,483
+1 GPT demographic,codebook,economic,wildlife,3,483
+1 GPT demographic,codebook,economic,reliability,15,483
+1 GPT demographic,codebook,economic,nuclear,0,483
+1 GPT demographic,codebook,economic,energy_independence,17,483
+1 GPT demographic,codebook,economic,policy_process,1,483
+1 GPT demographic,codebook,visual_land,wildlife,2,483
+1 GPT demographic,codebook,visual_land,reliability,1,483
+1 GPT demographic,codebook,visual_land,nuclear,0,483
+1 GPT demographic,codebook,visual_land,energy_independence,0,483
+1 GPT demographic,codebook,visual_land,policy_process,0,483
+1 GPT demographic,codebook,wildlife,reliability,5,483
+1 GPT demographic,codebook,wildlife,nuclear,0,483
+1 GPT demographic,codebook,wildlife,energy_independence,20,483
+1 GPT demographic,codebook,wildlife,policy_process,2,483
+1 GPT demographic,codebook,reliability,nuclear,0,483
+1 GPT demographic,codebook,reliability,energy_independence,15,483
+1 GPT demographic,codebook,reliability,policy_process,2,483
+1 GPT demographic,codebook,nuclear,energy_independence,0,483
+1 GPT demographic,codebook,nuclear,policy_process,0,483
+1 GPT demographic,codebook,energy_independence,policy_process,7,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,health,5,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,economic,2,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,visual_land,0,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,wildlife,0,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,reliability,2,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,energy_independence,41,483
+2 GPT demographic and reported attitudes,codebook_v1,climate,policy_process,4,483
+2 GPT demographic and reported attitudes,codebook_v1,health,economic,0,483
+2 GPT demographic and reported attitudes,codebook_v1,health,visual_land,0,483
+2 GPT demographic and reported attitudes,codebook_v1,health,wildlife,1,483
+2 GPT demographic and reported attitudes,codebook_v1,health,reliability,0,483
+2 GPT demographic and reported attitudes,codebook_v1,health,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,health,energy_independence,8,483
+2 GPT demographic and reported attitudes,codebook_v1,health,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,visual_land,1,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,wildlife,4,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,reliability,12,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,energy_independence,21,483
+2 GPT demographic and reported attitudes,codebook_v1,economic,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook_v1,visual_land,wildlife,3,483
+2 GPT demographic and reported attitudes,codebook_v1,visual_land,reliability,2,483
+2 GPT demographic and reported attitudes,codebook_v1,visual_land,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,visual_land,energy_independence,2,483
+2 GPT demographic and reported attitudes,codebook_v1,visual_land,policy_process,0,483
+2 GPT demographic and reported attitudes,codebook_v1,wildlife,reliability,5,483
+2 GPT demographic and reported attitudes,codebook_v1,wildlife,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,wildlife,energy_independence,14,483
+2 GPT demographic and reported attitudes,codebook_v1,wildlife,policy_process,8,483
+2 GPT demographic and reported attitudes,codebook_v1,reliability,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook_v1,reliability,energy_independence,13,483
+2 GPT demographic and reported attitudes,codebook_v1,reliability,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook_v1,nuclear,energy_independence,0,483
+2 GPT demographic and reported attitudes,codebook_v1,nuclear,policy_process,0,483
+2 GPT demographic and reported attitudes,codebook_v1,energy_independence,policy_process,8,483
+2 GPT demographic and reported attitudes,codebook,climate,health,5,483
+2 GPT demographic and reported attitudes,codebook,climate,economic,2,483
+2 GPT demographic and reported attitudes,codebook,climate,visual_land,0,483
+2 GPT demographic and reported attitudes,codebook,climate,wildlife,0,483
+2 GPT demographic and reported attitudes,codebook,climate,reliability,2,483
+2 GPT demographic and reported attitudes,codebook,climate,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,climate,energy_independence,40,483
+2 GPT demographic and reported attitudes,codebook,climate,policy_process,4,483
+2 GPT demographic and reported attitudes,codebook,health,economic,0,483
+2 GPT demographic and reported attitudes,codebook,health,visual_land,0,483
+2 GPT demographic and reported attitudes,codebook,health,wildlife,1,483
+2 GPT demographic and reported attitudes,codebook,health,reliability,0,483
+2 GPT demographic and reported attitudes,codebook,health,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,health,energy_independence,8,483
+2 GPT demographic and reported attitudes,codebook,health,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook,economic,visual_land,1,483
+2 GPT demographic and reported attitudes,codebook,economic,wildlife,4,483
+2 GPT demographic and reported attitudes,codebook,economic,reliability,12,483
+2 GPT demographic and reported attitudes,codebook,economic,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,economic,energy_independence,21,483
+2 GPT demographic and reported attitudes,codebook,economic,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook,visual_land,wildlife,3,483
+2 GPT demographic and reported attitudes,codebook,visual_land,reliability,2,483
+2 GPT demographic and reported attitudes,codebook,visual_land,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,visual_land,energy_independence,2,483
+2 GPT demographic and reported attitudes,codebook,visual_land,policy_process,0,483
+2 GPT demographic and reported attitudes,codebook,wildlife,reliability,5,483
+2 GPT demographic and reported attitudes,codebook,wildlife,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,wildlife,energy_independence,14,483
+2 GPT demographic and reported attitudes,codebook,wildlife,policy_process,8,483
+2 GPT demographic and reported attitudes,codebook,reliability,nuclear,0,483
+2 GPT demographic and reported attitudes,codebook,reliability,energy_independence,13,483
+2 GPT demographic and reported attitudes,codebook,reliability,policy_process,1,483
+2 GPT demographic and reported attitudes,codebook,nuclear,energy_independence,0,483
+2 GPT demographic and reported attitudes,codebook,nuclear,policy_process,0,483
+2 GPT demographic and reported attitudes,codebook,energy_independence,policy_process,7,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,health,1,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,economic,1,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,visual_land,0,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,wildlife,0,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,reliability,1,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,energy_independence,37,483
+3 GPT demographic and generated attitudes,codebook_v1,climate,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook_v1,health,economic,1,483
+3 GPT demographic and generated attitudes,codebook_v1,health,visual_land,0,483
+3 GPT demographic and generated attitudes,codebook_v1,health,wildlife,1,483
+3 GPT demographic and generated attitudes,codebook_v1,health,reliability,0,483
+3 GPT demographic and generated attitudes,codebook_v1,health,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,health,energy_independence,3,483
+3 GPT demographic and generated attitudes,codebook_v1,health,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,visual_land,1,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,wildlife,0,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,reliability,11,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,energy_independence,12,483
+3 GPT demographic and generated attitudes,codebook_v1,economic,policy_process,1,483
+3 GPT demographic and generated attitudes,codebook_v1,visual_land,wildlife,1,483
+3 GPT demographic and generated attitudes,codebook_v1,visual_land,reliability,2,483
+3 GPT demographic and generated attitudes,codebook_v1,visual_land,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,visual_land,energy_independence,1,483
+3 GPT demographic and generated attitudes,codebook_v1,visual_land,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook_v1,wildlife,reliability,5,483
+3 GPT demographic and generated attitudes,codebook_v1,wildlife,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,wildlife,energy_independence,15,483
+3 GPT demographic and generated attitudes,codebook_v1,wildlife,policy_process,8,483
+3 GPT demographic and generated attitudes,codebook_v1,reliability,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook_v1,reliability,energy_independence,19,483
+3 GPT demographic and generated attitudes,codebook_v1,reliability,policy_process,4,483
+3 GPT demographic and generated attitudes,codebook_v1,nuclear,energy_independence,0,483
+3 GPT demographic and generated attitudes,codebook_v1,nuclear,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook_v1,energy_independence,policy_process,9,483
+3 GPT demographic and generated attitudes,codebook,climate,health,1,483
+3 GPT demographic and generated attitudes,codebook,climate,economic,4,483
+3 GPT demographic and generated attitudes,codebook,climate,visual_land,0,483
+3 GPT demographic and generated attitudes,codebook,climate,wildlife,1,483
+3 GPT demographic and generated attitudes,codebook,climate,reliability,1,483
+3 GPT demographic and generated attitudes,codebook,climate,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,climate,energy_independence,34,483
+3 GPT demographic and generated attitudes,codebook,climate,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook,health,economic,1,483
+3 GPT demographic and generated attitudes,codebook,health,visual_land,0,483
+3 GPT demographic and generated attitudes,codebook,health,wildlife,1,483
+3 GPT demographic and generated attitudes,codebook,health,reliability,0,483
+3 GPT demographic and generated attitudes,codebook,health,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,health,energy_independence,3,483
+3 GPT demographic and generated attitudes,codebook,health,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook,economic,visual_land,1,483
+3 GPT demographic and generated attitudes,codebook,economic,wildlife,0,483
+3 GPT demographic and generated attitudes,codebook,economic,reliability,13,483
+3 GPT demographic and generated attitudes,codebook,economic,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,economic,energy_independence,13,483
+3 GPT demographic and generated attitudes,codebook,economic,policy_process,2,483
+3 GPT demographic and generated attitudes,codebook,visual_land,wildlife,1,483
+3 GPT demographic and generated attitudes,codebook,visual_land,reliability,2,483
+3 GPT demographic and generated attitudes,codebook,visual_land,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,visual_land,energy_independence,1,483
+3 GPT demographic and generated attitudes,codebook,visual_land,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook,wildlife,reliability,5,483
+3 GPT demographic and generated attitudes,codebook,wildlife,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,wildlife,energy_independence,15,483
+3 GPT demographic and generated attitudes,codebook,wildlife,policy_process,9,483
+3 GPT demographic and generated attitudes,codebook,reliability,nuclear,0,483
+3 GPT demographic and generated attitudes,codebook,reliability,energy_independence,18,483
+3 GPT demographic and generated attitudes,codebook,reliability,policy_process,4,483
+3 GPT demographic and generated attitudes,codebook,nuclear,energy_independence,0,483
+3 GPT demographic and generated attitudes,codebook,nuclear,policy_process,0,483
+3 GPT demographic and generated attitudes,codebook,energy_independence,policy_process,8,483
+4 NPORS demographic,codebook_v1,climate,health,64,5626
+4 NPORS demographic,codebook_v1,climate,economic,58,5626
+4 NPORS demographic,codebook_v1,climate,visual_land,6,5626
+4 NPORS demographic,codebook_v1,climate,wildlife,90,5626
+4 NPORS demographic,codebook_v1,climate,reliability,106,5626
+4 NPORS demographic,codebook_v1,climate,nuclear,0,5626
+4 NPORS demographic,codebook_v1,climate,energy_independence,1060,5626
+4 NPORS demographic,codebook_v1,climate,policy_process,31,5626
+4 NPORS demographic,codebook_v1,health,economic,18,5626
+4 NPORS demographic,codebook_v1,health,visual_land,0,5626
+4 NPORS demographic,codebook_v1,health,wildlife,40,5626
+4 NPORS demographic,codebook_v1,health,reliability,9,5626
+4 NPORS demographic,codebook_v1,health,nuclear,0,5626
+4 NPORS demographic,codebook_v1,health,energy_independence,78,5626
+4 NPORS demographic,codebook_v1,health,policy_process,2,5626
+4 NPORS demographic,codebook_v1,economic,visual_land,2,5626
+4 NPORS demographic,codebook_v1,economic,wildlife,39,5626
+4 NPORS demographic,codebook_v1,economic,reliability,112,5626
+4 NPORS demographic,codebook_v1,economic,nuclear,0,5626
+4 NPORS demographic,codebook_v1,economic,energy_independence,184,5626
+4 NPORS demographic,codebook_v1,economic,policy_process,7,5626
+4 NPORS demographic,codebook_v1,visual_land,wildlife,18,5626
+4 NPORS demographic,codebook_v1,visual_land,reliability,8,5626
+4 NPORS demographic,codebook_v1,visual_land,nuclear,0,5626
+4 NPORS demographic,codebook_v1,visual_land,energy_independence,13,5626
+4 NPORS demographic,codebook_v1,visual_land,policy_process,0,5626
+4 NPORS demographic,codebook_v1,wildlife,reliability,95,5626
+4 NPORS demographic,codebook_v1,wildlife,nuclear,0,5626
+4 NPORS demographic,codebook_v1,wildlife,energy_independence,319,5626
+4 NPORS demographic,codebook_v1,wildlife,policy_process,68,5626
+4 NPORS demographic,codebook_v1,reliability,nuclear,0,5626
+4 NPORS demographic,codebook_v1,reliability,energy_independence,278,5626
+4 NPORS demographic,codebook_v1,reliability,policy_process,18,5626
+4 NPORS demographic,codebook_v1,nuclear,energy_independence,0,5626
+4 NPORS demographic,codebook_v1,nuclear,policy_process,0,5626
+4 NPORS demographic,codebook_v1,energy_independence,policy_process,58,5626
+4 NPORS demographic,codebook,climate,health,64,5626
+4 NPORS demographic,codebook,climate,economic,65,5626
+4 NPORS demographic,codebook,climate,visual_land,6,5626
+4 NPORS demographic,codebook,climate,wildlife,95,5626
+4 NPORS demographic,codebook,climate,reliability,108,5626
+4 NPORS demographic,codebook,climate,nuclear,0,5626
+4 NPORS demographic,codebook,climate,energy_independence,1058,5626
+4 NPORS demographic,codebook,climate,policy_process,31,5626
+4 NPORS demographic,codebook,health,economic,25,5626
+4 NPORS demographic,codebook,health,visual_land,0,5626
+4 NPORS demographic,codebook,health,wildlife,40,5626
+4 NPORS demographic,codebook,health,reliability,9,5626
+4 NPORS demographic,codebook,health,nuclear,0,5626
+4 NPORS demographic,codebook,health,energy_independence,78,5626
+4 NPORS demographic,codebook,health,policy_process,2,5626
+4 NPORS demographic,codebook,economic,visual_land,2,5626
+4 NPORS demographic,codebook,economic,wildlife,56,5626
+4 NPORS demographic,codebook,economic,reliability,120,5626
+4 NPORS demographic,codebook,economic,nuclear,0,5626
+4 NPORS demographic,codebook,economic,energy_independence,192,5626
+4 NPORS demographic,codebook,economic,policy_process,13,5626
+4 NPORS demographic,codebook,visual_land,wildlife,18,5626
+4 NPORS demographic,codebook,visual_land,reliability,8,5626
+4 NPORS demographic,codebook,visual_land,nuclear,0,5626
+4 NPORS demographic,codebook,visual_land,energy_independence,13,5626
+4 NPORS demographic,codebook,visual_land,policy_process,0,5626
+4 NPORS demographic,codebook,wildlife,reliability,95,5626
+4 NPORS demographic,codebook,wildlife,nuclear,0,5626
+4 NPORS demographic,codebook,wildlife,energy_independence,328,5626
+4 NPORS demographic,codebook,wildlife,policy_process,69,5626
+4 NPORS demographic,codebook,reliability,nuclear,0,5626
+4 NPORS demographic,codebook,reliability,energy_independence,283,5626
+4 NPORS demographic,codebook,reliability,policy_process,23,5626
+4 NPORS demographic,codebook,nuclear,energy_independence,0,5626
+4 NPORS demographic,codebook,nuclear,policy_process,0,5626
+4 NPORS demographic,codebook,energy_independence,policy_process,61,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,health,46,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,economic,42,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,visual_land,1,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,wildlife,32,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,reliability,31,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,energy_independence,627,5626
+5 NPORS demographic and generated attitudes,codebook_v1,climate,policy_process,14,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,economic,11,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,visual_land,1,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,wildlife,13,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,reliability,8,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,energy_independence,77,5626
+5 NPORS demographic and generated attitudes,codebook_v1,health,policy_process,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,visual_land,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,wildlife,26,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,reliability,28,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,energy_independence,290,5626
+5 NPORS demographic and generated attitudes,codebook_v1,economic,policy_process,7,5626
+5 NPORS demographic and generated attitudes,codebook_v1,visual_land,wildlife,5,5626
+5 NPORS demographic and generated attitudes,codebook_v1,visual_land,reliability,1,5626
+5 NPORS demographic and generated attitudes,codebook_v1,visual_land,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,visual_land,energy_independence,4,5626
+5 NPORS demographic and generated attitudes,codebook_v1,visual_land,policy_process,1,5626
+5 NPORS demographic and generated attitudes,codebook_v1,wildlife,reliability,58,5626
+5 NPORS demographic and generated attitudes,codebook_v1,wildlife,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,wildlife,energy_independence,258,5626
+5 NPORS demographic and generated attitudes,codebook_v1,wildlife,policy_process,89,5626
+5 NPORS demographic and generated attitudes,codebook_v1,reliability,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,reliability,energy_independence,125,5626
+5 NPORS demographic and generated attitudes,codebook_v1,reliability,policy_process,26,5626
+5 NPORS demographic and generated attitudes,codebook_v1,nuclear,energy_independence,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,nuclear,policy_process,0,5626
+5 NPORS demographic and generated attitudes,codebook_v1,energy_independence,policy_process,75,5626
+5 NPORS demographic and generated attitudes,codebook,climate,health,46,5626
+5 NPORS demographic and generated attitudes,codebook,climate,economic,48,5626
+5 NPORS demographic and generated attitudes,codebook,climate,visual_land,1,5626
+5 NPORS demographic and generated attitudes,codebook,climate,wildlife,37,5626
+5 NPORS demographic and generated attitudes,codebook,climate,reliability,32,5626
+5 NPORS demographic and generated attitudes,codebook,climate,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,climate,energy_independence,623,5626
+5 NPORS demographic and generated attitudes,codebook,climate,policy_process,14,5626
+5 NPORS demographic and generated attitudes,codebook,health,economic,14,5626
+5 NPORS demographic and generated attitudes,codebook,health,visual_land,1,5626
+5 NPORS demographic and generated attitudes,codebook,health,wildlife,14,5626
+5 NPORS demographic and generated attitudes,codebook,health,reliability,8,5626
+5 NPORS demographic and generated attitudes,codebook,health,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,health,energy_independence,76,5626
+5 NPORS demographic and generated attitudes,codebook,health,policy_process,1,5626
+5 NPORS demographic and generated attitudes,codebook,economic,visual_land,1,5626
+5 NPORS demographic and generated attitudes,codebook,economic,wildlife,34,5626
+5 NPORS demographic and generated attitudes,codebook,economic,reliability,32,5626
+5 NPORS demographic and generated attitudes,codebook,economic,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,economic,energy_independence,305,5626
+5 NPORS demographic and generated attitudes,codebook,economic,policy_process,8,5626
+5 NPORS demographic and generated attitudes,codebook,visual_land,wildlife,6,5626
+5 NPORS demographic and generated attitudes,codebook,visual_land,reliability,1,5626
+5 NPORS demographic and generated attitudes,codebook,visual_land,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,visual_land,energy_independence,4,5626
+5 NPORS demographic and generated attitudes,codebook,visual_land,policy_process,1,5626
+5 NPORS demographic and generated attitudes,codebook,wildlife,reliability,60,5626
+5 NPORS demographic and generated attitudes,codebook,wildlife,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,wildlife,energy_independence,268,5626
+5 NPORS demographic and generated attitudes,codebook,wildlife,policy_process,91,5626
+5 NPORS demographic and generated attitudes,codebook,reliability,nuclear,0,5626
+5 NPORS demographic and generated attitudes,codebook,reliability,energy_independence,126,5626
+5 NPORS demographic and generated attitudes,codebook,reliability,policy_process,26,5626
+5 NPORS demographic and generated attitudes,codebook,nuclear,energy_independence,0,5626
+5 NPORS demographic and generated attitudes,codebook,nuclear,policy_process,0,5626
+5 NPORS demographic and generated attitudes,codebook,energy_independence,policy_process,74,5626
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,health,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,economic,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,climate,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,economic,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,health,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,reliability,44,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,energy_independence,1,161
+6 Locally deployed gpt-oss-120b,codebook_v1,economic,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,visual_land,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,visual_land,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,visual_land,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,visual_land,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,visual_land,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,wildlife,reliability,2,161
+6 Locally deployed gpt-oss-120b,codebook_v1,wildlife,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,wildlife,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,wildlife,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,reliability,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,reliability,energy_independence,3,161
+6 Locally deployed gpt-oss-120b,codebook_v1,reliability,policy_process,2,161
+6 Locally deployed gpt-oss-120b,codebook_v1,nuclear,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,nuclear,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook_v1,energy_independence,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,health,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,economic,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook,climate,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,economic,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook,health,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,economic,visual_land,0,161
+6 Locally deployed gpt-oss-120b,codebook,economic,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook,economic,reliability,55,161
+6 Locally deployed gpt-oss-120b,codebook,economic,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,economic,energy_independence,1,161
+6 Locally deployed gpt-oss-120b,codebook,economic,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,visual_land,wildlife,0,161
+6 Locally deployed gpt-oss-120b,codebook,visual_land,reliability,0,161
+6 Locally deployed gpt-oss-120b,codebook,visual_land,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,visual_land,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook,visual_land,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,wildlife,reliability,2,161
+6 Locally deployed gpt-oss-120b,codebook,wildlife,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,wildlife,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook,wildlife,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,reliability,nuclear,0,161
+6 Locally deployed gpt-oss-120b,codebook,reliability,energy_independence,2,161
+6 Locally deployed gpt-oss-120b,codebook,reliability,policy_process,2,161
+6 Locally deployed gpt-oss-120b,codebook,nuclear,energy_independence,0,161
+6 Locally deployed gpt-oss-120b,codebook,nuclear,policy_process,0,161
+6 Locally deployed gpt-oss-120b,codebook,energy_independence,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,health,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,economic,4,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,visual_land,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,wildlife,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,reliability,15,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,climate,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,economic,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,visual_land,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,wildlife,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,reliability,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,health,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,visual_land,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,wildlife,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,reliability,50,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,economic,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,visual_land,wildlife,4,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,visual_land,reliability,14,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,visual_land,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,visual_land,energy_independence,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,visual_land,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,wildlife,reliability,13,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,wildlife,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,wildlife,energy_independence,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,wildlife,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,reliability,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,reliability,energy_independence,3,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,reliability,policy_process,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,nuclear,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,nuclear,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook_v1,energy_independence,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,health,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,economic,6,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,visual_land,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,wildlife,4,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,reliability,15,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,climate,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,economic,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,visual_land,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,wildlife,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,reliability,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,health,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,visual_land,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,wildlife,8,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,reliability,55,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,economic,policy_process,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,visual_land,wildlife,8,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,visual_land,reliability,14,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,visual_land,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,visual_land,energy_independence,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,visual_land,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,wildlife,reliability,27,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,wildlife,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,wildlife,energy_independence,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,wildlife,policy_process,1,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,reliability,nuclear,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,reliability,energy_independence,2,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,reliability,policy_process,5,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,nuclear,energy_independence,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,nuclear,policy_process,0,161
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,codebook,energy_independence,policy_process,1,161
+Pooled five commercial configurations,codebook_v1,climate,health,119,12701
+Pooled five commercial configurations,codebook_v1,climate,economic,106,12701
+Pooled five commercial configurations,codebook_v1,climate,visual_land,7,12701
+Pooled five commercial configurations,codebook_v1,climate,wildlife,126,12701
+Pooled five commercial configurations,codebook_v1,climate,reliability,144,12701
+Pooled five commercial configurations,codebook_v1,climate,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,climate,energy_independence,1833,12701
+Pooled five commercial configurations,codebook_v1,climate,policy_process,52,12701
+Pooled five commercial configurations,codebook_v1,health,economic,31,12701
+Pooled five commercial configurations,codebook_v1,health,visual_land,1,12701
+Pooled five commercial configurations,codebook_v1,health,wildlife,60,12701
+Pooled five commercial configurations,codebook_v1,health,reliability,17,12701
+Pooled five commercial configurations,codebook_v1,health,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,health,energy_independence,173,12701
+Pooled five commercial configurations,codebook_v1,health,policy_process,3,12701
+Pooled five commercial configurations,codebook_v1,economic,visual_land,5,12701
+Pooled five commercial configurations,codebook_v1,economic,wildlife,70,12701
+Pooled five commercial configurations,codebook_v1,economic,reliability,175,12701
+Pooled five commercial configurations,codebook_v1,economic,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,economic,energy_independence,522,12701
+Pooled five commercial configurations,codebook_v1,economic,policy_process,17,12701
+Pooled five commercial configurations,codebook_v1,visual_land,wildlife,29,12701
+Pooled five commercial configurations,codebook_v1,visual_land,reliability,14,12701
+Pooled five commercial configurations,codebook_v1,visual_land,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,visual_land,energy_independence,20,12701
+Pooled five commercial configurations,codebook_v1,visual_land,policy_process,1,12701
+Pooled five commercial configurations,codebook_v1,wildlife,reliability,168,12701
+Pooled five commercial configurations,codebook_v1,wildlife,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,wildlife,energy_independence,626,12701
+Pooled five commercial configurations,codebook_v1,wildlife,policy_process,175,12701
+Pooled five commercial configurations,codebook_v1,reliability,nuclear,0,12701
+Pooled five commercial configurations,codebook_v1,reliability,energy_independence,450,12701
+Pooled five commercial configurations,codebook_v1,reliability,policy_process,51,12701
+Pooled five commercial configurations,codebook_v1,nuclear,energy_independence,0,12701
+Pooled five commercial configurations,codebook_v1,nuclear,policy_process,0,12701
+Pooled five commercial configurations,codebook_v1,energy_independence,policy_process,157,12701
+Pooled five commercial configurations,codebook,climate,health,119,12701
+Pooled five commercial configurations,codebook,climate,economic,126,12701
+Pooled five commercial configurations,codebook,climate,visual_land,7,12701
+Pooled five commercial configurations,codebook,climate,wildlife,137,12701
+Pooled five commercial configurations,codebook,climate,reliability,147,12701
+Pooled five commercial configurations,codebook,climate,nuclear,0,12701
+Pooled five commercial configurations,codebook,climate,energy_independence,1823,12701
+Pooled five commercial configurations,codebook,climate,policy_process,52,12701
+Pooled five commercial configurations,codebook,health,economic,41,12701
+Pooled five commercial configurations,codebook,health,visual_land,1,12701
+Pooled five commercial configurations,codebook,health,wildlife,61,12701
+Pooled five commercial configurations,codebook,health,reliability,17,12701
+Pooled five commercial configurations,codebook,health,nuclear,0,12701
+Pooled five commercial configurations,codebook,health,energy_independence,172,12701
+Pooled five commercial configurations,codebook,health,policy_process,4,12701
+Pooled five commercial configurations,codebook,economic,visual_land,7,12701
+Pooled five commercial configurations,codebook,economic,wildlife,97,12701
+Pooled five commercial configurations,codebook,economic,reliability,192,12701
+Pooled five commercial configurations,codebook,economic,nuclear,0,12701
+Pooled five commercial configurations,codebook,economic,energy_independence,548,12701
+Pooled five commercial configurations,codebook,economic,policy_process,25,12701
+Pooled five commercial configurations,codebook,visual_land,wildlife,30,12701
+Pooled five commercial configurations,codebook,visual_land,reliability,14,12701
+Pooled five commercial configurations,codebook,visual_land,nuclear,0,12701
+Pooled five commercial configurations,codebook,visual_land,energy_independence,20,12701
+Pooled five commercial configurations,codebook,visual_land,policy_process,1,12701
+Pooled five commercial configurations,codebook,wildlife,reliability,170,12701
+Pooled five commercial configurations,codebook,wildlife,nuclear,0,12701
+Pooled five commercial configurations,codebook,wildlife,energy_independence,645,12701
+Pooled five commercial configurations,codebook,wildlife,policy_process,179,12701
+Pooled five commercial configurations,codebook,reliability,nuclear,0,12701
+Pooled five commercial configurations,codebook,reliability,energy_independence,455,12701
+Pooled five commercial configurations,codebook,reliability,policy_process,56,12701
+Pooled five commercial configurations,codebook,nuclear,energy_independence,0,12701
+Pooled five commercial configurations,codebook,nuclear,policy_process,0,12701
+Pooled five commercial configurations,codebook,energy_independence,policy_process,157,12701
+Pooled two locally deployed configurations,codebook_v1,climate,health,0,322
+Pooled two locally deployed configurations,codebook_v1,climate,economic,4,322
+Pooled two locally deployed configurations,codebook_v1,climate,visual_land,2,322
+Pooled two locally deployed configurations,codebook_v1,climate,wildlife,1,322
+Pooled two locally deployed configurations,codebook_v1,climate,reliability,15,322
+Pooled two locally deployed configurations,codebook_v1,climate,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,climate,energy_independence,0,322
+Pooled two locally deployed configurations,codebook_v1,climate,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,health,economic,1,322
+Pooled two locally deployed configurations,codebook_v1,health,visual_land,0,322
+Pooled two locally deployed configurations,codebook_v1,health,wildlife,0,322
+Pooled two locally deployed configurations,codebook_v1,health,reliability,1,322
+Pooled two locally deployed configurations,codebook_v1,health,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,health,energy_independence,0,322
+Pooled two locally deployed configurations,codebook_v1,health,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,economic,visual_land,2,322
+Pooled two locally deployed configurations,codebook_v1,economic,wildlife,2,322
+Pooled two locally deployed configurations,codebook_v1,economic,reliability,94,322
+Pooled two locally deployed configurations,codebook_v1,economic,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,economic,energy_independence,1,322
+Pooled two locally deployed configurations,codebook_v1,economic,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,visual_land,wildlife,4,322
+Pooled two locally deployed configurations,codebook_v1,visual_land,reliability,14,322
+Pooled two locally deployed configurations,codebook_v1,visual_land,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,visual_land,energy_independence,1,322
+Pooled two locally deployed configurations,codebook_v1,visual_land,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,wildlife,reliability,15,322
+Pooled two locally deployed configurations,codebook_v1,wildlife,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,wildlife,energy_independence,1,322
+Pooled two locally deployed configurations,codebook_v1,wildlife,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,reliability,nuclear,0,322
+Pooled two locally deployed configurations,codebook_v1,reliability,energy_independence,6,322
+Pooled two locally deployed configurations,codebook_v1,reliability,policy_process,4,322
+Pooled two locally deployed configurations,codebook_v1,nuclear,energy_independence,0,322
+Pooled two locally deployed configurations,codebook_v1,nuclear,policy_process,0,322
+Pooled two locally deployed configurations,codebook_v1,energy_independence,policy_process,0,322
+Pooled two locally deployed configurations,codebook,climate,health,0,322
+Pooled two locally deployed configurations,codebook,climate,economic,6,322
+Pooled two locally deployed configurations,codebook,climate,visual_land,2,322
+Pooled two locally deployed configurations,codebook,climate,wildlife,4,322
+Pooled two locally deployed configurations,codebook,climate,reliability,15,322
+Pooled two locally deployed configurations,codebook,climate,nuclear,0,322
+Pooled two locally deployed configurations,codebook,climate,energy_independence,0,322
+Pooled two locally deployed configurations,codebook,climate,policy_process,0,322
+Pooled two locally deployed configurations,codebook,health,economic,1,322
+Pooled two locally deployed configurations,codebook,health,visual_land,0,322
+Pooled two locally deployed configurations,codebook,health,wildlife,0,322
+Pooled two locally deployed configurations,codebook,health,reliability,1,322
+Pooled two locally deployed configurations,codebook,health,nuclear,0,322
+Pooled two locally deployed configurations,codebook,health,energy_independence,0,322
+Pooled two locally deployed configurations,codebook,health,policy_process,0,322
+Pooled two locally deployed configurations,codebook,economic,visual_land,2,322
+Pooled two locally deployed configurations,codebook,economic,wildlife,8,322
+Pooled two locally deployed configurations,codebook,economic,reliability,110,322
+Pooled two locally deployed configurations,codebook,economic,nuclear,0,322
+Pooled two locally deployed configurations,codebook,economic,energy_independence,1,322
+Pooled two locally deployed configurations,codebook,economic,policy_process,1,322
+Pooled two locally deployed configurations,codebook,visual_land,wildlife,8,322
+Pooled two locally deployed configurations,codebook,visual_land,reliability,14,322
+Pooled two locally deployed configurations,codebook,visual_land,nuclear,0,322
+Pooled two locally deployed configurations,codebook,visual_land,energy_independence,1,322
+Pooled two locally deployed configurations,codebook,visual_land,policy_process,0,322
+Pooled two locally deployed configurations,codebook,wildlife,reliability,29,322
+Pooled two locally deployed configurations,codebook,wildlife,nuclear,0,322
+Pooled two locally deployed configurations,codebook,wildlife,energy_independence,1,322
+Pooled two locally deployed configurations,codebook,wildlife,policy_process,1,322
+Pooled two locally deployed configurations,codebook,reliability,nuclear,0,322
+Pooled two locally deployed configurations,codebook,reliability,energy_independence,4,322
+Pooled two locally deployed configurations,codebook,reliability,policy_process,7,322
+Pooled two locally deployed configurations,codebook,nuclear,energy_independence,0,322
+Pooled two locally deployed configurations,codebook,nuclear,policy_process,0,322
+Pooled two locally deployed configurations,codebook,energy_independence,policy_process,1,322

@@ -1,0 +1,211 @@
+dataset,question,denominator,total_variation
+1 GPT demographic,1,numeric only,0.24411820063993975
+1 GPT demographic,1,all answers,0.26501035196687367
+1 GPT demographic,2,numeric only,0.341509409080719
+1 GPT demographic,2,all answers,0.34989648033126297
+1 GPT demographic,3,numeric only,0.4345056770977569
+1 GPT demographic,3,all answers,0.4409937888198758
+1 GPT demographic,4,numeric only,0.4744893249462621
+1 GPT demographic,4,all answers,0.4824016563146998
+1 GPT demographic,5,numeric only,0.23343685300207043
+1 GPT demographic,5,all answers,0.2567287784679089
+1 GPT demographic,6,numeric only,0.3143750253724678
+1 GPT demographic,6,all answers,0.3478260869565217
+1 GPT demographic,7,numeric only,0.49513123622520533
+1 GPT demographic,7,all answers,0.5093167701863354
+1 GPT demographic,8,numeric only,0.6342750283844253
+1 GPT demographic,8,all answers,0.6438923395445134
+1 GPT demographic,9,numeric only,0.22902691511387163
+1 GPT demographic,9,all answers,0.2650103519668737
+1 GPT demographic,10,numeric only,0.33022774327122156
+1 GPT demographic,10,all answers,0.36438923395445133
+1 GPT demographic,11,numeric only,0.24809562873549748
+1 GPT demographic,11,all answers,0.25465838509316774
+1 GPT demographic,12,numeric only,0.30283129590800595
+1 GPT demographic,12,all answers,0.3146997929606625
+1 GPT demographic,13,numeric only,0.19741809767385216
+1 GPT demographic,13,all answers,0.22567287784679085
+1 GPT demographic,14,numeric only,0.14385664310701793
+1 GPT demographic,14,all answers,0.19254658385093168
+1 GPT demographic,15,numeric only,0.2162944071956453
+1 GPT demographic,15,all answers,0.23809523809523808
+2 GPT demographic and reported attitudes,1,numeric only,0.3365330321852061
+2 GPT demographic and reported attitudes,1,all answers,0.3602484472049689
+2 GPT demographic and reported attitudes,2,numeric only,0.5781408658727961
+2 GPT demographic and reported attitudes,2,all answers,0.5817805383022774
+2 GPT demographic and reported attitudes,3,numeric only,0.5687383787633026
+2 GPT demographic and reported attitudes,3,all answers,0.5714285714285714
+2 GPT demographic and reported attitudes,4,numeric only,0.6155661932455064
+2 GPT demographic and reported attitudes,4,all answers,0.6190476190476191
+2 GPT demographic and reported attitudes,5,numeric only,0.18502150023889152
+2 GPT demographic and reported attitudes,5,all answers,0.19875776397515524
+2 GPT demographic and reported attitudes,6,numeric only,0.2275402914789104
+2 GPT demographic and reported attitudes,6,all answers,0.2463768115942029
+2 GPT demographic and reported attitudes,7,numeric only,0.3398517331196153
+2 GPT demographic and reported attitudes,7,all answers,0.35403726708074534
+2 GPT demographic and reported attitudes,8,numeric only,0.4657583650571028
+2 GPT demographic and reported attitudes,8,all answers,0.47826086956521735
+2 GPT demographic and reported attitudes,9,numeric only,0.4832712215320911
+2 GPT demographic and reported attitudes,9,all answers,0.5010351966873706
+2 GPT demographic and reported attitudes,10,numeric only,0.38819875776397517
+2 GPT demographic and reported attitudes,10,all answers,0.42236024844720493
+2 GPT demographic and reported attitudes,11,numeric only,0.19219500761748504
+2 GPT demographic and reported attitudes,11,all answers,0.1987577639751553
+2 GPT demographic and reported attitudes,12,numeric only,0.26763460853740556
+2 GPT demographic and reported attitudes,12,all answers,0.2795031055900621
+2 GPT demographic and reported attitudes,13,numeric only,0.14358786993058092
+2 GPT demographic and reported attitudes,13,all answers,0.17184265010351962
+2 GPT demographic and reported attitudes,14,numeric only,0.22394517027200683
+2 GPT demographic and reported attitudes,14,all answers,0.2732919254658385
+2 GPT demographic and reported attitudes,15,numeric only,0.11569522712626656
+2 GPT demographic and reported attitudes,15,all answers,0.14078674948240166
+3 GPT demographic and generated attitudes,1,numeric only,0.41244588744588745
+3 GPT demographic and generated attitudes,1,all answers,0.4202898550724638
+3 GPT demographic and generated attitudes,2,numeric only,0.5811703821656051
+3 GPT demographic and generated attitudes,2,all answers,0.5838509316770187
+3 GPT demographic and generated attitudes,3,numeric only,0.66177016985138
+3 GPT demographic and generated attitudes,3,all answers,0.6625258799171843
+3 GPT demographic and generated attitudes,4,numeric only,0.6515392781316348
+3 GPT demographic and generated attitudes,4,all answers,0.650103519668737
+3 GPT demographic and generated attitudes,5,numeric only,0.23685897435897435
+3 GPT demographic and generated attitudes,5,all answers,0.24637681159420294
+3 GPT demographic and generated attitudes,6,numeric only,0.2750816993464052
+3 GPT demographic and generated attitudes,6,all answers,0.2898550724637681
+3 GPT demographic and generated attitudes,7,numeric only,0.43602150537634404
+3 GPT demographic and generated attitudes,7,all answers,0.44513457556935815
+3 GPT demographic and generated attitudes,8,numeric only,0.526747311827957
+3 GPT demographic and generated attitudes,8,all answers,0.5320910973084886
+3 GPT demographic and generated attitudes,9,numeric only,0.4475
+3 GPT demographic and generated attitudes,9,all answers,0.47619047619047616
+3 GPT demographic and generated attitudes,10,numeric only,0.41041666666666665
+3 GPT demographic and generated attitudes,10,all answers,0.43892339544513453
+3 GPT demographic and generated attitudes,11,numeric only,0.2853627094808391
+3 GPT demographic and generated attitudes,11,all answers,0.2919254658385093
+3 GPT demographic and generated attitudes,12,numeric only,0.3806263269639066
+3 GPT demographic and generated attitudes,12,all answers,0.38716356107660455
+3 GPT demographic and generated attitudes,13,numeric only,0.2917892156862746
+3 GPT demographic and generated attitudes,13,all answers,0.31469979296066247
+3 GPT demographic and generated attitudes,14,numeric only,0.17428160919540228
+3 GPT demographic and generated attitudes,14,all answers,0.2194616977225673
+3 GPT demographic and generated attitudes,15,numeric only,0.13321815913235432
+3 GPT demographic and generated attitudes,15,all answers,0.17391304347826084
+4 NPORS demographic,1,numeric only,0.40074838066306245
+4 NPORS demographic,1,all answers,0.4258754275292398
+4 NPORS demographic,2,numeric only,0.44974651357097734
+4 NPORS demographic,2,all answers,0.4586083247036276
+4 NPORS demographic,3,numeric only,0.6181627158710356
+4 NPORS demographic,3,all answers,0.6256003073573669
+4 NPORS demographic,4,numeric only,0.5146895329011573
+4 NPORS demographic,4,all answers,0.5181709587032698
+4 NPORS demographic,5,numeric only,0.25
+4 NPORS demographic,5,all answers,0.2732919254658385
+4 NPORS demographic,6,numeric only,0.3267973856209151
+4 NPORS demographic,6,all answers,0.36024844720496896
+4 NPORS demographic,7,numeric only,0.6348520119720652
+4 NPORS demographic,7,all answers,0.6480758148171865
+4 NPORS demographic,8,numeric only,0.7394470373725675
+4 NPORS demographic,8,all answers,0.7490643485326556
+4 NPORS demographic,9,numeric only,0.4135965848452508
+4 NPORS demographic,9,all answers,0.45251748205426007
+4 NPORS demographic,10,numeric only,0.41998577524893316
+4 NPORS demographic,10,all answers,0.453820218020592
+4 NPORS demographic,11,numeric only,0.21877200866596463
+4 NPORS demographic,11,all answers,0.22838175904683888
+4 NPORS demographic,12,numeric only,0.09391762208067943
+4 NPORS demographic,12,all answers,0.11180013822249407
+4 NPORS demographic,13,numeric only,0.07364965182660338
+4 NPORS demographic,13,all answers,0.1076037827919619
+4 NPORS demographic,14,numeric only,0.36618404199211396
+4 NPORS demographic,14,all answers,0.3829966460068935
+4 NPORS demographic,15,numeric only,0.3607664465557397
+4 NPORS demographic,15,all answers,0.3555420375232119
+5 NPORS demographic and generated attitudes,1,numeric only,0.5143111790170614
+5 NPORS demographic and generated attitudes,1,all answers,0.5323740927768811
+5 NPORS demographic and generated attitudes,2,numeric only,0.6828541119601661
+5 NPORS demographic and generated attitudes,2,all answers,0.683840333147123
+5 NPORS demographic and generated attitudes,3,numeric only,0.7444301589176517
+5 NPORS demographic and generated attitudes,3,all answers,0.7443921632703531
+5 NPORS demographic and generated attitudes,4,numeric only,0.7438091420408284
+5 NPORS demographic and generated attitudes,4,all answers,0.7446195900576957
+5 NPORS demographic and generated attitudes,5,numeric only,0.14155135290810103
+5 NPORS demographic and generated attitudes,5,all answers,0.15298425897507797
+5 NPORS demographic and generated attitudes,6,numeric only,0.19598058435635884
+5 NPORS demographic and generated attitudes,6,all answers,0.212054502939988
+5 NPORS demographic and generated attitudes,7,numeric only,0.4777219719590144
+5 NPORS demographic and generated attitudes,7,all answers,0.4929442495247222
+5 NPORS demographic and generated attitudes,8,numeric only,0.5488591098524096
+5 NPORS demographic and generated attitudes,8,all answers,0.5553210140143477
+5 NPORS demographic and generated attitudes,9,numeric only,0.539438973440764
+5 NPORS demographic and generated attitudes,9,all answers,0.5481217417800672
+5 NPORS demographic and generated attitudes,10,numeric only,0.5132191291934333
+5 NPORS demographic and generated attitudes,10,all answers,0.5421302603484708
+5 NPORS demographic and generated attitudes,11,numeric only,0.14692765613964281
+5 NPORS demographic and generated attitudes,11,all answers,0.15241348397965968
+5 NPORS demographic and generated attitudes,12,numeric only,0.21605963273576417
+5 NPORS demographic and generated attitudes,12,all answers,0.22750075624926858
+5 NPORS demographic and generated attitudes,13,numeric only,0.18758169934640523
+5 NPORS demographic and generated attitudes,13,all answers,0.2158291252017585
+5 NPORS demographic and generated attitudes,14,numeric only,0.40950429496172686
+5 NPORS demographic and generated attitudes,14,all answers,0.4506991717690492
+5 NPORS demographic and generated attitudes,15,numeric only,0.2788152686323228
+5 NPORS demographic and generated attitudes,15,all answers,0.30991536632272965
+6 Locally deployed gpt-oss-120b,1,numeric only,0.3296071017590005
+6 Locally deployed gpt-oss-120b,1,all answers,0.3354037267080745
+6 Locally deployed gpt-oss-120b,2,numeric only,0.5104007095057648
+6 Locally deployed gpt-oss-120b,2,all answers,0.5031055900621118
+6 Locally deployed gpt-oss-120b,3,numeric only,0.5056683892160397
+6 Locally deployed gpt-oss-120b,3,all answers,0.5031055900621118
+6 Locally deployed gpt-oss-120b,4,numeric only,0.4996815286624204
+6 Locally deployed gpt-oss-120b,4,all answers,0.5031055900621118
+6 Locally deployed gpt-oss-120b,5,numeric only,0.11744073536526368
+6 Locally deployed gpt-oss-120b,5,all answers,0.12422360248447203
+6 Locally deployed gpt-oss-120b,6,numeric only,0.15279319274879766
+6 Locally deployed gpt-oss-120b,6,all answers,0.18012422360248445
+6 Locally deployed gpt-oss-120b,7,numeric only,0.30625
+6 Locally deployed gpt-oss-120b,7,all answers,0.32298136645962733
+6 Locally deployed gpt-oss-120b,8,numeric only,0.25947580645161294
+6 Locally deployed gpt-oss-120b,8,all answers,0.2732919254658385
+6 Locally deployed gpt-oss-120b,9,numeric only,0.24691983122362868
+6 Locally deployed gpt-oss-120b,9,all answers,0.2608695652173913
+6 Locally deployed gpt-oss-120b,10,numeric only,0.22258064516129036
+6 Locally deployed gpt-oss-120b,10,all answers,0.22981366459627328
+6 Locally deployed gpt-oss-120b,11,numeric only,0.08176100628930817
+6 Locally deployed gpt-oss-120b,11,all answers,0.08695652173913047
+6 Locally deployed gpt-oss-120b,12,numeric only,0.14729299363057324
+6 Locally deployed gpt-oss-120b,12,all answers,0.15527950310559002
+6 Locally deployed gpt-oss-120b,13,numeric only,0.09387254901960786
+6 Locally deployed gpt-oss-120b,13,all answers,0.11801242236024843
+6 Locally deployed gpt-oss-120b,14,numeric only,0.06805465191932333
+6 Locally deployed gpt-oss-120b,14,all answers,0.12422360248447203
+6 Locally deployed gpt-oss-120b,15,numeric only,0.15310925069765505
+6 Locally deployed gpt-oss-120b,15,all answers,0.17391304347826086
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,numeric only,0.49870129870129865
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,1,all answers,0.5031055900621118
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,numeric only,0.40431839121900415
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,2,all answers,0.4037267080745342
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,numeric only,0.33765973640988667
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,3,all answers,0.3416149068322981
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,numeric only,0.5809315286624204
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,4,all answers,0.5838509316770186
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,numeric only,0.037019230769230804
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,5,all answers,0.037267080745341616
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,numeric only,0.08681711678382045
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,6,all answers,0.11180124223602483
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,numeric only,0.590281747652103
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,7,all answers,0.5838509316770186
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,numeric only,0.15443548387096773
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,8,all answers,0.16149068322981366
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,numeric only,0.1921518987341772
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,9,all answers,0.21739130434782608
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,numeric only,0.4
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,10,all answers,0.38509316770186336
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,numeric only,0.11320754716981131
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,11,all answers,0.11801242236024846
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,numeric only,0.08276273885350319
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,12,all answers,0.09316770186335402
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,numeric only,0.07937091503267979
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,13,all answers,0.10559006211180122
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,numeric only,0.04719827586206893
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,14,all answers,0.13043478260869562
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,numeric only,0.08650662251655628
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,15,all answers,0.10559006211180122

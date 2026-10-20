@@ -1,0 +1,11 @@
+dataset,profile_count,response_rows,usable_written_answers,median_words,minimum_words,maximum_words
+Human benchmark,161,161,37,14,2,520
+1 GPT demographic,161,483,483,42,24,64
+2 GPT demographic and reported attitudes,161,483,483,41,26,64
+3 GPT demographic and generated attitudes,161,483,483,41,4,65
+4 NPORS demographic,5626,5626,5626,39.0,22,65
+5 NPORS demographic and generated attitudes,5626,5626,5626,41.0,4,70
+6 Locally deployed gpt-oss-120b,161,161,161,42,7,62
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,161,161,161,40,19,54
+Pooled five commercial configurations,11735,12701,12701,40,4,70
+Pooled two locally deployed configurations,322,322,322,41.0,7,62

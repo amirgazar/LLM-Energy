@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "verified_human_profiles": 161,
+  "new_model_profiles_per_configuration": 161,
+  "total_generated_response_rows": 13023,
+  "commercial_repeats": 3,
+  "local_repeats": 1,
+  "npors_profiles_per_configuration": 5626,
+  "npors_status": "Existing results retained; separate population, not matched to human respondents",
+  "mean_numeric_item_tvd": {
+    "1 GPT demographic": 0.3226394323835972,
+    "2 GPT demographic and reported attitudes": 0.3421118815160762,
+    "3 GPT demographic and generated attitudes": 0.39365532637530876,
+    "4 NPORS demographic": 0.3920877139458044,
+    "5 NPORS demographic and generated attitudes": 0.4227376176974434,
+    "6 Locally deployed gpt-oss-120b": 0.2463272261100191,
+    "7 Locally deployed DeepSeek-V4.1-Flash lower reasoning": 0.2460908354825019
+  },
+  "limitations": [
+    "Intervals describe these profiles, not a representative population.",
+    "DeepSeek is an alternative to Kimi; differences do not isolate reasoning effects.",
+    "Commercial and local prompts and temperatures differ, as recorded.",
+    "Age is unreported for 25 profiles.",
+    "No exact historical replication: current service models may differ.",
+    "NPORS results were generated earlier and use a different population.",
+    "Keyword counts do not establish semantic agreement.",
+    "Local models have one run per profile; repeat variability is not measured.",
+    "ANOVA is unadjusted and assumes sphericity; paired contrasts are the primary results."
+  ]
+}
