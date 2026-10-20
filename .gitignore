@@ -1,0 +1,15 @@
+# Restricted research inputs and credentials
+.env
+.env.*
+*.pem
+*.key
+*PRIVATE*
+__pycache__/
+.DS_Store
+1 Survey Results/
+5 Final Results/
+Verified*Rerun*/
+Verified*Replacement*/
+responses/
+*Profile_Inputs*
+*Human_Benchmark*

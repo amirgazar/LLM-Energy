@@ -1,0 +1,17 @@
+dataset,analysis,n_profiles,F,df1,df2,p_unadjusted_sphericity_assumed
+Human benchmark,available_items,160,90.40919312249787,2,318,0.0
+1 GPT demographic,available_items,161,273.80167281459546,2,320,0.0
+2 GPT demographic and reported attitudes,available_items,161,354.79682830844257,2,320,0.0
+3 GPT demographic and generated attitudes,available_items,160,701.293451616214,2,318,0.0
+4 NPORS demographic,available_items,5626,12024.272950389633,2,11250,0.0
+5 NPORS demographic and generated attitudes,available_items,5610,17150.000037050504,2,11218,0.0
+6 Locally deployed gpt-oss-120b,available_items,160,337.7230076464192,2,318,0.0
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,available_items,160,346.9027345614235,2,318,0.0
+Human benchmark,complete_15_items,117,63.96355419241351,2,232,0.0
+1 GPT demographic,complete_15_items,161,273.80167281459546,2,320,0.0
+2 GPT demographic and reported attitudes,complete_15_items,161,354.79682830844257,2,320,0.0
+3 GPT demographic and generated attitudes,complete_15_items,160,701.293451616214,2,318,0.0
+4 NPORS demographic,complete_15_items,5459,11663.91250969399,2,10916,0.0
+5 NPORS demographic and generated attitudes,complete_15_items,5580,17244.076213207878,2,11158,0.0
+6 Locally deployed gpt-oss-120b,complete_15_items,153,322.18389685867896,2,304,0.0
+7 Locally deployed DeepSeek-V4.1-Flash lower reasoning,complete_15_items,153,326.1145443796869,2,304,0.0
